@@ -1,5 +1,22 @@
 {
   "debug": {
     "hello": "こんにちは、世界"
+  },
+  "labels": {
+    "default": {
+      "value": "値"
+    },
+    "sharkSize": {
+      "preCaudalLength": "尾前の長さ",
+      "finLength": "フィンの長さ",
+      "tailLength": "尾の長さ",
+      "standardLength": "標準の長さ",
+      "girth": "ガース"
+    }
+  },
+  "units": {
+    "short": {
+      "cm": "cm"
+    }
   }
 }

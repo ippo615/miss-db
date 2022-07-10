@@ -1,5 +1,22 @@
 {
   "debug": {
     "hello": "hello i18n !!"
+  },
+  "labels": {
+    "default": {
+      "value": "value"
+    },
+    "sharkSize": {
+      "preCaudalLength": "Pre-caudal Length",
+      "finLength": "Fin Length",
+      "tailLength": "Tail Length",
+      "standardLength": "Standard Length",
+      "girth": "Girth"
+    }
+  },
+  "units": {
+    "short": {
+      "cm": "cm"
+    }
   }
 }

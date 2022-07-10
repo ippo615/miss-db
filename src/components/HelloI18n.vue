@@ -1,5 +1,7 @@
 <template>
-  <p>{{ $t('debug.hello') }}</p>
+  <v-container>
+    <p>{{ $t('debug.hello') }}</p>
+  </v-container>
 </template>
 
 <script>
