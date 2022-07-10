@@ -15,6 +15,9 @@
     <v-row>
       <shark-size-editor-vue />
     </v-row>
+    <v-row>
+      <tag-data-editor-vue />
+    </v-row>
   </v-col>
 </template>
 
@@ -24,6 +27,7 @@
   import HelloI18n from '@/components/HelloI18n.vue'
   import LengthSliderVue from '@/components/LengthSlider.vue'
   import SharkSizeEditorVue from '@/components/SharkSizeEditor.vue'
+  import TagDataEditorVue from '@/components/TagDataEditor.vue'
 
   export default {
     components: {
@@ -32,6 +36,7 @@
       HelloI18n,
       LengthSliderVue,
       SharkSizeEditorVue,
+      TagDataEditorVue,
     },
   }
 </script>
