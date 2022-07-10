@@ -26,6 +26,19 @@
         ></v-text-field>
       </v-row>
       
+      <!-- Keyboard input date -->
+      <v-row>
+        <v-text-field
+          v-model="date"
+          :label="$t('labels.tag.date')"
+          prepend-icon="mdi-calendar"
+          v-bind="attrs"
+          v-on="on"
+          type="date"
+        ></v-text-field>
+      </v-row>
+
+      <!-- Mouse GUI Date Select-->
       <v-row>
         <v-menu
           ref="dateMenu"

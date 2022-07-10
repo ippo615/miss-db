@@ -8,6 +8,7 @@
           prepend-icon="mdi-human-male-height"
           v-model="preCaudalLength"
           :suffix="$t('units.short.cm')"
+          type="number"
         ></v-text-field>
       </v-row>
 
@@ -17,6 +18,7 @@
           prepend-icon="mdi-human-male-height"
           v-model="finLength"
           :suffix="$t('units.short.cm')"
+          type="number"
         ></v-text-field>
       </v-row>
 
@@ -26,6 +28,7 @@
           prepend-icon="mdi-human-male-height"
           v-model="tailLength"
           :suffix="$t('units.short.cm')"
+          type="number"
         ></v-text-field>
       </v-row>
       
@@ -35,6 +38,7 @@
           prepend-icon="mdi-human-male-height"
           v-model="standardLength"
           :suffix="$t('units.short.cm')"
+          type="number"
         ></v-text-field>
       </v-row>
 
@@ -44,6 +48,7 @@
           prepend-icon="mdi-human-male-height"
           v-model="girth"
           :suffix="$t('units.short.cm')"
+          type="number"
         ></v-text-field>
       </v-row>
 
