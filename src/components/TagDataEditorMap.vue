@@ -1,7 +1,7 @@
 <template>
 <v-container>
   <v-row>
-    <v-col cols="4">
+    <v-col cols="12" class="col-sm-6 col-md-4">
       <v-row>
         <v-text-field
           :label="$t('labels.tag.tagNumber')"
@@ -10,26 +10,6 @@
         ></v-text-field>
       </v-row>
 
-      <v-row>
-        <v-text-field
-          :label="$t('labels.tag.longitude')"
-          prepend-icon="mdi-longitude"
-          type="number"
-          v-model="location.lng"
-          @input="updateLatLng"
-        ></v-text-field>
-      </v-row>
-
-      <v-row>
-        <v-text-field
-          :label="$t('labels.tag.latitude')"
-          prepend-icon="mdi-latitude"
-          type="number"
-          v-model="location.lat"
-          @input="updateLatLng"
-        ></v-text-field>
-      </v-row>
-      
       <!-- Keyboard input date -->
       <!-- <v-row>
         <v-text-field
@@ -97,10 +77,30 @@
         </v-textarea>
       </v-row>
 
+      <v-row>
+        <v-text-field
+          :label="$t('labels.tag.longitude')"
+          prepend-icon="mdi-longitude"
+          type="number"
+          v-model="location.lng"
+          @input="updateLatLng"
+        ></v-text-field>
+      </v-row>
+
+      <v-row>
+        <v-text-field
+          :label="$t('labels.tag.latitude')"
+          prepend-icon="mdi-latitude"
+          type="number"
+          v-model="location.lat"
+          @input="updateLatLng"
+        ></v-text-field>
+      </v-row>
+
     </v-col>
     
-    <v-col cols="8">
-      <l-map ref="map" :zoom="map.zoom" :center="map.center">
+    <v-col cols="12" class="col-sm-6 col-md-8">
+      <l-map ref="map" style="min-height: 200px;" :zoom="map.zoom" :center="map.center">
         <l-tile-layer :url="map.url" :attribution="map.attribution"></l-tile-layer>
         <l-marker ref="mapMarker" :lat-lng.sync="location" draggable></l-marker>
       </l-map>
