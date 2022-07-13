@@ -16,8 +16,7 @@
       <shark-size-editor-vue />
     </v-row>
     <v-row>
-
-      <!--<tag-data-editor-map />-->
+      <tag-data-editor-map />
     </v-row>
     <v-row>
       <basic-map-vue/>
@@ -31,7 +30,7 @@
   import HelloI18n from '@/components/HelloI18n.vue'
   import LengthSliderVue from '@/components/LengthSlider.vue'
   import SharkSizeEditorVue from '@/components/SharkSizeEditor.vue'
-  // import TagDataEditorMap from '@/components/TagDataEditorMap.vue'
+  import TagDataEditorMap from '@/components/TagDataEditorMap.vue'
   import BasicMapVue from '@/components/BasicMap.vue'
 
   export default {
@@ -41,7 +40,7 @@
       HelloI18n,
       LengthSliderVue,
       SharkSizeEditorVue,
-      // TagDataEditorMap,
+      TagDataEditorMap,
       BasicMapVue
     },
   }

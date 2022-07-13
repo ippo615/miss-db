@@ -1,7 +1,7 @@
 <template>
-  <v-container>
-
-    <v-col cols="12">
+<v-container>
+  <v-row>
+    <v-col cols="4">
       <v-row>
         <v-text-field
           :label="$t('labels.tag.tagNumber')"
@@ -14,7 +14,9 @@
         <v-text-field
           :label="$t('labels.tag.longitude')"
           prepend-icon="mdi-longitude"
-          v-model="tagMarker.position.lng"
+          type="number"
+          v-model="location.lng"
+          @input="updateLatLng"
         ></v-text-field>
       </v-row>
 
@@ -22,12 +24,14 @@
         <v-text-field
           :label="$t('labels.tag.latitude')"
           prepend-icon="mdi-latitude"
-          v-model="tagMarker.position.lat"
+          type="number"
+          v-model="location.lat"
+          @input="updateLatLng"
         ></v-text-field>
       </v-row>
       
       <!-- Keyboard input date -->
-      <v-row>
+      <!-- <v-row>
         <v-text-field
           v-model="date"
           :label="$t('labels.tag.date')"
@@ -36,7 +40,7 @@
           v-on="on"
           type="date"
         ></v-text-field>
-      </v-row>
+      </v-row> -->
 
       <!-- Mouse GUI Date Select-->
       <v-row>
@@ -94,106 +98,45 @@
       </v-row>
 
     </v-col>
-
-    <!-- Leaflet map -->
-    <!-- <v-col>
-      <l-map>
-        <l-control-layers
-          :collapsed="false"
-          :sort-layers="true"
-        />
-        <l-tile-layer
-          layer-type="base"
-        />
-        <l-control-zoom />
-        <l-control-attribution />
-        <l-control-scale :imperial="imperial" />
-        <l-marker
-          :visible="tagMarker.visible"
-          :draggable="tagMarker.draggable"
-          :lat-lng.sync="tagMarker.position"
-          :icon="tagMarker.icon"
-          @click="alert(marker)"
-        >
-          <l-popup :content="marker.tooltip" />
-          <l-tooltip :content="marker.tooltip" />
-        </l-marker>
-      </l-map>
-    </v-col> -->
-
-    <v-col>
-      <l-map
-        v-if="showMap"
-        :zoom="zoom"
-        :center="center"
-        :options="mapOptions"
-        style="height: 80%"
-        @update:center="centerUpdate"
-        @update:zoom="zoomUpdate"
-      >
-        <l-tile-layer
-          :url="url"
-          :attribution="attribution"
-        />
+    
+    <v-col cols="8">
+      <l-map ref="map" :zoom="map.zoom" :center="map.center">
+        <l-tile-layer :url="map.url" :attribution="map.attribution"></l-tile-layer>
+        <l-marker ref="mapMarker" :lat-lng.sync="location" draggable></l-marker>
       </l-map>
     </v-col>
 
-  </v-container>
+  </v-row>
+</v-container>
 </template>
 
 <script>
-// import L from 'leaflet';
-import { latLng } from "leaflet";
-import { LMap, LTileLayer } from 'vue2-leaflet';
+import {LMap, LTileLayer, LMarker} from 'vue2-leaflet';
 
 export default {
-  name: 'TagDataEditorMap',
+  name: 'TagDataEditor',
   components: {
     LMap,
     LTileLayer,
+    LMarker
   },
   data: () => ({
     "tagNumber": "",
-    "locationTaggedLongitude": 0.0,
-    "locationTaggedLatitude": 0.0,
+    "location": {"lat":51.504, "lng":-0.159},
     "dateTagged": (new Date()),
     "tagDescription": "",
-    "tagMarker": {
-      "id": 'm1',
-      "position": {
-        "lat": 51.505,
-        "lng": -0.09
-      },
-      "tooltip": 'Drag me to change lat/lon',
-      "draggable": true,
-      "visible": true,
-    },
-    "zoom": 13,
-    "center": latLng(47.41322, -1.219482),
-    "url": 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-    "attribution": '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
-    "withPopup": latLng(47.41322, -1.219482),
-    "withTooltip": latLng(47.41422, -1.250482),
-    "currentZoom": 11.5,
-    "currentCenter": latLng(47.41322, -1.219482),
-    "showParagraph": false,
-    "mapOptions": {
-      "zoomSnap": 0.5
-    },
-    "showMap": true
+    "map": {
+      "url": 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+      "attribution": '&copy; <a target="_blank" href="http://osm.org/copyright">OpenStreetMap</a> contributors',
+      "zoom": 15,
+      "center": [51.505, -0.159],
+    }
   }),
   methods: {
-    zoomUpdate(zoom) {
-      this.currentZoom = zoom;
-    },
-    centerUpdate(center) {
-      this.currentCenter = center;
-    },
-    showLongText() {
-      this.showParagraph = !this.showParagraph;
-    },
-    innerClick() {
-      alert("Click!");
+    updateLatLng: function(){
+        // this.$refs.mapMarker.setLatLng(this.location)
+        let map = this.$refs.map.mapObject;
+        map.flyTo(this.location);
     }
   }
 }
