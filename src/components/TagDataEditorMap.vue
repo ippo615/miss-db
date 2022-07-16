@@ -97,10 +97,28 @@
         ></v-text-field>
       </v-row>
 
+      <v-row>
+        <v-btn @click="useCurrentLocation" block :loading="process.getLocation" :disabled="process.getLocation">
+          <v-icon left>mdi-map-marker</v-icon>
+          {{$t('labels.action.useCurrentLocation')}}
+          <template v-slot:loader>
+            <v-progress-circular size="21" width="3" indeterminate></v-progress-circular>
+            {{$t('labels.process.getCurrentLocation')}}
+          </template>
+        </v-btn>
+        <v-spacer></v-spacer>
+        <v-alert
+          dismissible
+          dense
+          color="warning"
+          v-model="error.failedToGetLocation"
+        >{{$t('errors.failedToGetLocation')}}</v-alert>
+      </v-row>
+
     </v-col>
     
     <v-col cols="12" class="col-sm-6 col-md-8">
-      <l-map ref="map" style="min-height: 200px;" :zoom="map.zoom" :center="map.center">
+      <l-map ref="map" style="min-height: 200px;" :zoom="map.zoom" :center="map.center" @ready="mapReady">
         <l-tile-layer :url="map.url" :attribution="map.attribution"></l-tile-layer>
         <l-marker ref="mapMarker" :lat-lng.sync="location" draggable></l-marker>
       </l-map>
@@ -125,6 +143,12 @@ export default {
     "location": {"lat":51.504, "lng":-0.159},
     "dateTagged": (new Date()),
     "tagDescription": "",
+    "error": {
+      "failedToGetLocation": false,
+    },
+    "process": {
+      "getLocation": false,
+    },
     "map": {
       "url": 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
       "attribution": '&copy; <a target="_blank" href="http://osm.org/copyright">OpenStreetMap</a> contributors',
@@ -137,7 +161,36 @@ export default {
         // this.$refs.mapMarker.setLatLng(this.location)
         let map = this.$refs.map.mapObject;
         map.flyTo(this.location);
+    },
+    onLocationFound: function(e){
+      this.process.getLocation = false;
+      this.location = e.latlng;
+      this.updateLatLng();
+      this.error.failedToGetLocation = false;
+      // var radius = e.accuracy;
+      // L.marker(e.latlng).addTo(map)
+      // L.circle(e.latlng, radius).addTo(map);
+    },
+    onLocationError: function(e){
+      console.error(e);
+      this.process.getLocation = false;
+      this.error.failedToGetLocation = true;
+    },
+    mapReady: function(){
+      this.$refs.map.mapObject.on('locationfound', this.onLocationFound);
+      this.$refs.map.mapObject.on('locationerror', this.onLocationError);
+    },
+    useCurrentLocation: function(){
+      this.process.getLocation = true;
+      let map = this.$refs.map.mapObject;
+      map.locate({timeout: 10000});
     }
   }
 }
 </script>
+
+<style scoped>
+.v-progress-circular {
+  margin: 1rem;
+}
+</style>
