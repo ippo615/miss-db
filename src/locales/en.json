@@ -2,11 +2,21 @@
   "debug": {
     "hello": "hello i18n !!"
   },
+  "errors": {
+    "failedToGetLocation": "Location provider did not return good location."
+  },
   "labels": {
     "default": {
       "value": "value",
       "ok": "OK",
-      "cancel": "Cancel"
+      "cancel": "Cancel",
+      "search": "Search"
+    },
+    "action": {
+      "useCurrentLocation": "Use Current Location"
+    },
+    "process": {
+      "getCurrentLocation": "Checking location..."
     },
     "sharkSize": {
       "preCaudalLength": "Pre-caudal Length",

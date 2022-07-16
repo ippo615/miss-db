@@ -21,6 +21,10 @@
     <v-row>
       <basic-map-vue/>
     </v-row>
+    <v-row>
+      <basic-map-vue/>
+    </v-row>
+    <v-row><shark-species-table/></v-row>
   </v-col>
 </template>
 
@@ -32,6 +36,7 @@
   import SharkSizeEditorVue from '@/components/SharkSizeEditor.vue'
   import TagDataEditorMap from '@/components/TagDataEditorMap.vue'
   import BasicMapVue from '@/components/BasicMap.vue'
+  import SharkSpeciesTable from '@/components/SharkSpeciesTable.vue'
 
   export default {
     components: {
@@ -41,7 +46,8 @@
       LengthSliderVue,
       SharkSizeEditorVue,
       TagDataEditorMap,
-      BasicMapVue
+      BasicMapVue,
+      SharkSpeciesTable,
     },
   }
 </script>
