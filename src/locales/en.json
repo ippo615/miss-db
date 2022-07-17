@@ -25,6 +25,33 @@
       "standardLength": "Standard Length",
       "girth": "Girth"
     },
+    "sex": {
+      "sex": "Sex",
+      "male": "Male",
+      "female": "Female"
+    },
+    "maturity": {
+      "maturity": "Maturity",
+      "youngOfYear": "Young Of Year",
+      "regular": "Regular"
+    },
+    "tagType": {
+      "tagType": "Tag Type",
+      "dart": "Dart Tag"
+    },
+    "samplesTaken": {
+      "samplesTaken": "Samples Taken",
+      "genetics": "Genetics",
+      "biopsy": "Biopsy",
+      "blood": "Blood",
+      "mouthSwab": "Mouth Swab",
+      "analSwab": "Anal Swab"
+    },
+    "releaseCondition": {
+      "releaseCondition": "Release Condition",
+      "excellent": "Excellent",
+      "other": "Other"
+    },
     "tag": {
       "tagNumber": "Tag Number",
       "latitude": "Latitude",

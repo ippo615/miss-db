@@ -24,6 +24,17 @@
     <v-row>
       <basic-map-vue/>
     </v-row>
+    <v-row>
+      <!-- <location-input-vue :location.sync="location"/> -->
+      <location-input-vue v-bind.sync="location1" :initialLocation="location1"/>
+    </v-row>
+    <v-row>
+      <!-- <location-input-vue :location.sync="location"/> -->
+      <location-input-vue v-bind.sync="location2" :initialLocation="location2"/>
+    </v-row>
+    <v-row>
+      <shark-sample-editor-vue />
+    </v-row>
     <v-row><shark-species-table/></v-row>
   </v-col>
 </template>
@@ -37,6 +48,8 @@
   import TagDataEditorMap from '@/components/TagDataEditorMap.vue'
   import BasicMapVue from '@/components/BasicMap.vue'
   import SharkSpeciesTable from '@/components/SharkSpeciesTable.vue'
+  import LocationInputVue from '@/components/LocationInput.vue'
+  import SharkSampleEditorVue from '@/components/SharkSampleEditor.vue'
 
   export default {
     components: {
@@ -48,6 +61,12 @@
       TagDataEditorMap,
       BasicMapVue,
       SharkSpeciesTable,
+      LocationInputVue,
+      SharkSampleEditorVue,
     },
+    data: () => ({
+      "location1": {"lat": 30, "lng": -85},
+      "location2": {"lat": 44, "lng": -80},
+    })
   }
 </script>
