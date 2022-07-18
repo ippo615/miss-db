@@ -110,17 +110,21 @@
         ></v-text-field>
       </v-row>
 
+    <v-row>
+      <location-input v-bind.sync="tagLocation" :initialLocation="tagLocation"/>
+    </v-row>
+
     </v-col>
   </v-container>
 </template>
 
 <script>
-import LocationInputVue from './LocationInput.vue'
+import LocationInput from './LocationInput.vue'
 export default {
-  name: 'SharkSizeEditor',
-  components: [
-    LocationInputVue
-  ],
+  name: 'SharkSampleEditor',
+  components: {
+    LocationInput
+  },
   created(){
     this.updateLocale();
   },
@@ -133,6 +137,10 @@ export default {
     tailLength: 0,
     standardLength: 0,
     girth: 0,
+    tagLocation: {
+      lat: 24.786734541988906,
+      lng: -81.60644531250001
+    }
   }),
   // items within a select element should be computed so they are translated correctly
   computed: {
