@@ -30,30 +30,31 @@
   //  - in the mutation event -- reload the data and replace with new language
   import shark_species from '../assets/shark_species_data.js'
   export default {
-    data () {
-      return {
-        search: '',
-        headers: [
-          {
-            text: 'Common Name',
+    data: () => ({
+      search: '',
+      species: shark_species,
+      example: {
+          "order": "hexanchiformes",
+          "family": "chlamydoselachidae",
+          "genus": "chlamydoselachus",
+          "species": "chlamydoselachus africana",
+          "common_name": "southern african frilled shark",
+          "discovery_year": "ebert",
+          "discoverer": ""
+      }
+    }),
+    computed: {
+      headers(){
+        return [{
+            text: this.$t('labels.speciesTable.commonName'),
             align: 'start',
             value: 'common_name',
           },
-          { text: 'Order', value: 'order' },
-          { text: 'Family', value: 'family' },
-          { text: 'Genus', value: 'genus' },
-          { text: 'Species', value: 'species' },
-        ],
-        species: shark_species,
-        example: {
-            "order": "hexanchiformes",
-            "family": "chlamydoselachidae",
-            "genus": "chlamydoselachus",
-            "species": "chlamydoselachus africana",
-            "common_name": "southern african frilled shark",
-            "discovery_year": "ebert",
-            "discoverer": ""
-        },
+          { text: this.$t('labels.speciesTable.order'), value: 'order' },
+          { text: this.$t('labels.speciesTable.family'), value: 'family' },
+          { text: this.$t('labels.speciesTable.genus'), value: 'genus' },
+          { text: this.$t('labels.speciesTable.species'), value: 'species' },
+        ]
       }
     }
   }

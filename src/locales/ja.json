@@ -11,6 +11,13 @@
       "male": "男性",
       "female": "女性"
     },
+    "speciesTable": {
+      "commonName": "一般名",
+      "order": "注文",
+      "family": "家族",
+      "genus": "属",
+      "species": "種"
+    },
     "sharkSize": {
       "preCaudalLength": "尾前の長さ",
       "finLength": "フィンの長さ",

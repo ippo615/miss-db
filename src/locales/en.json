@@ -52,6 +52,13 @@
       "excellent": "Excellent",
       "other": "Other"
     },
+    "speciesTable": {
+      "commonName": "Common Name",
+      "order": "Order",
+      "family": "Family",
+      "genus": "Genus",
+      "species": "Species"
+    },
     "tag": {
       "tagNumber": "Tag Number",
       "latitude": "Latitude",
