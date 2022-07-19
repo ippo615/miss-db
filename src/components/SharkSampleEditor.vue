@@ -4,6 +4,41 @@
 
       <v-row>
         <v-autocomplete
+          v-model="species"
+          :items="sharkSpecies"
+          clearable
+          prepend-icon="mdi-fish"
+          :label="$t('labels.speciesEntry.species')"
+          item-text="text"
+          item-value="value"
+        >
+          <template v-slot:selection="data">
+            <v-list-item-content
+              v-bind="data.attrs"
+              :input-value="data.selected"
+              @click="data.select"
+            >
+              <v-list-item-title>{{data.item.displayCommonName}}</v-list-item-title>
+              <v-list-item-subtitle style="opacity: 0.5">{{$t(data.item.order)}} / {{$t(data.item.family)}} / {{$t(data.item.genus)}} / {{$t(data.item.species)}}</v-list-item-subtitle>
+            </v-list-item-content>
+          </template>
+
+          <template v-slot:item="data">
+            <template v-if="typeof data.item !== 'object'">
+              <v-list-item-content v-text="data.item"></v-list-item-content>
+            </template>
+            <template v-else>
+              <v-list-item-content>
+                <v-list-item-title v-html="data.item.common_name"></v-list-item-title>
+                <v-list-item-subtitle>{{$t(data.item.order)}} / {{$t(data.item.family)}} / {{$t(data.item.genus)}} / {{$t(data.item.species)}}</v-list-item-subtitle>
+              </v-list-item-content>
+            </template>
+          </template>
+        </v-autocomplete>
+      </v-row>
+
+      <v-row>
+        <v-autocomplete
           v-model="sex"
           prepend-icon="mdi-gender-male-female"
           auto-select-first
@@ -119,6 +154,7 @@
 </template>
 
 <script>
+import shark_species_data from '@/assets/shark_species_data';
 import LocationInput from './LocationInput.vue'
 export default {
   name: 'SharkSampleEditor',
@@ -140,7 +176,8 @@ export default {
     tagLocation: {
       lat: 24.786734541988906,
       lng: -81.60644531250001
-    }
+    },
+    species: ''
   }),
   // items within a select element should be computed so they are translated correctly
   computed: {
@@ -194,6 +231,27 @@ export default {
         } ]
       };
     },
+    sharkSpecies(){
+      // return shark_species_data;
+      let sharks = [...shark_species_data];
+      for(let i=0, l=sharks.length; i<l; i+=1 ){
+        var shark = sharks[i];
+        let names = [
+            this.$t(shark.order),
+            this.$t(shark.family),
+            this.$t(shark.genus),
+            this.$t(shark.species),
+        ]
+        shark.text = `${names.join(' / ')} (${this.$t(shark.common_name)})`;
+        shark.value = shark.speciesId;
+        shark.value = i;
+        // Convert the common name to start with caps: ie "nine tooth shark" -> "Nine Tooth Shark"
+        shark.displayCommonName = shark.common_name.replace(/(^|\s)\S/g, function(t) { return t.toUpperCase() });
+        // shark.text = shark.common_name;
+        // shark.value = shark.common_name;
+      }
+      return sharks;
+    }
   },
 }
 </script>

@@ -52,6 +52,9 @@
       "excellent": "Excellent",
       "other": "Other"
     },
+    "speciesEntry": {
+      "species": "Species"
+    },
     "speciesTable": {
       "commonName": "Common Name",
       "order": "Order",
