@@ -137,12 +137,63 @@
 
       <v-row>
         <v-text-field
-          :label="$t('labels.sharkSize.girth')"
-          prepend-icon="mdi-human-male-height"
-          v-model="girth"
-          :suffix="$t('units.short.cm')"
+          :label="$t('labels.hookTime')"
+          prepend-icon="mdi-timer"
+          v-model="hookTime"
+          :suffix="$t('units.time.minutes')"
           type="number"
         ></v-text-field>
+      </v-row>
+
+      <v-row>
+        <v-text-field
+          :label="$t('labels.soakTime')"
+          prepend-icon="mdi-timer"
+          v-model="soakTime"
+          :suffix="$t('units.time.minutes')"
+          type="number"
+        ></v-text-field>
+      </v-row>
+
+      <v-row>
+        <v-text-field
+          :label="$t('labels.waterCondition.depth')"
+          prepend-icon="mdi-water"
+          v-model="depth"
+          :suffix="$t('units.length.meters')"
+          type="number"
+        ></v-text-field>
+      </v-row>
+
+      <v-row>
+        <v-text-field
+          :label="$t('labels.waterCondition.salinity')"
+          prepend-icon="mdi-shaker-outline"
+          v-model="salinity"
+          :suffix="$t('units.partsPerThousand')"
+          type="number"
+        ></v-text-field>
+      </v-row>
+
+      <v-row>
+        <v-text-field
+          :label="$t('labels.waterCondition.temperature')"
+          prepend-icon="mdi-thermometer-water"
+          v-model="temperature"
+          :suffix="$t('units.temperature.celsius')"
+          type="number"
+        ></v-text-field>
+      </v-row>
+
+      <v-row>
+        <v-autocomplete
+          v-model="tide"
+          prepend-icon="mdi-waves"
+          auto-select-first
+          clearable
+          :items="items.tide"
+          :label="$t('labels.tide.tide')"
+        ></v-autocomplete>
       </v-row>
 
     <v-row>
@@ -177,7 +228,14 @@ export default {
       lat: 24.786734541988906,
       lng: -81.60644531250001
     },
-    species: ''
+    species: '',
+    // TO BE ADDED
+    hookTime: 0,
+    soakTime: 0,
+    depth: 0,
+    tide: '',
+    salinity: 0,
+    temperature: 0
   }),
   // items within a select element should be computed so they are translated correctly
   computed: {
@@ -196,13 +254,22 @@ export default {
           text: this.$t("labels.maturity.youngOfYear"),
           value: "YOUNG_OF_YEAR",
         }, {
-          text: this.$t("labels.maturity.regular"),
-          value: "REGULAR",
+          text: this.$t("labels.maturity.immature"),
+          value: "IMMATURE",
+        }, {
+          text: this.$t("labels.maturity.mature"),
+          value: "MATURE",
         }],
         // TAG TYPE
         tagType: [{
           text: this.$t("labels.tagType.dart"),
           value: "DART",
+        }, {
+          text: this.$t("labels.tagType.psat"),
+          value: "PSAT",
+        }, {
+          text: this.$t("labels.tagType.acoustic"),
+          value: "ACOUSTIC",
         }],
         // SAMPLES TAKEN
         samplesTaken: [{
@@ -226,9 +293,32 @@ export default {
           text: this.$t("labels.releaseCondition.excellent"),
           value: "EXCELLENT"
         }, {
-          text: this.$t("labels.releaseCondition.other"),
-          value: "OTHER"
-        } ]
+          text: this.$t("labels.releaseCondition.good"),
+          value: "GOOD"
+        }, {
+          text: this.$t("labels.releaseCondition.fair"),
+          value: "FAIR"
+        }, {
+          text: this.$t("labels.releaseCondition.poor"),
+          value: "POOR"
+        }, {
+          text: this.$t("labels.releaseCondition.doa"),
+          value: "DOA"
+        }],
+        // TIDE
+        tide: [{
+          text: this.$t("labels.tide.rising"),
+          value: "RISING"
+        }, {
+          text: this.$t("labels.tide.falling"),
+          value: "FALLING"
+        }, {
+          text: this.$t("labels.tide.high"),
+          value: "HIGH"
+        }, {
+          text: this.$t("labels.tide.low"),
+          value: "LOW"
+        }]
       };
     },
     sharkSpecies(){

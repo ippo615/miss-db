@@ -33,11 +33,14 @@
     "maturity": {
       "maturity": "Maturity",
       "youngOfYear": "Young Of Year",
-      "regular": "Regular"
+      "immature": "Immature",
+      "mature": "Mature"
     },
     "tagType": {
       "tagType": "Tag Type",
-      "dart": "Dart Tag"
+      "dart": "Dart Tag",
+      "psat": "PSAT",
+      "acoustic": "Acoustic"
     },
     "samplesTaken": {
       "samplesTaken": "Samples Taken",
@@ -50,7 +53,22 @@
     "releaseCondition": {
       "releaseCondition": "Release Condition",
       "excellent": "Excellent",
-      "other": "Other"
+      "good": "Good",
+      "fair": "Fair",
+      "poor": "Poor",
+      "doa": "DOA"
+    },
+    "waterCondition": {
+      "depth": "Depth",
+      "salinity": "Salinity",
+      "temperature": "Temperature"
+    },
+    "tide":{
+      "tide": "Tide",
+      "rising": "Rising",
+      "falling": "Falling",
+      "high": "High",
+      "low": "Low"
     },
     "speciesEntry": {
       "species": "Species"
@@ -68,11 +86,23 @@
       "longitude": "Longitude",
       "date": "Date Tagged",
       "description": "Extra Info"
-    }
+    },
+    "hookTime": "Hook Time",
+    "soakTime": "Soak Time"
   },
   "units": {
     "short": {
       "cm": "cm"
-    }
+    },
+    "length": {
+      "meters": "Meters"
+    },
+    "time": {
+      "minutes": "Minutes"
+    },
+    "temperature": {
+      "celsius": "Celsius"
+    },
+    "partsPerThousand": "ppt"
   }
 }
