@@ -197,7 +197,13 @@
       </v-row>
 
     <v-row>
-      <location-input v-bind.sync="tagLocation" :initialLocation="tagLocation"/>
+      <location-input @update:lat="onUpdateLat" @update:lng="onUpdateLng" :initialLocation="tagLocation"/>
+    </v-row>
+
+    <v-row>
+      <v-btn block @click="saveSample">
+        {{$t('labels.action.saveSample')}}
+      </v-btn>
     </v-row>
 
     </v-col>
@@ -229,7 +235,8 @@ export default {
       lng: -81.60644531250001
     },
     species: '',
-    // TO BE ADDED
+    samplesTaken: [],
+    releaseCondition: '',
     hookTime: 0,
     soakTime: 0,
     depth: 0,
@@ -343,5 +350,16 @@ export default {
       return sharks;
     }
   },
+  methods: {
+    saveSample(){
+      console.info(this.$data)
+    },
+    onUpdateLat(lat){
+      this.$data.tagLocation.lat = lat;
+    },
+    onUpdateLng(lng){
+      this.$data.tagLocation.lng = lng;
+    },
+  }
 }
 </script>

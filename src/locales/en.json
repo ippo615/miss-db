@@ -13,7 +13,8 @@
       "search": "Search"
     },
     "action": {
-      "useCurrentLocation": "Use Current Location"
+      "useCurrentLocation": "Use Current Location",
+      "saveSample": "Save Sample"
     },
     "process": {
       "getCurrentLocation": "Checking location..."
@@ -88,7 +89,13 @@
       "description": "Extra Info"
     },
     "hookTime": "Hook Time",
-    "soakTime": "Soak Time"
+    "soakTime": "Soak Time",
+    "collaborator": {
+      "name": "Name",
+      "institution": "Institution",
+      "focusArea": "Focus Area",
+      "email": "Email"
+    }
   },
   "units": {
     "short": {

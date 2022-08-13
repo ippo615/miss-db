@@ -48,7 +48,7 @@
     <v-col cols="12" class="col-sm-6 col-md-8">
       <l-map ref="map" style="min-height: 200px;" :zoom="map.zoom" :center="map.center" @ready="mapReady">
         <l-tile-layer :url="map.url" :attribution="map.attribution"></l-tile-layer>
-        <l-marker ref="mapMarker" :lat-lng.sync="location" draggable></l-marker>
+        <l-marker ref="mapMarker" :lat-lng.sync="location" draggable @update:latLng="updateLatLngData"></l-marker>
       </l-map>
     </v-col>
 
@@ -66,6 +66,11 @@ export default {
     LTileLayer,
     LMarker
   },
+  emits: [
+    "update:location",
+    "update:lat",
+    "update:lng",
+  ],
   props: ['initialLocation'],
   data: () => ({
     "error": {
@@ -91,17 +96,22 @@ export default {
     this.$nextTick(()=>this.updateLatLng());
   },
   methods: {
+    updateLatLngData: function(){
+      this.$emit("update:location", this.location);
+      this.$emit("update:lat", this.location.lat);
+      this.$emit("update:lng", this.location.lng);
+    },
     updateLatLng: function(){
         // this.$refs.mapMarker.setLatLng(this.location);
         let map = this.$refs.map.mapObject;
         map.flyTo(this.location);
-        this.$emit("update:location", this.location);
-        this.$emit("update:lat", this.location.lat);
-        this.$emit("update:lng", this.location.lng);
+        this.updateLatLngData();
+        // https://vue2-leaflet.netlify.app/components/LMarker.html#events
     },
     mapReady: function(){
       this.$refs.map.mapObject.on('locationfound', this.onLocationFound);
       this.$refs.map.mapObject.on('locationerror', this.onLocationError);
+      this.$refs.map.mapObject.on('mouseup', this.updateLatLng);
     },
     onLocationFound: function(e){
       this.process.getLocation = false;

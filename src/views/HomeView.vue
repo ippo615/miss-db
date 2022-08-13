@@ -36,6 +36,9 @@
       <shark-sample-editor-vue />
     </v-row>
     <v-row><shark-species-table/></v-row>
+    <v-row>
+      <collaborator-editor-vue />
+    </v-row>
   </v-col>
 </template>
 
@@ -50,6 +53,7 @@
   import SharkSpeciesTable from '@/components/SharkSpeciesTable.vue'
   import LocationInputVue from '@/components/LocationInput.vue'
   import SharkSampleEditorVue from '@/components/SharkSampleEditor.vue'
+  import CollaboratorEditorVue from '@/components/CollaboratorEditor.vue'
 
   export default {
     components: {
@@ -63,6 +67,7 @@
       SharkSpeciesTable,
       LocationInputVue,
       SharkSampleEditorVue,
+      CollaboratorEditorVue
     },
     data: () => ({
       "location1": {"lat": 30, "lng": -85},
