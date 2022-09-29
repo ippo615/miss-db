@@ -5,6 +5,13 @@
   "errors": {
     "failedToGetLocation": "Location provider did not return good location."
   },
+  "validation":{
+    "fieldRequired": "This field is required",
+    "passwordMinLength8": "Password must be at least 8 characters",
+    "email": {
+      "invalidAddress": "Email address is invalid"
+    }
+  },
   "labels": {
     "default": {
       "value": "value",
@@ -12,9 +19,20 @@
       "cancel": "Cancel",
       "search": "Search"
     },
+    "signup":{
+      "email": "Email Address",
+      "password": "Password"
+    },
+    "signIn":{
+      "email": "Email Address",
+      "password": "Current Password"
+    },
     "action": {
       "useCurrentLocation": "Use Current Location",
-      "saveSample": "Save Sample"
+      "saveSample": "Save Sample",
+      "signup": "Create Account",
+      "signIn": "Login",
+      "passwordReset": "Forgot Password? Reset it."
     },
     "process": {
       "getCurrentLocation": "Checking location..."

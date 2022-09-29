@@ -39,6 +39,12 @@
     <v-row>
       <collaborator-editor-vue />
     </v-row>
+    <v-row>
+      <user-sign-up-email-vue />
+    </v-row>
+    <v-row>
+      <user-sign-in-email-vue />
+    </v-row>
   </v-col>
 </template>
 
@@ -54,6 +60,8 @@
   import LocationInputVue from '@/components/LocationInput.vue'
   import SharkSampleEditorVue from '@/components/SharkSampleEditor.vue'
   import CollaboratorEditorVue from '@/components/CollaboratorEditor.vue'
+  import UserSignUpEmailVue from '@/components/UserSignUpEmail.vue'
+  import UserSignInEmailVue from '@/components/UserSignInEmail.vue'
 
   export default {
     components: {
@@ -67,7 +75,9 @@
       SharkSpeciesTable,
       LocationInputVue,
       SharkSampleEditorVue,
-      CollaboratorEditorVue
+      CollaboratorEditorVue,
+      UserSignUpEmailVue,
+      UserSignInEmailVue,
     },
     data: () => ({
       "location1": {"lat": 30, "lng": -85},
