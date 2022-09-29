@@ -4,6 +4,7 @@
         <v-autocomplete
             auto-select-first
             clearable
+            prepend-icon="mdi-translate"
             v-bind:items="availableLocales"
             @input="setLocale"
             v-model="locale"
