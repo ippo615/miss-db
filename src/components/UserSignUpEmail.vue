@@ -4,6 +4,7 @@
       <v-form
         ref="form"
         v-model="valid"
+        @keyup.native.enter="valid && signup($event)"
       >
         <v-text-field
           append-icon="mdi-email"
