@@ -1,17 +1,14 @@
 <template>
-  <v-container>
-    <v-row>
-        <v-autocomplete
-            auto-select-first
-            clearable
-            prepend-icon="mdi-translate"
-            v-bind:items="availableLocales"
-            @input="setLocale"
-            v-model="locale"
-        ></v-autocomplete>
-    </v-row>
-    <v-row>Rows per page: {{$vuetify.lang.t('$vuetify.dataTable.itemsPerPageText')}}</v-row>
-  </v-container>
+  <v-autocomplete
+    auto-select-first
+    clearable
+    dense
+    hide-details
+    prepend-icon="mdi-translate"
+    v-bind:items="availableLocales"
+    @input="setLocale"
+    v-model="locale"
+  ></v-autocomplete>
 </template>
 
 <script>

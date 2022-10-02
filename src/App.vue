@@ -4,39 +4,53 @@
       app
       color="primary"
       dark
-      :collapse="!collapseOnScroll"
-      :collapse-on-scroll="collapseOnScroll"
       fixed
     >
-      <div class="d-flex align-center">
-        <v-img
-          alt="MISS Shark DB Logo"
-          class="shrink mr-2"
-          contain
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
-          transition="scale-transition"
-          width="40"
-        />
+      <v-app-bar-nav-icon></v-app-bar-nav-icon>
 
-        <v-img
-          alt="NuSS Shark DB"
-          class="shrink mt-1 hidden-sm-and-down"
-          contain
-          min-width="100"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-          width="100"
-        />
-      </div>
+      <v-toolbar-title>Page title</v-toolbar-title>
 
       <v-spacer></v-spacer>
 
-      <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        text
-      >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
+      <locale-select></locale-select>
+
+      <v-spacer></v-spacer>
+
+      <v-menu left bottom v-if="$store.state.user !== null">
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn icon v-bind="attrs" v-on="on">
+            <v-avatar>
+              <img
+                src="https://cdn.vuetifyjs.com/images/john.jpg"
+                alt="John"
+              >
+            </v-avatar>
+
+            <v-avatar color="red">
+              <span class="white--text text-h5">CJ</span>
+            </v-avatar>
+          </v-btn>
+        </template>
+        <v-list>
+          <v-list-item
+            v-for="n in 5"
+            :key="n"
+            @click="() => {}"
+          >
+            <v-list-item-title>Option {{ n }}</v-list-item-title>
+          </v-list-item>
+        </v-list>
+      </v-menu>
+
+      <v-btn v-else>
+        <v-btn plain small to="login" replace>
+          <v-icon left>
+            mdi-login
+          </v-icon>
+          {{$t('labels.action.signIn')}}
+        </v-btn>
       </v-btn>
+
     </v-app-bar>
 
     <v-main>
@@ -46,9 +60,13 @@
 </template>
 
 <script>
+import LocaleSelect from '@/components/LocaleSelect.vue'
 
 export default {
   name: 'App',
+  components: {
+    LocaleSelect
+  },
 
   data: () => ({
     collapseOnScroll: true,
