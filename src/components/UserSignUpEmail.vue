@@ -31,6 +31,18 @@
           {{$t('labels.action.signup')}}
         </v-btn>
 
+        <v-container>
+          <v-row class="alert-container"></v-row>
+          <v-row>
+            <v-btn color="secondary" plain small block to="login" replace>
+              <v-icon left>
+                mdi-login
+              </v-icon>
+              {{$t('labels.action.loginLink')}}
+            </v-btn>
+          </v-row>
+        </v-container>
+
       </v-form>
     </v-col>
   </v-container>

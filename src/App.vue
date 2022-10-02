@@ -4,10 +4,13 @@
       app
       color="primary"
       dark
+      :collapse="!collapseOnScroll"
+      :collapse-on-scroll="collapseOnScroll"
+      fixed
     >
       <div class="d-flex align-center">
         <v-img
-          alt="Vuetify Logo"
+          alt="MISS Shark DB Logo"
           class="shrink mr-2"
           contain
           src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
@@ -16,7 +19,7 @@
         />
 
         <v-img
-          alt="Vuetify Name"
+          alt="NuSS Shark DB"
           class="shrink mt-1 hidden-sm-and-down"
           contain
           min-width="100"
@@ -29,7 +32,6 @@
 
       <v-btn
         href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
         text
       >
         <span class="mr-2">Latest Release</span>
@@ -49,7 +51,7 @@ export default {
   name: 'App',
 
   data: () => ({
-    //
+    collapseOnScroll: true,
   }),
 };
 </script>

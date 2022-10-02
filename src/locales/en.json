@@ -12,6 +12,9 @@
       "invalidAddress": "Email address is invalid"
     }
   },
+  "feedback":{
+    "resetEmailSent": "Reset email sent."
+  },
   "labels": {
     "default": {
       "value": "value",
@@ -21,7 +24,7 @@
     },
     "signup":{
       "email": "Email Address",
-      "password": "Password"
+      "password": "New Password"
     },
     "signIn":{
       "email": "Email Address",
@@ -32,7 +35,9 @@
       "saveSample": "Save Sample",
       "signup": "Create Account",
       "signIn": "Login",
-      "passwordReset": "Forgot Password? Reset it."
+      "passwordReset": "Forgot Password? Reset it.",
+      "registerLink": "No account? Create a new account.",
+      "loginLink": "Have an account? Login."
     },
     "process": {
       "getCurrentLocation": "Checking location..."

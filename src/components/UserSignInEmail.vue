@@ -4,6 +4,7 @@
       <v-form
         ref="form"
         v-model="valid"
+        @keyup.native.enter="valid && signIn($event)"
       >
         <v-text-field
           append-icon="mdi-email"
@@ -31,21 +32,40 @@
           {{$t('labels.action.signIn')}}
         </v-btn>
 
-        <v-spacer></v-spacer>
-        <v-alert
-          dismissible
-          dense
-          color="error"
-          v-model="error.login.active"
-        >{{error.login.message}}</v-alert>
-        <v-spacer></v-spacer>
-
-        <v-btn color="secondary" plain small block @click="passwordReset" :disabled="!validEmail">
-          <v-icon left>
-            mdi-lock-reset
-          </v-icon>
-          {{$t('labels.action.passwordReset')}}
-        </v-btn>
+        <v-container>
+          <v-row class="alert-container">
+            <v-col>
+              <v-alert
+                dismissible
+                dense
+                type="error"
+                v-model="feedback.login.active"
+              >{{feedback.login.message}}</v-alert>
+              <v-alert
+                dismissible
+                dense
+                type="success"
+                v-model="feedback.reset.active"
+              >{{feedback.reset.message}}</v-alert>
+            </v-col>
+          </v-row>
+          <v-row>
+            <v-btn color="secondary" plain small block @click="passwordReset" :disabled="!validEmail">
+              <v-icon left>
+                mdi-lock-reset
+              </v-icon>
+              {{$t('labels.action.passwordReset')}}
+            </v-btn>
+          </v-row>
+          <v-row>
+            <v-btn color="secondary" plain small block to="register" replace>
+              <v-icon left>
+                mdi-account-plus
+              </v-icon>
+              {{$t('labels.action.registerLink')}}
+            </v-btn>
+          </v-row>
+        </v-container>
 
       </v-form>
     </v-col>
@@ -59,7 +79,7 @@
       email: '',
       password: '',
       passwordShow: false,
-      error:{
+      feedback:{
         login: {
           active: false,
           message: ''
@@ -87,8 +107,8 @@
         let email = this.email;
         let password = this.password;
         this.$store.dispatch('signInEmailPassword', {email, password}).catch((error) => {
-          this.$data.error.login.active = true;
-          this.$data.error.login.message = error.message + ' ('+error.code+')';
+          this.$data.feedback.login.active = true;
+          this.$data.feedback.login.message = error.message + ' ('+error.code+')';
 
         });
         // try {
@@ -103,6 +123,8 @@
         alert("Sending Password Reset Email");
         let email = this.email;
         this.$store.dispatch('sendResetPasswordEmail', {email});
+        this.$data.feedback.reset.active = true;
+        this.$data.feedback.reset.message = this.$t('feedback.resetEmailSent');
       }
     }
   }

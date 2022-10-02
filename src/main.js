@@ -1,4 +1,5 @@
 import 'leaflet/dist/leaflet.css'
+import '@/assets/styles.css'
 
 import Vue from 'vue'
 import App from './App.vue'
