@@ -2,33 +2,41 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import HelloI18n from '../components/HelloI18n.vue'
-import UserSignInEmail from '@/components/UserSignInEmail.vue'
+import UserSignInEmail from '@/views/UserSignInEmail.vue'
 import UserSignUpEmailVue from '@/components/UserSignUpEmail.vue'
 import SharkSampleEditorVue from '@/components/SharkSampleEditor.vue'
 import CollaboratorEditorVue from '@/components/CollaboratorEditor.vue'
+import SharkDataTable from '@/components/SharkDataTable.vue'
 
 Vue.use(VueRouter)
 
 const routes = [{
     path: '/',
     name: 'home',
-    component: HomeView
+    component: HomeView,
+    meta: {title: "pageTitle.home"}
   }, {
     path: '/register',
     name: 'register',
-    component: UserSignUpEmailVue
+    component: UserSignUpEmailVue,
+    meta: {title: "pageTitle.register"}
   }, {
     path: '/login',
     name: 'login',
-    component: UserSignInEmail
+    component: UserSignInEmail,
+    meta: {title: "pageTitle.login"}
   }, {
     path: '/user',
     name: 'user',
     component: CollaboratorEditorVue
   }, {
-    path: '/demo',
-    name: 'demo',
+    path: '/demo/editor',
+    name: 'demo_editor',
     component: SharkSampleEditorVue
+  }, {
+    path: '/demo/table',
+    name: 'demo_table',
+    component: SharkDataTable
   }, {
     path: '/about',
     name: 'about',
@@ -45,6 +53,10 @@ const routes = [{
 
 const router = new VueRouter({
   routes
-})
+});
+// router.beforeEach((to, from) => {
+//   document.title = $t(to.meta.title);
+//   console.info(from);
+// });
 
 export default router

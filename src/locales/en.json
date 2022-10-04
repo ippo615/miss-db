@@ -15,7 +15,33 @@
   "feedback":{
     "resetEmailSent": "Reset email sent."
   },
+  "pageTitle": {
+    "home": "MISS DB",
+    "login": "MISS DB Login",
+    "register": "MISS DB Register"
+  },
   "labels": {
+    "sharkDataHeaders": {
+      "IMPORTANT_NOTE": "THIS IS TEMPORARY? FOR QUICK TABLE SETUP",
+      "preCaudalLength": "Pre-caudal Length",
+      "finLength": "Fin Length",
+      "tailLength": "Tail Length",
+      "standardLength": "Standard Length",
+      "girth": "Girth",
+      "sex": "Sex",
+      "maturity": "Maturity",
+      "tagType": "Tag Type",
+      "samplesTaken": "Samples Taken",
+      "releaseCondition": "Release Condition",
+      "depth": "Depth",
+      "salinity": "Salinity",
+      "temperature": "Temperature",
+      "tide": "Tide",
+      "hookTime": "Hook Time",
+      "soakTime": "Soak Time",
+      "species": "Species",
+      "tagLocation": "Tag Location"
+    },
     "default": {
       "value": "value",
       "ok": "OK",

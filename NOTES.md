@@ -30,6 +30,10 @@ Next Steps
      - edit
    - logout (or exit)
 
+ 3. Make views for each route
+  - each view can bemade of components
+  - each should set the page title when mouned
+
 To get emoji flag from country code:
 function getFlagEmoji(countryCode) {
   const codePoints = countryCode

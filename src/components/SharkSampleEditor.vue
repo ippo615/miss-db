@@ -251,80 +251,80 @@ export default {
         // SEX
         sex: [{
           text: this.$t("labels.sex.male"),
-          value: "MALE",
+          value: "male",
         }, {
           text: this.$t("labels.sex.female"),
-          value: "FEMALE",
+          value: "female",
         }],
         // MATURITY
         maturity: [{
           text: this.$t("labels.maturity.youngOfYear"),
-          value: "YOUNG_OF_YEAR",
+          value: "youngOfYear",
         }, {
           text: this.$t("labels.maturity.immature"),
-          value: "IMMATURE",
+          value: "immature",
         }, {
           text: this.$t("labels.maturity.mature"),
-          value: "MATURE",
+          value: "mature",
         }],
         // TAG TYPE
         tagType: [{
           text: this.$t("labels.tagType.dart"),
-          value: "DART",
+          value: "dart",
         }, {
           text: this.$t("labels.tagType.psat"),
-          value: "PSAT",
+          value: "psat",
         }, {
           text: this.$t("labels.tagType.acoustic"),
-          value: "ACOUSTIC",
+          value: "acoustic",
         }],
         // SAMPLES TAKEN
         samplesTaken: [{
           text: this.$t("labels.samplesTaken.genetics"),
-          value: "GENETICS"
+          value: "genetics"
         }, {
           text: this.$t("labels.samplesTaken.biopsy"),
-          value: "BIOPSY"
+          value: "biopsy"
         }, {
           text: this.$t("labels.samplesTaken.blood"),
-          value: "BLOOD"
+          value: "blood"
         }, {
           text: this.$t("labels.samplesTaken.mouthSwab"),
-          value: "MOUTH_SWAB"
+          value: "mouthSwab"
         }, {
           text: this.$t("labels.samplesTaken.analSwab"),
-          value: "ANAL_SWAB"
+          value: "analSwab"
         }],
         // RELEASE CONDITION
         releaseCondition: [{
           text: this.$t("labels.releaseCondition.excellent"),
-          value: "EXCELLENT"
+          value: "excellent"
         }, {
           text: this.$t("labels.releaseCondition.good"),
-          value: "GOOD"
+          value: "good"
         }, {
           text: this.$t("labels.releaseCondition.fair"),
-          value: "FAIR"
+          value: "fair"
         }, {
           text: this.$t("labels.releaseCondition.poor"),
-          value: "POOR"
+          value: "poor"
         }, {
           text: this.$t("labels.releaseCondition.doa"),
-          value: "DOA"
+          value: "doa"
         }],
         // TIDE
         tide: [{
           text: this.$t("labels.tide.rising"),
-          value: "RISING"
+          value: "rising"
         }, {
           text: this.$t("labels.tide.falling"),
-          value: "FALLING"
+          value: "falling"
         }, {
           text: this.$t("labels.tide.high"),
-          value: "HIGH"
+          value: "high"
         }, {
           text: this.$t("labels.tide.low"),
-          value: "LOW"
+          value: "low"
         }]
       };
     },
