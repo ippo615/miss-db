@@ -1,8 +1,48 @@
 <template>
   <v-container>
 
-    <v-form>
+    <v-expansion-panels>
+      <v-expansion-panel v-for="(option, optionKey) in dataOptions" :key="optionKey">
+        <v-expansion-panel-header expand-icon="mdi-filter">
+          <v-row no-gutters>
+            <v-col>
+              {{$t(`labels.${optionKey}.${optionKey}`)}}
+              <span class="text--secondary">(summary text)</span>
+            </v-col>
+          </v-row>
+        </v-expansion-panel-header>
+        <v-expansion-panel-content>
+          <v-switch v-for="(value, valueKey) in option" :key="valueKey"
+            v-model="dataFilter[optionKey][valueKey]"
+            :label="$t(`labels.${optionKey}.${valueKey}`)"
+            :hint="`${dataStats[optionKey][valueKey]} / ${specimen.length}`"
+            persistent-hint
+            inset
+            dense
+          ></v-switch>
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+    </v-expansion-panels>
+    
+    <!-- automatic filter input -->
+    <!-- <v-form>
+      <v-card v-for="(option, optionKey) in dataOptions" :key="optionKey">
+        <v-card-title>{{$t(`labels.${optionKey}.${optionKey}`)}} <v-icon>mdi-filter</v-icon></v-card-title>
+        <v-card-text>
+          <v-switch v-for="(value, valueKey) in option" :key="valueKey"
+            v-model="dataFilter[optionKey][valueKey]"
+            :label="$t(`labels.${optionKey}.${valueKey}`)"
+            :hint="`${dataStats[optionKey][valueKey]} / ${specimen.length}`"
+            persistent-hint
+            inset
+            dense
+          ></v-switch>
+        </v-card-text>
+      </v-card>
+    </v-form> -->
 
+    <!-- MANUAL CODED FILTER INPUT
+    <v-form>
       <v-card>
         <v-card-title>{{$t('labels.sex.sex')}} <v-icon>mdi-filter</v-icon></v-card-title>
         <v-card-text>
@@ -24,8 +64,8 @@
           ></v-switch>
         </v-card-text>
       </v-card>
-
     </v-form>
+    -->
 
     <v-data-table
       :headers="headers"
@@ -41,18 +81,43 @@ import SharkSpecimen from '@/models/shark_specimen';
 export default {
   name: 'SharkDataTable',
   data: () => ({
-    specimen: [
-      SharkSpecimen.createRandom(),
-      SharkSpecimen.createRandom(),
-      SharkSpecimen.createRandom(),
-      SharkSpecimen.createRandom(),
-      SharkSpecimen.createRandom(),
-      SharkSpecimen.createRandom(),
-      SharkSpecimen.createRandom(),
-      SharkSpecimen.createRandom(),
-      SharkSpecimen.createRandom(),
-      SharkSpecimen.createRandom()
-    ],
+    specimen: [],// this.generateRandomSamples(50),
+    dataOptions: {
+      sex: {
+        male: true,
+        female: true
+      },
+      maturity: {
+        youngOfYear: true,
+        immature: true,
+        mature: true
+      },
+      tagType: {
+        dart: true,
+        psat: true,
+        acoustic: true
+      },
+      samplesTaken: {
+        genetics: true,
+        biopsy: true,
+        blood: true,
+        mouthSwab: true,
+        analSwab: true
+      },
+      releaseCondition: {
+        excellent: true,
+        good: true,
+        fair: true,
+        poor: true,
+        doa: true
+      },
+      tide: {
+        rising: true,
+        falling: true,
+        high: true,
+        low: true
+      },
+    },
     dataFilter: {
       // Options: true => show, false => hide
       sex: {
@@ -102,7 +167,17 @@ export default {
       temperature: {min: 0, max: 9999},
     }
   }),
+  mounted(){
+    this.$data.specimen = this.generateRandomSamples(100);
+  },
   methods: {
+    generateRandomSamples(count){
+      let results = [];
+      for(let i=0; i<count; i+=1){
+        results.push(SharkSpecimen.createRandom());
+      }
+      return results;
+    },
     removeMatchingProperty(objects, targetProperty, targetValue){
       let subset = [];
       for( let i=0, l=objects.length; i<l; i+=1 ){
