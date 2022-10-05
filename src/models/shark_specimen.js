@@ -94,7 +94,7 @@ function SharkSpecimen(){}
             hookTime: randomInRangeInt(5,999),
             soakTime: randomInRangeInt(5,999),
             depth: randomInRangeInt(5,999),
-            tide: randomInRangeInt(5,999),
+            tide: randomChoiceFrom(options.tide),
             salinity: randomInRangeInt(5,999),
             temperature: randomInRangeInt(1,100),
         };

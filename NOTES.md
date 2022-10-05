@@ -42,3 +42,10 @@ function getFlagEmoji(countryCode) {
     .map(char =>  127397 + char.charCodeAt());
   return String.fromCodePoint(...codePoints);
 }
+
+Need location on body (with swab/sample) -- 
+Searching:
+ 1. Sort by field values
+ 2. Dumb text matching
+ 3. Interface for filters
+ 4. Interface for filtering with stats
