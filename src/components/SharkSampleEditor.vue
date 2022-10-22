@@ -200,6 +200,14 @@
     </v-row>
 
     <v-row>
+      <v-textarea
+          :label="$t('labels.extendedInfo.extendedInfo')"
+          v-model="extendedInfo"
+          :hint="$t('labels.extendedInfo.hintText')"
+        ></v-textarea>
+    </v-row>
+
+    <v-row>
       <v-btn block @click="saveSample">
         {{$t('labels.action.saveSample')}}
       </v-btn>
@@ -242,7 +250,8 @@ export default {
     depth: 0,
     tide: '',
     salinity: 0,
-    temperature: 0
+    temperature: 0,
+    extendedInfo: ''
   }),
   // items within a select element should be computed so they are translated correctly
   computed: {
