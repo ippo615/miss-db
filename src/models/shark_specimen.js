@@ -11,7 +11,7 @@ function SharkSpecimen(){}
         "girth",
         "tagLocation",
         "species",
-        "samplesTaken",
+        "sampleType",
         "releaseCondition",
         "hookTime",
         "soakTime",
@@ -36,12 +36,20 @@ function SharkSpecimen(){}
             psat: "psat",
             acoustic: "acoustic"
         },
-        samplesTaken: {
-            genetics: "genetics",
-            biopsy: "biopsy",
-            blood: "blood",
-            mouthSwab: "mouthSwab",
-            analSwab: "analSwab"
+        sampleType: {
+            biopsyFinClipPectoral: "biopsyFinClipPectoral",
+            biopsyFinClipPelvic: "biopsyFinClipPelvic",
+            biopsyFinClipDorsal: "biopsyFinClipDorsal",
+            biopsyGillSnipLeft: "biopsyGillSnipLeft",
+            biopsyGillSnipRight: "biopsyGillSnipRight",
+            bloodSampleTail: "bloodSampleTail",
+            bloodSampleDorsalSinuses: "bloodSampleDorsalSinuses",
+            biopsySkin: "biopsySkin",
+            biopsyMuscle: "biopsyMuscle",
+            swabAnal: "swabAnal",
+            swabMouth: "swabMouth",
+            swabGills: "swabGills",
+            other: "other"
         },
         releaseCondition: {
             excellent: "excellent",
@@ -87,9 +95,7 @@ function SharkSpecimen(){}
                 lng: randomInRange(0,360),
             },
             species: 'SPECIES TO BE DETERMINED',
-            samplesTaken: [
-                randomChoiceFrom(options.samplesTaken)
-            ],
+            sampleType: randomChoiceFrom(options.sampleType),
             releaseCondition: randomChoiceFrom(options.releaseCondition),
             hookTime: randomInRangeInt(5,999),
             soakTime: randomInRangeInt(5,999),
@@ -121,7 +127,7 @@ export default class SharkSpecimen {
         "girth",
         "tagLocation",
         "species",
-        "samplesTaken",
+        "sampleType",
         "releaseCondition",
         "hookTime",
         "soakTime",
@@ -145,7 +151,7 @@ export default class SharkSpecimen {
             psat: "PSAT",
             acoustic: "ACOUSTIC"
         },
-        samplesTaken: {
+        sampleType: {
             genetics: "GENETICS",
             biopsy: "BIOPSY",
             blood: "BLOOD",
@@ -195,8 +201,8 @@ export default class SharkSpecimen {
                 lng: randomInRange(0,360),
             },
             species: 'SPECIES TO BE DETERMINED',
-            samplesTaken: [
-                randomChoiceFrom(options.samplesTaken)
+            sampleType: [
+                randomChoiceFrom(options.sampleType)
             ],
             releaseCondition: randomChoiceFrom(options.releaseCondition),
             hookTime: randomInRangeInt(5,999),

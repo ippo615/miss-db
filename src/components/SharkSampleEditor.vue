@@ -83,15 +83,14 @@
 
       <v-row>
         <v-autocomplete
-          v-model="samplesTaken"
+          v-model="sampleType"
           prepend-icon="mdi-radiobox-blank"
           auto-select-first
           clearable
           chips
           deletable-chips
-          multiple
-          :items="items.samplesTaken"
-          :label="$t('labels.samplesTaken.samplesTaken')"
+          :items="items.sampleType"
+          :label="$t('labels.sampleType.sampleType')"
         ></v-autocomplete>
       </v-row>
 
@@ -212,6 +211,7 @@
 
 <script>
 import shark_species_data from '@/assets/shark_species_data';
+import SharkSpecimen from '@/models/shark_specimen'
 import LocationInput from './LocationInput.vue'
 export default {
   name: 'SharkSampleEditor',
@@ -235,7 +235,7 @@ export default {
       lng: -81.60644531250001
     },
     species: '',
-    samplesTaken: [],
+    sampleType: '',
     releaseCondition: '',
     hookTime: 0,
     soakTime: 0,
@@ -279,21 +279,45 @@ export default {
           value: "acoustic",
         }],
         // SAMPLES TAKEN
-        samplesTaken: [{
-          text: this.$t("labels.samplesTaken.genetics"),
-          value: "genetics"
+        sampleType: [{
+          text: this.$t("labels.sampleType.biopsyFinClipPectoral"),
+          value: SharkSpecimen.options.sampleType.biopsyFinClipPectoral
         }, {
-          text: this.$t("labels.samplesTaken.biopsy"),
-          value: "biopsy"
+          text: this.$t("labels.sampleType.biopsyFinClipPelvic"),
+          value: SharkSpecimen.options.sampleType.biopsyFinClipPelvic
         }, {
-          text: this.$t("labels.samplesTaken.blood"),
-          value: "blood"
+          text: this.$t("labels.sampleType.biopsyFinClipDorsal"),
+          value: SharkSpecimen.options.sampleType.biopsyFinClipDorsal
         }, {
-          text: this.$t("labels.samplesTaken.mouthSwab"),
-          value: "mouthSwab"
+          text: this.$t("labels.sampleType.biopsyGillSnipLeft"),
+          value: SharkSpecimen.options.sampleType.biopsyGillSnipLeft
         }, {
-          text: this.$t("labels.samplesTaken.analSwab"),
-          value: "analSwab"
+          text: this.$t("labels.sampleType.biopsyGillSnipRight"),
+          value: SharkSpecimen.options.sampleType.biopsyGillSnipRight
+        }, {
+          text: this.$t("labels.sampleType.bloodSampleTail"),
+          value: SharkSpecimen.options.sampleType.bloodSampleTail
+        }, {
+          text: this.$t("labels.sampleType.bloodSampleDorsalSinuses"),
+          value: SharkSpecimen.options.sampleType.bloodSampleDorsalSinuses
+        }, {
+          text: this.$t("labels.sampleType.biopsySkin"),
+          value: SharkSpecimen.options.sampleType.biopsySkin
+        }, {
+          text: this.$t("labels.sampleType.biopsyMuscle"),
+          value: SharkSpecimen.options.sampleType.biopsyMuscle
+        }, {
+          text: this.$t("labels.sampleType.swabAnal"),
+          value: SharkSpecimen.options.sampleType.swabAnal
+        }, {
+          text: this.$t("labels.sampleType.swabMouth"),
+          value: SharkSpecimen.options.sampleType.swabMouth
+        }, {
+          text: this.$t("labels.sampleType.swabGills"),
+          value: SharkSpecimen.options.sampleType.swabGills
+        }, {
+          text: this.$t("labels.sampleType.other"),
+          value: SharkSpecimen.options.sampleType.other
         }],
         // RELEASE CONDITION
         releaseCondition: [{

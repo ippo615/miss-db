@@ -97,12 +97,20 @@ export default {
         psat: true,
         acoustic: true
       },
-      samplesTaken: {
-        genetics: true,
-        biopsy: true,
-        blood: true,
-        mouthSwab: true,
-        analSwab: true
+      sampleType: {
+        biopsyFinClipPectoral: true,
+        biopsyFinClipPelvic: true,
+        biopsyFinClipDorsal: true,
+        biopsyGillSnipLeft: true,
+        biopsyGillSnipRight: true,
+        bloodSampleTail: true,
+        bloodSampleDorsalSinuses: true,
+        biopsySkin: true,
+        biopsyMuscle: true,
+        swabAnal: true,
+        swabMouth: true,
+        swabGills: true,
+        other: true
       },
       releaseCondition: {
         excellent: true,
@@ -134,12 +142,20 @@ export default {
         psat: true,
         acoustic: true
       },
-      samplesTaken: {
-        genetics: true,
-        biopsy: true,
-        blood: true,
-        mouthSwab: true,
-        analSwab: true
+      sampleType: {
+        biopsyFinClipPectoral: true,
+        biopsyFinClipPelvic: true,
+        biopsyFinClipDorsal: true,
+        biopsyGillSnipLeft: true,
+        biopsyGillSnipRight: true,
+        bloodSampleTail: true,
+        bloodSampleDorsalSinuses: true,
+        biopsySkin: true,
+        biopsyMuscle: true,
+        swabAnal: true,
+        swabMouth: true,
+        swabGills: true,
+        other: true
       },
       releaseCondition: {
         excellent: true,
@@ -243,12 +259,20 @@ export default {
           psat: 0,
           acoustic: 0
         },
-        samplesTaken: {
-          genetics: 0,
-          biopsy: 0,
-          blood: 0,
-          mouthSwab: 0,
-          analSwab: 0
+        sampleType: {
+          biopsyFinClipPectoral: 0,
+          biopsyFinClipPelvic: 0,
+          biopsyFinClipDorsal: 0,
+          biopsyGillSnipLeft: 0,
+          biopsyGillSnipRight: 0,
+          bloodSampleTail: 0,
+          bloodSampleDorsalSinuses: 0,
+          biopsySkin: 0,
+          biopsyMuscle: 0,
+          swabAnal: 0,
+          swabMouth: 0,
+          swabGills: 0,
+          other: 0
         },
         releaseCondition: {
           excellent: 0,
@@ -275,7 +299,7 @@ export default {
         salinity: {min: 9e99, max: -9e99},
         temperature: {min: 9e99, max: -9e99},
       };
-      let optionKeys = ["sex", "maturity", "tagType", "samplesTaken", "releaseCondition", "tide"];
+      let optionKeys = ["sex", "maturity", "tagType", "sampleType", "releaseCondition", "tide"];
       let numericKeys = ["preCaudalLength", "finLength", "tailLength", "standardLength", "girth", "hookTime", "soakTime", "depth", "salinity", "temperature"];
       let specimen = this.$data.specimen;
       for( let i=0, l=specimen.length; i<l; i+=1 ){
@@ -287,7 +311,7 @@ export default {
     },
     specimenFiltered(){
       // first invert the options filter so we remove from the list
-      let optionKeys = ["sex", "maturity", "tagType", "samplesTaken", "releaseCondition", "tide"];
+      let optionKeys = ["sex", "maturity", "tagType", "sampleType", "releaseCondition", "tide"];
       // let numericKeys = ["preCaudalLength", "finLength", "tailLength", "standardLength", "girth", "hookTime", "soakTime", "depth", "salinity", "temperature"];
       let results = this.$data.specimen;
       for(let i=0, l=optionKeys.length; i<l; i+=1){
@@ -320,9 +344,7 @@ export default {
           maturity: this.$t(`labels.maturity.${s.maturity}`),
           tagType: this.$t(`labels.tagType.${s.tagType}`),
           species: this.$t(`labels.species.${s.species}`), // TODO: proper handling of species
-          samplesTaken: [
-            s.samplesTaken.map(v => this.$t(`labels.samplesTaken.${v}`))
-          ],
+          sampleType: this.$t(`labels.sampleType.${s.sampleType}`),
           releaseCondition: this.$t(`labels.releaseCondition.${s.releaseCondition}`)
         };
         localized.push(specimen);

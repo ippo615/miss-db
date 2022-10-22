@@ -31,7 +31,7 @@
       "sex": "Sex",
       "maturity": "Maturity",
       "tagType": "Tag Type",
-      "samplesTaken": "Samples Taken",
+      "sampleType": "Samples Taken",
       "releaseCondition": "Release Condition",
       "depth": "Depth",
       "salinity": "Salinity",
@@ -92,13 +92,21 @@
       "psat": "PSAT",
       "acoustic": "Acoustic"
     },
-    "samplesTaken": {
-      "samplesTaken": "Samples Taken",
-      "genetics": "Genetics",
-      "biopsy": "Biopsy",
-      "blood": "Blood",
-      "mouthSwab": "Mouth Swab",
-      "analSwab": "Anal Swab"
+    "sampleType": {
+      "sampleType": "Sample Type",
+      "biopsyFinClipPectoral": "Biopsy / Fin Clip / Pectoral",
+      "biopsyFinClipPelvic": "Biopsy / Fin Clip / Pelvic",
+      "biopsyFinClipDorsal": "Biopsy / Fin Clip / Dorsal",
+      "biopsyGillSnipLeft": "Biopsy / Gill Snip / Left",
+      "biopsyGillSnipRight": "Biopsy / Gill Snip / Right",
+      "bloodSampleTail": "Blood / Sample / Tail",
+      "bloodSampleDorsalSinuses": "Blood Sample / Dorsal Sinuses",
+      "biopsySkin": "Biopsy / Skin",
+      "biopsyMuscle": "Biopsy / Muscle",
+      "swabAnal": "Swab / Anal",
+      "swabMouth": "Swab / Mouth",
+      "swabGills": "Swab / Gills",
+      "other": "Other"
     },
     "releaseCondition": {
       "releaseCondition": "Release Condition",
