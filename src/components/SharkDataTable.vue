@@ -7,7 +7,7 @@
           <v-row no-gutters>
             <v-col>
               {{$t(`labels.${optionKey}.${optionKey}`)}}
-              <span class="text--secondary">(summary text)</span>
+              <span class="text--secondary">({{filterSummary[optionKey]}})</span>
             </v-col>
           </v-row>
         </v-expansion-panel-header>
@@ -204,10 +204,29 @@ export default {
       }
       return subset;
     },
+    getKeysWithValue(object, value){
+      let keys = [];
+      for( let key in object ){
+        if(object[key] == value){
+          keys.push(key);
+        }
+      }
+      return keys;
+    },
+    valuesCount(object, value){
+      let values = Object.values(object);
+      let count = 0;
+      for( let i=0, l=values.length; i<l; i+=1 ){
+        if(values[i] == value){
+          count += 1;
+        }
+      }
+      return count;
+    },
     allValuesAre(object, value){
       let values = Object.values(object)
       for( let i=0, l=values.length; i<l; i+=1 ){
-        if(value[i] != value){
+        if(values[i] != value){
           return false;
         }
       }
@@ -241,6 +260,45 @@ export default {
         })
       }
       return h;
+    },
+    filterSummary(){
+      let summaries = {
+        sex: '',
+        maturity: '',
+        tagType: '',
+        sampleType: '',
+        releaseCondition: '',
+        tide: '',
+      };
+      let optionKeys = ["sex", "maturity", "tagType", "sampleType", "releaseCondition", "tide"];
+      for(let i=0, l=optionKeys.length; i<l; i+=1){
+        let optionKey = optionKeys[i];
+        let option = this.$data.dataFilter[optionKey];
+        if(this.allValuesAre(option, true)){
+          summaries[optionKey] = this.$t('labels.filterSummary.showingAll');
+        }else if(this.allValuesAre(option, false)){
+          summaries[optionKey] = this.$t('labels.filterSummary.hidingAll');
+        }else{
+          let showCount = this.valuesCount(option, true);
+          let hideCount = this.valuesCount(option, false);
+          if(showCount == 1){
+            summaries[optionKey] = [
+              this.$t('labels.filterSummary.showingOnly'),
+              ': ',
+              this.$t('labels.'+optionKey+'.'+this.getKeysWithValue(option, true).join(''))
+            ].join('');
+          }else if(hideCount == 1){
+            summaries[optionKey] = [
+              this.$t('labels.filterSummary.hidingOnly'),
+              ': ',
+              this.$t('labels.'+optionKey+'.'+this.getKeysWithValue(option, false).join(''))
+            ].join('');
+          }else{
+            summaries[optionKey] = this.$t('labels.filterSummary.hidingMultiple');
+          }
+        }
+      }
+      return summaries;
     },
     dataStats(){
       let stats = {

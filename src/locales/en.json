@@ -21,6 +21,13 @@
     "register": "MISS DB Register"
   },
   "labels": {
+    "filterSummary":{
+      "showingAll": "Showing All",
+      "hidingAll": "Hiding All (Please enable something to see results)",
+      "showingOnly": "Showing Only",
+      "hidingOnly": "Hiding",
+      "hidingMultiple": "Hiding Several Options"
+    },
     "extendedInfo": {
       "extendedInfo": "Extended Info",
       "hintText": "Place any additional information you want here, for example if the sample type is not one of the standard types you can describe it here."

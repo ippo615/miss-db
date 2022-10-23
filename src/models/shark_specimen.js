@@ -19,6 +19,7 @@ function SharkSpecimen(){}
         "tide",
         "salinity",
         "temperature",
+        "extendedInfo"
     ];
     
     let options = {
@@ -103,6 +104,7 @@ function SharkSpecimen(){}
             tide: randomChoiceFrom(options.tide),
             salinity: randomInRangeInt(5,999),
             temperature: randomInRangeInt(1,100),
+            extendedInfo: ""
         };
     }
 
