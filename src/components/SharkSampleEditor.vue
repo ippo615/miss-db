@@ -19,7 +19,8 @@
               @click="data.select"
             >
               <v-list-item-title>{{data.item.displayCommonName}}</v-list-item-title>
-              <v-list-item-subtitle style="opacity: 0.5">{{$t(data.item.order)}} / {{$t(data.item.family)}} / {{$t(data.item.genus)}} / {{$t(data.item.species)}}</v-list-item-subtitle>
+              <v-list-item-subtitle style="opacity: 0.5">{{data.item.order}} / {{data.item.family}} / {{data.item.genus}} / {{data.item.species}}</v-list-item-subtitle>
+              <!-- <v-list-item-subtitle style="opacity: 0.5">{{$t(data.item.order)}} / {{$t(data.item.family)}} / {{$t(data.item.genus)}} / {{$t(data.item.species)}}</v-list-item-subtitle> -->
             </v-list-item-content>
           </template>
 
@@ -30,7 +31,8 @@
             <template v-else>
               <v-list-item-content>
                 <v-list-item-title v-html="data.item.common_name"></v-list-item-title>
-                <v-list-item-subtitle>{{$t(data.item.order)}} / {{$t(data.item.family)}} / {{$t(data.item.genus)}} / {{$t(data.item.species)}}</v-list-item-subtitle>
+                <v-list-item-subtitle>{{data.item.order}} / {{data.item.family}} / {{data.item.genus}} / {{data.item.species}}</v-list-item-subtitle>
+                <!-- <v-list-item-subtitle>{{$t(data.item.order)}} / {{$t(data.item.family)}} / {{$t(data.item.genus)}} / {{$t(data.item.species)}}</v-list-item-subtitle> -->
               </v-list-item-content>
             </template>
           </template>
@@ -218,7 +220,7 @@
 </template>
 
 <script>
-import shark_species_data from '@/assets/shark_species_data';
+// import shark_species_data from '@/assets/shark_species_data';
 import SharkSpecimen from '@/models/shark_specimen'
 import LocationInput from './LocationInput.vue'
 export default {
@@ -226,9 +228,9 @@ export default {
   components: {
     LocationInput
   },
-  created(){
-    this.updateLocale();
-  },
+  // created(){
+  //   this.updateLocale();
+  // },
   data: () => ({
     sex: '',
     maturity: '',
@@ -363,16 +365,24 @@ export default {
     },
     sharkSpecies(){
       // return shark_species_data;
-      let sharks = [...shark_species_data];
+      let sharks = [...this.$store.state.sharks];
       for(let i=0, l=sharks.length; i<l; i+=1 ){
         var shark = sharks[i];
+        // Old style where each part of the entry had to be looked up in the translation data
+        // let names = [
+        //     this.$t(shark.order),
+        //     this.$t(shark.family),
+        //     this.$t(shark.genus),
+        //     this.$t(shark.species),
+        // ]
+        // shark.text = `${names.join(' / ')} (${this.$t(shark.common_name)})`;
         let names = [
-            this.$t(shark.order),
-            this.$t(shark.family),
-            this.$t(shark.genus),
-            this.$t(shark.species),
+            shark.order,
+            shark.family,
+            shark.genus,
+            shark.species,
         ]
-        shark.text = `${names.join(' / ')} (${this.$t(shark.common_name)})`;
+        shark.text = `${names.join(' / ')} (${shark.common_name})`;
         shark.value = shark.speciesId;
         shark.value = i;
         // Convert the common name to start with caps: ie "nine tooth shark" -> "Nine Tooth Shark"

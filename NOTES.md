@@ -49,3 +49,10 @@ Searching:
  2. Dumb text matching
  3. Interface for filters
  4. Interface for filtering with stats
+
+Species data is stored in src/assets/shark_species_data.js
+That is the default english translation
+All of the sharks need be given a unique id so they can be translated
+I'll probably want to register the species in a certain way in the tranlation files
+Vue i18n -- how to load multiple tranlation files?
+

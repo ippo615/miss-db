@@ -1,4 +1,4 @@
-export default
+{ "sharks":
     [
         {"order": "hexanchiformes", "family": "chlamydoselachidae", "genus": "chlamydoselachus", "species": "chlamydoselachus africana", "common_name": "southern african frilled shark", "discovery_year": "ebert", "discoverer": ""},
         {"order": "hexanchiformes", "family": "chlamydoselachidae", "genus": "chlamydoselachus", "species": "chlamydoselachus anguineus", "common_name": "frilled shark", "discovery_year": "1884", "discoverer": "garman"},
@@ -537,3 +537,4 @@ export default
         {"order": "carcharhiniformes", "family": "triakidae", "genus": "triakis", "species": "triakis scyllium", "common_name": "banded houndshark", "discovery_year": "1839", "discoverer": "j. p. müller & henle"},
         {"order": "carcharhiniformes", "family": "triakidae", "genus": "triakis", "species": "triakis semifasciata", "common_name": "leopard shark", "discovery_year": "1855", "discoverer": "girard"}
     ]
+}

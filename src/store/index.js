@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
+import axios from 'axios'
 import {auth} from '@/firebaseApp'
 import {
   createUserWithEmailAndPassword,
@@ -11,7 +12,9 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-    user: null
+    user: null,
+    currentLocale: 'en',
+    sharks: []
   },
   getters: {
     getUser: state => state.user,
@@ -20,10 +23,30 @@ export default new Vuex.Store({
   mutations: {
     SET_USER: state => {
       state.user = auth.user;
+    },
+    SET_LOCALE(state, localeCode){
+      console.info(`Changeing locale from ${state.currentLocale} to ${localeCode}`);
+      state.currentLocale = localeCode;
+    },
+    SET_SHARKS(state, sharks){
+      console.info(state);
+      state.sharks = sharks;
     }
   },
   // store.dispatch(action)
   actions: {
+    async setLocale(context, localeCode){
+      try {
+        // const shark_text = await axios.get(`/shark_species_data/${localeCode}.json`);
+        // const sharks = JSON.parse(shark_text).sharks;
+        const response = await axios.get(`/shark_species_data/${localeCode}.json`);
+        context.commit("SET_SHARKS", response.data.sharks);
+        context.commit("SET_LOCALE", localeCode);
+      } catch (e){
+        console.info(e);
+        console.info(`Failed to load shark data for locale ${localeCode}.`)
+      }
+    },
     setUser: context => {
       context.commit("SET_USER");
     },

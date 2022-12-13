@@ -29,6 +29,9 @@
             this.$i18n.locale = this.locale;
             this.$vuetify.lang.current = this.locale;
         }
+    },
+    mounted(){
+      this.$store.dispatch('setLocale', this.locale);
     }
   }
 </script>

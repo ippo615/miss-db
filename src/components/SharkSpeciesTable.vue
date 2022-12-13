@@ -28,11 +28,11 @@
   //  - create a file for each translation of the table (ie shark_species_data.en.js, ...ko.js, etc...)
   //  - add a language property in Vuex
   //  - in the mutation event -- reload the data and replace with new language
-  import shark_species from '../assets/shark_species_data.js'
+  // import shark_species from '../assets/shark_species_data.js'
   export default {
     data: () => ({
       search: '',
-      species: shark_species,
+      // species: shark_species,
       example: {
           "order": "hexanchiformes",
           "family": "chlamydoselachidae",
@@ -44,6 +44,9 @@
       }
     }),
     computed: {
+      species(){
+        return this.$store.state.sharks;
+      },
       headers(){
         return [{
             text: this.$t('labels.speciesTable.commonName'),

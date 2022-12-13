@@ -34,6 +34,7 @@
     },
     "sharkDataHeaders": {
       "IMPORTANT_NOTE": "THIS IS TEMPORARY? FOR QUICK TABLE SETUP",
+      "extendedInfo": "Extended Info",
       "preCaudalLength": "Pre-caudal Length",
       "finLength": "Fin Length",
       "tailLength": "Tail Length",
