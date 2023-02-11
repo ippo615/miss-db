@@ -23,6 +23,7 @@ Next Steps
      - branding of website
      - selecting language
    - Main content can vary
+
 2. Use vue router to create routes
    - login
    - sign up
@@ -33,6 +34,21 @@ Next Steps
  3. Make views for each route
   - each view can bemade of components
   - each should set the page title when mouned
+
+ 4. Firebase hosting
+  - build stuff
+  - upload and test
+
+ 5. Firebase data store
+  - save/load data into firebase
+
+ 6. User Journey
+  - design and use for a user
+
+ 7. Landing page:
+  - logo
+  - login
+  - about
 
 To get emoji flag from country code:
 function getFlagEmoji(countryCode) {
