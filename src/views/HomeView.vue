@@ -1,5 +1,15 @@
 <template>
   <v-col>
+    <v-row align="center" justify="center">
+      <v-col>
+        <about-info />
+      </v-col>
+      <v-col>
+        <v-card class="mx-auto" max-width="344">
+          <user-sign-in-email-vue />
+        </v-card>
+      </v-col>
+    </v-row>
     <v-row>
       <hello-world />
     </v-row>
@@ -62,9 +72,11 @@
   import CollaboratorEditorVue from '@/components/CollaboratorEditor.vue'
   import UserSignUpEmailVue from '@/components/UserSignUpEmail.vue'
   import UserSignInEmailVue from '@/components/UserSignInEmail.vue'
+  import AboutInfo from '@/components/AboutInfo.vue'
 
   export default {
     components: {
+      AboutInfo,
       HelloWorld,
       LocaleSelect,
       HelloI18n,

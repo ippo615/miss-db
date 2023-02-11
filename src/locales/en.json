@@ -2,6 +2,18 @@
   "debug": {
     "hello": "hello i18n !!"
   },
+  "branding": {
+    "about": {
+      "title": "MISS Sample Database", 
+      "subtitle": "About Us",
+      "description": "Blah blah blah blah"
+    }
+  },
+  "marketing": {
+    "donate": {
+      "callToAction": "Support Us"
+    }
+  },
   "errors": {
     "failedToGetLocation": "Location provider did not return good location."
   },
