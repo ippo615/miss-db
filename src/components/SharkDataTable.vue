@@ -184,7 +184,10 @@ export default {
     }
   }),
   mounted(){
-    this.$data.specimen = this.generateRandomSamples(100);
+    // We needa timeout so the translations have time to load
+    setTimeout(() => {
+      this.$data.specimen = this.generateRandomSamples(100);
+    }, 500);
   },
   methods: {
     generateRandomSamples(count){
@@ -401,7 +404,7 @@ export default {
           sex: this.$t(`labels.sex.${s.sex}`),
           maturity: this.$t(`labels.maturity.${s.maturity}`),
           tagType: this.$t(`labels.tagType.${s.tagType}`),
-          species: this.$t(`labels.species.${s.species}`), // TODO: proper handling of species
+          species: this.$store.getters.speciesById(s.species).common_name,  // TODO more columns for species info/object
           sampleType: this.$t(`labels.sampleType.${s.sampleType}`),
           releaseCondition: this.$t(`labels.releaseCondition.${s.releaseCondition}`)
         };

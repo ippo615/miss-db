@@ -95,7 +95,7 @@ function SharkSpecimen(){}
                 lat: randomInRange(0,180),
                 lng: randomInRange(0,360),
             },
-            species: 'SPECIES TO BE DETERMINED',
+            species: randomInRangeInt(0,1000),  // maybe i should change this to speciesId and have a different field for "species object"
             sampleType: randomChoiceFrom(options.sampleType),
             releaseCondition: randomChoiceFrom(options.releaseCondition),
             hookTime: randomInRangeInt(5,999),

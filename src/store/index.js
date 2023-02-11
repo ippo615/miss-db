@@ -19,6 +19,9 @@ export default new Vuex.Store({
   },
   getters: {
     getUser: state => state.user,
+    speciesById: (state) => (id) => {
+      return state.sharks[parseInt(id)];
+    }
   },
   // store.commit(mutation)
   mutations: {
