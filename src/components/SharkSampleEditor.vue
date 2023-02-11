@@ -291,14 +291,14 @@ export default {
         }],
         // SAMPLES TAKEN
         sampleType: [{
+          text: this.$t("labels.sampleType.biopsyFinClipDorsal"),
+          value: SharkSpecimen.options.sampleType.biopsyFinClipDorsal
+        }, {
           text: this.$t("labels.sampleType.biopsyFinClipPectoral"),
           value: SharkSpecimen.options.sampleType.biopsyFinClipPectoral
         }, {
           text: this.$t("labels.sampleType.biopsyFinClipPelvic"),
           value: SharkSpecimen.options.sampleType.biopsyFinClipPelvic
-        }, {
-          text: this.$t("labels.sampleType.biopsyFinClipDorsal"),
-          value: SharkSpecimen.options.sampleType.biopsyFinClipDorsal
         }, {
           text: this.$t("labels.sampleType.biopsyGillSnipLeft"),
           value: SharkSpecimen.options.sampleType.biopsyGillSnipLeft
@@ -306,26 +306,26 @@ export default {
           text: this.$t("labels.sampleType.biopsyGillSnipRight"),
           value: SharkSpecimen.options.sampleType.biopsyGillSnipRight
         }, {
-          text: this.$t("labels.sampleType.bloodSampleTail"),
-          value: SharkSpecimen.options.sampleType.bloodSampleTail
-        }, {
-          text: this.$t("labels.sampleType.bloodSampleDorsalSinuses"),
-          value: SharkSpecimen.options.sampleType.bloodSampleDorsalSinuses
+          text: this.$t("labels.sampleType.biopsyMuscle"),
+          value: SharkSpecimen.options.sampleType.biopsyMuscle
         }, {
           text: this.$t("labels.sampleType.biopsySkin"),
           value: SharkSpecimen.options.sampleType.biopsySkin
         }, {
-          text: this.$t("labels.sampleType.biopsyMuscle"),
-          value: SharkSpecimen.options.sampleType.biopsyMuscle
+          text: this.$t("labels.sampleType.bloodSampleDorsalSinuses"),
+          value: SharkSpecimen.options.sampleType.bloodSampleDorsalSinuses
+        }, {
+          text: this.$t("labels.sampleType.bloodSampleTail"),
+          value: SharkSpecimen.options.sampleType.bloodSampleTail
         }, {
           text: this.$t("labels.sampleType.swabAnal"),
           value: SharkSpecimen.options.sampleType.swabAnal
         }, {
-          text: this.$t("labels.sampleType.swabMouth"),
-          value: SharkSpecimen.options.sampleType.swabMouth
-        }, {
           text: this.$t("labels.sampleType.swabGills"),
           value: SharkSpecimen.options.sampleType.swabGills
+        }, {
+          text: this.$t("labels.sampleType.swabMouth"),
+          value: SharkSpecimen.options.sampleType.swabMouth
         }, {
           text: this.$t("labels.sampleType.other"),
           value: SharkSpecimen.options.sampleType.other
