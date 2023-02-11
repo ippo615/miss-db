@@ -1,0 +1,1121 @@
+id,order,family,genus,species,common_name,discovery_year,discoverer
+1,hexanchiformes,chlamydoselachidae,chlamydoselachus,chlamydoselachus africana,southern african frilled shark,ebert,
+2,hexanchiformes,chlamydoselachidae,chlamydoselachus,chlamydoselachus anguineus,frilled shark,1884,garman
+3,hexanchiformes,hexanchidae,heptranchias,heptranchias perlo,sharp-nose seven-gill shark,,
+4,hexanchiformes,hexanchidae,hexanchus,hexanchus griseus,blunt-nose six-gill shark,1788,bonnaterre
+5,hexanchiformes,hexanchidae,hexanchus,hexanchus nakamurai,big-eyed six-gill shark,teng,
+6,hexanchiformes,hexanchidae,hexanchus,hexanchus vitulus,atlantic six-gill shark,springer,
+7,hexanchiformes,hexanchidae,notorynchus,notorynchus cepedianus,broad-nose seven-gill shark,,
+8,squaliformes,centrophoridae,centrophorus,centrophorus atromarginatus,dwarf gulper shark,1913,garman
+9,squaliformes,centrophoridae,centrophorus,centrophorus granulosus,gulper shark,,
+10,squaliformes,centrophoridae,centrophorus,centrophorus harrissoni,dumb gulper shark,mcculloch,
+11,squaliformes,centrophoridae,centrophorus,centrophorus moluccensis,small-fin gulper shark,bleeker,
+12,squaliformes,centrophoridae,centrophorus,centrophorus seychellorum,seychelles gulper shark,baranes,
+13,squaliformes,centrophoridae,centrophorus,centrophorus squamosus,leaf-scale gulper shark,1788,bonnaterre
+14,squaliformes,centrophoridae,centrophorus,centrophorus tessellatus,mosaic gulper shark,1906,garman
+15,squaliformes,centrophoridae,centrophorus,centrophorus uyato,little gulper shark,1810,rafinesque
+16,squaliformes,centrophoridae,centrophorus,centrophorus westraliensis,western gulper shark,w. t. white,
+17,squaliformes,centrophoridae,centrophorus,centrophorus zeehaani,southern dogfish,2008,"w. t. white, ebert & l. j. v. compagno"
+18,squaliformes,centrophoridae,centrophorus,centrophorus,mini gulper shark,not yet described,
+19,squaliformes,centrophoridae,centrophorus,centrophorus,slender gulper shark,not yet described,
+20,squaliformes,centrophoridae,deania,deania calcea,bird-beak dogfish,,
+21,squaliformes,centrophoridae,deania,deania hystricosa,rough long-nose dogfish,1906,garman
+22,squaliformes,centrophoridae,deania,deania profundorum,arrow-head dogfish,,
+23,squaliformes,centrophoridae,deania,deania quadrispinosa,long-snout dogfish,1915,mcculloch
+24,squaliformes,dalatiidae,dalatias,dalatias licha,kite-fin shark,1788,bonnaterre
+25,squaliformes,dalatiidae,euprotomicroides,euprotomicroides zantedeschia,tail-light shark,1966,hulley & m. j. penrith
+26,squaliformes,dalatiidae,euprotomicrus,euprotomicrus bispinatus,pygmy shark,,
+27,squaliformes,dalatiidae,heteroscymnoides,heteroscymnoides marleyi,long-nose pygmy shark,fowler 1934,
+28,squaliformes,dalatiidae,isistius,isistius brasiliensis,cookie-cutter shark,1824,quoy & gaimard
+29,squaliformes,dalatiidae,isistius,isistius plutodus,large-tooth cookiecutter shark,garrick,
+30,squaliformes,dalatiidae,mollisquama,mollisquama parini,pocket shark,1984,dolganov
+31,squaliformes,dalatiidae,squaliolus,squaliolus aliae,small-eye pygmy shark,teng,
+32,squaliformes,dalatiidae,squaliolus,squaliolus laticaudus,spined pygmy shark,1912,h. m. smith & radcliffe
+33,squaliformes,echinorhinidae,echinorhinus,echinorhinus brucus,bramble shark,1788,bonnaterre
+34,squaliformes,echinorhinidae,echinorhinus,echinorhinus cookei,prickly shark,pietschmann,
+35,squaliformes,etmopteridae,aculeola,aculeola nigra,hook-tooth dogfish,1959,f. de buen
+36,squaliformes,etmopteridae,centroscyllium,centroscyllium excelsum,high-fin dogfish,shirai,
+37,squaliformes,etmopteridae,centroscyllium,centroscyllium fabricii,black dogfish,,
+38,squaliformes,etmopteridae,centroscyllium,centroscyllium granulatum,granular dogfish,günther,
+39,squaliformes,etmopteridae,centroscyllium,centroscyllium kamoharai,bare-skin dogfish,t. abe,
+40,squaliformes,etmopteridae,centroscyllium,centroscyllium nigrum,comb-tooth dogfish,1899,garman
+41,squaliformes,etmopteridae,centroscyllium,centroscyllium ornatum,ornate dogfish,,
+42,squaliformes,etmopteridae,centroscyllium,centroscyllium ritteri,white-fin dogfish,d. s. jordan,
+43,squaliformes,etmopteridae,etmopterus,etmopterus baxteri,new zealand lanternshark,1957,garrick
+44,squaliformes,etmopteridae,etmopterus,etmopterus benchleyi,ninja lanternshark,v. e. vásquez,
+45,squaliformes,etmopteridae,etmopterus,etmopterus bigelowi,blurred lanternshark,shirai &,
+46,squaliformes,etmopteridae,etmopterus,etmopterus brachyurus,short-tail lanternshark,h. m. smith,
+47,squaliformes,etmopteridae,etmopterus,etmopterus bullisi,lined lanternshark,bigelow,
+48,squaliformes,etmopteridae,etmopterus,etmopterus burgessi,broad-snout lanternshark,schaaf-da silva,
+49,squaliformes,etmopteridae,etmopterus,etmopterus carteri,cylindrical lanternshark,s. springer,
+50,squaliformes,etmopteridae,etmopterus,etmopterus caudistigmus,tail-spot lanternshark,last,
+51,squaliformes,etmopteridae,etmopterus,etmopterus compagnoi,brown lanternshark,r. fricke,
+52,squaliformes,etmopteridae,etmopterus,etmottoopoepterus decapidaaticusspidatus,comb-tooth lanternshark,w. l. y. chan,
+53,squaliformes,etmopteridae,etmopterus,etmopterus dianthus,pink lanternshark,2002,"last, g. h. burgess & séret"
+54,squaliformes,etmopteridae,etmopterus,etmopterus dislineatus,lined lanternshark,2002,"last, g. h. burgess & séret"
+55,squaliformes,etmopteridae,etmopterus,etmopterus evansi,black-mouth lanternshark,2002,"last, g. h. burgess & séret"
+56,squaliformes,etmopteridae,etmopterus,etmopterus fusus,pygmy lanternshark,2002,"last, g. h. burgess & séret"
+57,squaliformes,etmopteridae,etmopterus,etmopterus gracilispinis,broad-banded lanternshark,g. krefft,
+58,squaliformes,etmopteridae,etmopterus,etmopterus granulosus,southern lanternshark,1880,günther
+59,squaliformes,etmopteridae,etmopterus,etmopterus hillianus,caribbean lanternshark,,
+60,squaliformes,etmopteridae,etmopterus,etmopterus joungi,short-fin smooth lanternshark,knuckey,
+61,squaliformes,etmopteridae,etmopterus,etmopterus litvinovi,small-eye lanternshark,parin,
+62,squaliformes,etmopteridae,etmopterus,etmopterus lucifer,black-belly lanternshark,d. s. jordan &,
+63,squaliformes,etmopteridae,etmopterus,etmopterus molleri,moller_s lanternshark,,
+64,squaliformes,etmopteridae,etmopterus,etmopterus perryi,dwarf lanternshark,1985,s. springer & g. h. burgess
+65,squaliformes,etmopteridae,etmopterus,etmopterus polli,african lanternshark,bigelow,
+66,squaliformes,etmopteridae,etmopterus,etmopterus princeps,great lanternshark,collett,
+67,squaliformes,etmopteridae,etmopterus,etmopterus pseudosqualiolus,false lanternshark,2002,"last, g. h. burgess & séret"
+68,squaliformes,etmopteridae,etmopterus,etmopterus pusillus,smooth lanternshark,,
+69,squaliformes,etmopteridae,etmopterus,etmopterus pycnolepis,dense-scale lanternshark,1990,kotlyar
+70,squaliformes,etmopteridae,etmopterus,etmopterus robinsi,west indian lanternshark,schofield,
+71,squaliformes,etmopteridae,etmopterus,etmopterus schultzi,fringe-fin lanternshark,1953,"bigelow, schroeder & s. springer"
+72,squaliformes,etmopteridae,etmopterus,etmopterus sculptus,sculpted lanternshark,l. j. v. compagno &,ebert
+73,squaliformes,etmopteridae,etmopterus,etmopterus sentosus,thorny lanternshark,bass,
+74,squaliformes,etmopteridae,etmopterus,etmopterus sheikoi,rasp-tooth dogfish,1986,dolganov
+75,squaliformes,etmopteridae,etmopterus,etmopterus spinax,velvet-belly lanternshark,,
+76,squaliformes,etmopteridae,etmopterus,etmopterus splendidus,splendid lanternshark,ka. yano,
+77,squaliformes,etmopteridae,etmopterus,etmopterus unicolor,bristled lanternshark,,
+78,squaliformes,etmopteridae,etmopterus,etmopterus vibrator,traveller lanternshark,straube,
+79,squaliformes,etmopteridae,etmopterus,etmopterus villosus,hawaiian lanternshark,c. h. gilbert,
+80,squaliformes,etmopteridae,etmopterus,etmopterus virens,green lanternshark,1953,"bigelow, schroeder & s. springer"
+81,squaliformes,etmopteridae,etmopterus,etmopterus,guadalupe lanternshark,not yet described,
+82,squaliformes,etmopteridae,etmopterus,etmopterus,chilean lanternshark,not yet described,
+83,squaliformes,etmopteridae,etmopterus,etmopterus,papua short-tail lanternshark,not yet described,
+84,squaliformes,etmopteridae,trigonognathus,trigonognathus kabeyai,viper dogfish,1990,mochizuki & f. ohe
+85,squaliformes,oxynotidae,oxynotus,oxynotus bruniensis,prickly dogfish,,
+86,squaliformes,oxynotidae,oxynotus,oxynotus caribbaeus,caribbean roughshark,cervigón,
+87,squaliformes,oxynotidae,oxynotus,oxynotus centrina,angular roughshark,1758,linnaeus
+88,squaliformes,oxynotidae,oxynotus,oxynotus japonicus,japanese roughshark,ka. yano &,
+89,squaliformes,oxynotidae,oxynotus,oxynotus paradoxus,sail-fin roughshark,frade,
+90,squaliformes,somniosidae,centroscymnus,centroscymnus coelolepis,portuguese dogfish,1864,barbosa du bocage & brito capello
+91,squaliformes,somniosidae,centroscymnus,centroscymnus owstonii,rough-skin dogfish,1906,garman
+92,squaliformes,somniosidae,centroselachus,centroselachus crepidater,long-nose velvet dogfish,1864,barbosa du bocage & brito capello
+93,squaliformes,somniosidae,scymnodalatias,scymnodalatias albicauda,white-tail dogfish,taniuchi,
+94,squaliformes,somniosidae,scymnodalatias,scymnodalatias garricki,azores dogfish,kukuev,
+95,squaliformes,somniosidae,scymnodalatias,scymnodalatias oligodon,sparse-tooth dogfish,1988,kukuev & konovalenko
+96,squaliformes,somniosidae,scymnodalatias,scymnodalatias sherwoodi,sherwood_s dogfish,,
+97,squaliformes,somniosidae,scymnodon,scymnodon ichiharai,japanese velvet dogfish,ka. yano &,
+98,squaliformes,somniosidae,scymnodon,scymnodon macracanthus,large-spine velvet dogfish,,
+99,squaliformes,somniosidae,scymnodon,scymnodon plunketi,plunket_s shark,,
+100,squaliformes,somniosidae,scymnodon,scymnodon ringens,knife-tooth dogfish,1864,barbosa du bocage & brito capello
+101,squaliformes,somniosidae,somniosus,somniosus antarcticus,southern sleeper shark,1939,whitley
+102,squaliformes,somniosidae,somniosus,somniosus longus,frog shark,,
+103,squaliformes,somniosidae,somniosus,somniosus microcephalus,greenland shark,,
+104,squaliformes,somniosidae,somniosus,somniosus pacificus,pacific sleeper shark,1944,bigelow & schroeder
+105,squaliformes,somniosidae,somniosus,somniosus rostratus,little sleeper shark,,
+106,squaliformes,somniosidae,somniosus,somniosus,long-nose sleeper shark,not yet described,
+107,squaliformes,somniosidae,zameus,zameus squamulosus,velvet dogfish,1877,günther
+108,squaliformes,squalidae,cirrhigaleus,cirrhigaleus asper,rough-skin spurdog,,
+109,squaliformes,squalidae,cirrhigaleus,cirrhigaleus australis,southern mandarin dogfish,last &,w. t. white
+110,squaliformes,squalidae,cirrhigaleus,cirrhigaleus barbifer,mandarin dogfish,1912,s. tanaka (i
+111,squaliformes,squalidae,squalus,squalus acanthias,spiny dogfish,1758,linnaeus
+112,squaliformes,squalidae,squalus,squalus acutipinnis,blunt-nose spiny dogfish,1908,regan
+113,squaliformes,squalidae,squalus,squalus albifrons,eastern high-fin spurdog,2007,"last, w. t. white & j. d. stevens"
+114,squaliformes,squalidae,squalus,squalus altipinnis,western high-fin spurdog,2007,"last, w. t. white & j. d. stevens"
+115,squaliformes,squalidae,squalus,squalus blainville,long-nose spurdog,,
+116,squaliformes,squalidae,squalus,squalus brevirostris,japanese short-nose spurdog,1917,s. tanaka (i
+117,squaliformes,squalidae,squalus,squalus bucephalus,big-head spurdog,séret &,last
+118,squaliformes,squalidae,squalus,squalus chloroculus,green-eye spurdog,w. t. white &,last
+119,squaliformes,squalidae,squalus,squalus clarkae,genie_s dogfish,2018,"pfleger, grubbs, cotton & daly-engel"
+120,squaliformes,squalidae,squalus,squalus crassispinus,fat-spine spurdog,,last
+121,squaliformes,squalidae,squalus,squalus cubensis,cuban dogfish,howell-rivero,
+122,squaliformes,squalidae,squalus,squalus edmundsi,edmund_s spurdog,2007,"w. t. white, last & j. d. stevens"
+123,squaliformes,squalidae,squalus,squalus formosus,taiwan spurdog,w. t. white &,
+124,squaliformes,squalidae,squalus,squalus grahami,eastern long-nose spurdog,2007,"w. t. white, last & j. d. stevens"
+125,squaliformes,squalidae,squalus,squalus griffini,northern spiny dogfish,phillipps,
+126,squaliformes,squalidae,squalus,squalus hemipinnis,indonesian short-snout spurdog,2007,"w. t. white, last] & yearsley"
+127,squaliformes,squalidae,squalus,squalus japonicus,japanese spurdog,ishikawa,
+128,squaliformes,squalidae,squalus,squalus lalannei,seychelles spurdog,baranes,
+129,squaliformes,squalidae,squalus,squalus megalops,short-nose spurdog,,
+130,squaliformes,squalidae,squalus,squalus melanurus,black-tailed spurdog,fourmanoir,
+131,squaliformes,squalidae,squalus,squalus mitsukurii,short-spine spurdog,1903,d. s. jordan & snyder
+132,squaliformes,squalidae,squalus,squalus montalbani,indonesian greeneye spurdog,whitley,
+133,squaliformes,squalidae,squalus,squalus nasutus,western long-nose spurdog,,last
+134,squaliformes,squalidae,squalus,squalus notocaudatus,bar-tail spurdog,2007,"last, w. t. white & j. d. stevens"
+135,squaliformes,squalidae,squalus,squalus rancureli,cyrano spurdog,1979,fourmanoir & rivaton
+136,squaliformes,squalidae,squalus,squalus raoulensis,kermadec spiny dogfish,c. a. j. duffy,
+137,squaliformes,squalidae,squalus,squalus suckleyi,pacific spiny dogfish,1854,girard
+138,squaliformes,squalidae,squalus,squalus,lombok high-fin spurdog,not yet described,
+139,pristiophoriformes,pristiophoridae,pliotrema,pliotrema warreni,six-gill sawshark,1906,regan
+140,pristiophoriformes,pristiophoridae,pristiophorus,pristiophorus cirratus,long-nose sawshark,,
+141,pristiophoriformes,pristiophoridae,pristiophorus,pristiophorus delicatus,tropical sawshark,2008,"yearsley, last & w. t. white"
+142,pristiophoriformes,pristiophoridae,pristiophorus,pristiophorus japonicus,japanese sawshark,günther,
+143,pristiophoriformes,pristiophoridae,pristiophorus,pristiophorus lanae,lana_s sawshark,ebert &,
+144,pristiophoriformes,pristiophoridae,pristiophorus,pristiophorus nancyae,african dwarf sawshark,ebert &,
+145,pristiophoriformes,pristiophoridae,pristiophorus,pristiophorus nudipinnis,short-nose sawshark,1870,günther
+146,pristiophoriformes,pristiophoridae,pristiophorus,pristiophorus schroederi,bahamas sawshark,s. springer &,
+147,squatiniformes,squatinidae,squatina,squatina aculeata,saw-back angelshark,g. cuvier,
+148,squatiniformes,squatinidae,squatina,squatina africana,african angelshark,1908,regan
+149,squatiniformes,squatinidae,squatina,squatina albipunctata,eastern angelshark,2008,last & w. t. white
+150,squatiniformes,squatinidae,squatina,squatina argentina,argentine angelshark,,
+151,squatiniformes,squatinidae,squatina,squatina armata,chilean angelshark,,
+152,squatiniformes,squatinidae,squatina,squatina australis,australian angelshark,1906,regan
+153,squatiniformes,squatinidae,squatina,squatina caillieti,philippines angelshark,2011,"j. h. walsh, ebert & l. j. v. compagno"
+154,squatiniformes,squatinidae,squatina,squatina californica,pacific angelshark,ayres,
+155,squatiniformes,squatinidae,squatina,squatina dumeril,atlantic angelshark,lesueur,
+156,squatiniformes,squatinidae,squatina,squatina formosa,taiwan angelshark,s. c. shen,
+157,squatiniformes,squatinidae,squatina,squatina guggenheim,angular angelshark,marini,
+158,squatiniformes,squatinidae,squatina,squatina heteroptera,disparate angelshark,castro-aguirre,
+159,squatiniformes,squatinidae,squatina,squatina japonica,japanese angelshark,bleeker,
+160,squatiniformes,squatinidae,squatina,squatina legnota,indonesian angelshark,2008,last & w. t. white
+161,squatiniformes,squatinidae,squatina,squatina mapama,"long, ebert, tavera, pizarro & robertson, 2021 (short-crested angelshark",,
+162,squatiniformes,squatinidae,squatina,squatina mexicana,mexican angelshark,castro-aguirre,
+163,squatiniformes,squatinidae,squatina,squatina nebulosa,clouded angelshark,1906,regan
+164,squatiniformes,squatinidae,squatina,squatina occulta,hidden angelshark,vooren,
+165,squatiniformes,squatinidae,squatina,squatina oculata,smooth-back angelshark,1840,bonaparte
+166,squatiniformes,squatinidae,squatina,squatina pseudocellata,western angelshark,2008,last & w. t. white
+167,squatiniformes,squatinidae,squatina,squatina squatina,angelshark,1758,linnaeus
+168,squatiniformes,squatinidae,squatina,squatina tergocellata,ornate angelshark,1914,mcculloch
+169,squatiniformes,squatinidae,squatina,squatina tergocellatoides,ocellated angelshark,j.s.t.f. chen,
+170,heterodontiformes,heterodontidae,heterodontus,heterodontus francisci,horn shark,1855,girard
+171,heterodontiformes,heterodontidae,heterodontus,heterodontus galeatus,crested bullhead shark,1870,günther
+172,heterodontiformes,heterodontidae,heterodontus,heterodontus japonicus,japanese bullhead shark,maclay,
+173,heterodontiformes,heterodontidae,heterodontus,heterodontus mexicanus,mexican hornshark,l. r. taylor,
+174,heterodontiformes,heterodontidae,heterodontus,heterodontus omanensis,oman bullhead shark,z. h. baldwin,
+175,heterodontiformes,heterodontidae,heterodontus,heterodontus portusjacksoni,port jackson shark,,
+176,heterodontiformes,heterodontidae,heterodontus,heterodontus quoyi,galapagos bullhead shark,,
+177,heterodontiformes,heterodontidae,heterodontus,heterodontus ramalheira,white-spotted bullhead shark,,
+178,heterodontiformes,heterodontidae,heterodontus,heterodontus zebra,zebra bullhead shark,,
+179,heterodontiformes,heterodontidae,heterodontus,heterodontus,cryptic hornshark,not yet described,
+180,lamniformes,alopiidae,alopias,alopias pelagicus,pelagic thresher shark,nakamura,
+181,lamniformes,alopiidae,alopias,alopias superciliosus,big-eye thresher shark,r. t. lowe,
+182,lamniformes,alopiidae,alopias,alopias vulpinus,thresher shark,1788,bonnaterre
+183,lamniformes,cetorhinidae,cetorhinus,cetorhinus maximus,basking shark,,
+184,lamniformes,lamnidae,carcharodon,carcharodon carcharias,great white shark,1758,linnaeus
+185,lamniformes,lamnidae,isurus,isurus oxyrinchus,short-fin mako,1810,rafinesque
+186,lamniformes,lamnidae,isurus,isurus paucus,long-fin mako,guitart-manday,
+187,lamniformes,lamnidae,lamna,lamna ditropis,salmon shark,c. l. hubbs,
+188,lamniformes,lamnidae,lamna,lamna nasus,porbeagle shark,1788,bonnaterre
+189,lamniformes,megachasmidae,megachasma,megachasma pelagios,megamouth shark,1983,"l. r. taylor, l. j. v. compagno & struhsaker"
+190,lamniformes,mitsukurinidae,mitsukurina,mitsukurina owstoni,goblin shark,1898,d. s. jordan
+191,lamniformes,odontaspididae,carcharias,carcharias taurus,sand tiger shark,1810,rafinesque
+192,lamniformes,odontaspididae,odontaspis,odontaspis ferox,small-tooth sandtiger shark,,
+193,lamniformes,odontaspididae,odontaspis,odontaspis noronhai,big-eye sand tiger shark,,
+194,lamniformes,pseudocarchariidae,pseudocarcharias,pseudocarcharias kamoharai,crocodile shark,,
+195,orectolobiformes,brachaeluridae,brachaelurus,brachaelurus colcloughi,blue-grey carpetshark,1908,j. d. ogilby
+196,orectolobiformes,brachaeluridae,brachaelurus,brachaelurus waddi,blind shark,1801,bloch & j. g. schneider
+197,orectolobiformes,ginglymostomatidae,ginglymostoma,ginglymostoma cirratum,nurse shark,1788,bonnaterre
+198,orectolobiformes,ginglymostomatidae,ginglymostoma,ginglymostoma unami,pacific nurse shark,del-moral-flores,
+199,orectolobiformes,ginglymostomatidae,nebrius,nebrius ferrugineus,tawny nurse shark,,
+200,orectolobiformes,ginglymostomatidae,pseudoginglymostoma,pseudoginglymostoma brevicaudatum,short-tail nurse shark,1867,günther
+201,orectolobiformes,hemiscylliidae,chiloscyllium,chiloscyllium arabicum,arabian carpetshark,gubanov,
+202,orectolobiformes,hemiscylliidae,chiloscyllium,chiloscyllium burmensis,burmese bamboo shark,dingerkus &,
+203,orectolobiformes,hemiscylliidae,chiloscyllium,chiloscyllium griseum,grey bamboo shark,1838,j. p. müller & henle
+204,orectolobiformes,hemiscylliidae,chiloscyllium,chiloscyllium hasselti,hasselt_s bamboo shark,bleeker,
+205,orectolobiformes,hemiscylliidae,chiloscyllium,chiloscyllium indicum,slender bamboo shark,,
+206,orectolobiformes,hemiscylliidae,chiloscyllium,chiloscyllium plagiosum,white-spotted bamboo shark,referred to,anonymous
+207,orectolobiformes,hemiscylliidae,chiloscyllium,chiloscyllium punctatum,brown-banded bamboo shark,1838,j. p. müller & henle
+208,orectolobiformes,hemiscylliidae,hemiscyllium,hemiscyllium freycineti,indonesian speckled carpetshark,1824,quoy & gaimard
+209,orectolobiformes,hemiscylliidae,hemiscyllium,hemiscyllium galei,cenderawasih epaulette shark,g. r. allen,
+210,orectolobiformes,hemiscylliidae,hemiscyllium,hemiscyllium hallstromi,papuan epaulette shark,1967,|whitley
+211,orectolobiformes,hemiscylliidae,hemiscyllium,hemiscyllium halmahera,halmahera epaulette shark,erdmann &,g. r. allen
+212,orectolobiformes,hemiscylliidae,hemiscyllium,hemiscyllium henryi,triton epaulette shark,2008,g. r. allen & erdmann
+213,orectolobiformes,hemiscylliidae,hemiscyllium,hemiscyllium michaeli,leopard epaulette shark,2010,g. r. allen & dudgeon
+214,orectolobiformes,hemiscylliidae,hemiscyllium,hemiscyllium ocellatum,epaulette shark,,
+215,orectolobiformes,hemiscylliidae,hemiscyllium,hemiscyllium strahani,hooded carpetshark,1967,whitley
+216,orectolobiformes,hemiscylliidae,hemiscyllium,hemiscyllium trispeculare,speckled carpetshark,j. richardson,
+217,orectolobiformes,hemiscylliidae,hemiscyllium,hemiscyllium,seychelles carpetshark,not yet described,
+218,orectolobiformes,orectolobidae,eucrossorhinus,eucrossorhinus dasypogon,tasselled wobbegong,1867,bleeker
+219,orectolobiformes,orectolobidae,orectolobus,orectolobus floridus,floral banded wobbegong,last &,
+220,orectolobiformes,orectolobidae,orectolobus,orectolobus halei,banded wobbegong,whitley,
+221,orectolobiformes,orectolobidae,orectolobus,orectolobus hutchinsi,western wobbegong,2006,"last, chidlow & l. j. v. compagno"
+222,orectolobiformes,orectolobidae,orectolobus,orectolobus japonicus,japanese wobbegong,1906,regan
+223,orectolobiformes,orectolobidae,orectolobus,orectolobus leptolineatus,indonesian wobbegong,2010,"last, pogonoski & w. t. white"
+224,orectolobiformes,orectolobidae,orectolobus,orectolobus maculatus,spotted wobbegong,1788,bonnaterre
+225,orectolobiformes,orectolobidae,orectolobus,orectolobus ornatus,ornate wobbegong,,
+226,orectolobiformes,orectolobidae,orectolobus,orectolobus parvimaculatus,dwarf spotted wobbegong,2008,last & chidlow
+227,orectolobiformes,orectolobidae,orectolobus,orectolobus reticulatus,network wobbegong,2008,"last, pogonoski & w. t. white]]"
+228,orectolobiformes,orectolobidae,orectolobus,orectolobus wardi,northern wobbegong,1939,whitley
+229,orectolobiformes,orectolobidae,sutorectus,sutorectus tentaculatus,cobbler wobbegong,,
+230,orectolobiformes,parascylliidae,cirrhoscyllium,cirrhoscyllium expolitum,barbel-throat carpetshark,1913,h. m. smith & radcliffe
+231,orectolobiformes,parascylliidae,cirrhoscyllium,cirrhoscyllium formosanum,taiwan saddled carpetshark,teng,
+232,orectolobiformes,parascylliidae,cirrhoscyllium,cirrhoscyllium japonicum,saddle carpetshark,kamohara,
+233,orectolobiformes,parascylliidae,parascyllium,parascyllium collare,collared carpetshark,e. p. ramsay,
+234,orectolobiformes,parascylliidae,parascyllium,parascyllium elongatum,elongated carpetshark,2008,last & j. d. stevens
+235,orectolobiformes,parascylliidae,parascyllium,parascyllium ferrugineum,rusty carpetshark,mcculloch,
+236,orectolobiformes,parascylliidae,parascyllium,parascyllium sparsimaculatum,ginger carpetshark,t. goto,
+237,orectolobiformes,parascylliidae,parascyllium,parascyllium variolatum,necklace carpetshark,,
+238,orectolobiformes,rhincodontidae,rhincodon,rhincodon typus,whale shark,1828,a. smith
+239,orectolobiformes,stegostomatidae,stegostoma,stegostoma fasciatum,zebra shark,,
+240,carcharhiniformes,carcharhinidae,carcharhinus,carcharhinus acronotus,black-nose shark,1860,poey
+241,carcharhiniformes,carcharhinidae,carcharhinus,carcharhinus albimarginatus,silver-tip shark,,
+242,carcharhiniformes,carcharhinidae,carcharhinus,carcharhinus altimus,big-nose shark,1950,s. springer
+243,carcharhiniformes,carcharhinidae,carcharhinus,carcharhinus amblyrhynchoides,graceful shark,1934,whitley
+244,carcharhiniformes,carcharhinidae,carcharhinus,carcharhinus amblyrhynchos,grey reef shark,1856,bleeker
+245,carcharhiniformes,carcharhinidae,carcharhinus,carcharhinus amboinensis,pig-eye shark,1839,j. p. müller & henle
+246,carcharhiniformes,carcharhinidae,carcharhinus,carcharhinus borneensis,borneo shark,1858,bleeker
+247,carcharhiniformes,carcharhinidae,carcharhinus,carcharhinus brachyurus,copper shark,1870,günther
+248,carcharhiniformes,carcharhinidae,carcharhinus,carcharhinus brevipinna,spinner shark,1839,j. p. müller & henle
+249,carcharhiniformes,carcharhinidae,carcharhinus,carcharhinus cautus,nervous shark,,
+250,carcharhiniformes,carcharhinidae,carcharhinus,carcharhinus cerdale,pacific smalltail shark,c. h. gilbert,
+251,carcharhiniformes,carcharhinidae,carcharhinus,carcharhinus coatesi,coates_ shark,1939,whitley
+252,carcharhiniformes,carcharhinidae,carcharhinus,carcharhinus dussumieri,white-cheek shark,1839,j. p. müller & henle
+253,carcharhiniformes,carcharhinidae,carcharhinus,carcharhinus falciformis,silky shark,1839,j. p. müller & henle
+254,carcharhiniformes,carcharhinidae,carcharhinus,carcharhinus fitzroyensis,creek whaler,1943,whitley
+255,carcharhiniformes,carcharhinidae,carcharhinus,carcharhinus galapagensis,galapagos shark,,
+256,carcharhiniformes,carcharhinidae,carcharhinus,carcharhinus hemiodon,pondicherry shark,1839,j. p. müller & henle
+257,carcharhiniformes,carcharhinidae,carcharhinus,carcharhinus humani,human_s whaler shark,w. t. white &,
+258,carcharhiniformes,carcharhinidae,carcharhinus,carcharhinus isodon,fine-tooth shark,1839,j. p. müller & henle
+259,carcharhiniformes,carcharhinidae,carcharhinus,carcharhinus leiodon,smooth-tooth blacktip shark,1985,garrick
+260,carcharhiniformes,carcharhinidae,carcharhinus,carcharhinus leucas,bull shark,1839,j. p. müller & henle
+261,carcharhiniformes,carcharhinidae,carcharhinus,carcharhinus limbatus,black-tip shark,1839,j. p. müller & henle
+262,carcharhiniformes,carcharhinidae,carcharhinus,carcharhinus longimanus,oceanic whitetip shark,1861,poey
+263,carcharhiniformes,carcharhinidae,carcharhinus,carcharhinus macloti,hard-nose shark,1839,j. p. müller & henle
+264,carcharhiniformes,carcharhinidae,carcharhinus,carcharhinus melanopterus,black-tip reef shark,1824,quoy & gaimard
+265,carcharhiniformes,carcharhinidae,carcharhinus,carcharhinus obscurus,dusky shark,1818,lesueur
+266,carcharhiniformes,carcharhinidae,carcharhinus,carcharhinus perezi,caribbean reef shark,1876,poey
+267,carcharhiniformes,carcharhinidae,carcharhinus,carcharhinus plumbeus,sandbar shark,,
+268,carcharhiniformes,carcharhinidae,carcharhinus,carcharhinus porosus,small-tail shark,,
+269,carcharhiniformes,carcharhinidae,carcharhinus,carcharhinus sealei,black-spot shark,,
+270,carcharhiniformes,carcharhinidae,carcharhinus,carcharhinus signatus,night shark,1868,poey
+271,carcharhiniformes,carcharhinidae,carcharhinus,carcharhinus sorrah,spot-tail shark,1839,j. p. müller & henle
+272,carcharhiniformes,carcharhinidae,carcharhinus,carcharhinus tilstoni,australian blacktip shark,1950,whitley
+273,carcharhiniformes,carcharhinidae,carcharhinus,carcharhinus tjutjot,indonesian whaler shark,1852,bleeker
+274,carcharhiniformes,carcharhinidae,carcharhinus,carcharhinus,false smalltail shark,not yet described,
+275,carcharhiniformes,carcharhinidae,galeocerdo,galeocerdo cuvier,tiger shark,,
+276,carcharhiniformes,carcharhinidae,glyphis,glyphis gangeticus,ganges shark,1839,j. p. müller & henle
+277,carcharhiniformes,carcharhinidae,glyphis,glyphis garricki,northern river shark,2008,"l. j. v. compagno, w. t. white & last"
+278,carcharhiniformes,carcharhinidae,glyphis,glyphis glyphis,spear-tooth shark,1839,j. p. müller & henle
+279,carcharhiniformes,carcharhinidae,glyphis,glyphis,mukah river shark,not yet described,
+280,carcharhiniformes,carcharhinidae,isogomphodon,isogomphodon oxyrhynchus,dagger-nose shark,1839,j. p. müller & henle
+281,carcharhiniformes,carcharhinidae,lamiopsis,lamiopsis temmincki,broad-fin shark,1839,j. p. müller & henle
+282,carcharhiniformes,carcharhinidae,lamiopsis,lamiopsis tephrodes,borneo broadfin shark,1905,fowler
+283,carcharhiniformes,carcharhinidae,loxodon,loxodon macrorhinus,slit-eye shark,1839,j. p. müller & henle
+284,carcharhiniformes,carcharhinidae,nasolamia,nasolamia velox,white-nose shark,1898,c. h. gilbert
+285,carcharhiniformes,carcharhinidae,negaprion,negaprion acutidens,sickle-fin lemon shark,1837,rüppell
+286,carcharhiniformes,carcharhinidae,negaprion,negaprion brevirostris,lemon shark,1868,poey
+287,carcharhiniformes,carcharhinidae,prionace,prionace glauca,blue shark,1758,linnaeus
+288,carcharhiniformes,carcharhinidae,rhizoprionodon,rhizoprionodon acutus,milk shark,1837,rüppell
+289,carcharhiniformes,carcharhinidae,rhizoprionodon,rhizoprionodon lalandii,brazilian sharpnose shark,1839,j. p. müller & henle
+290,carcharhiniformes,carcharhinidae,rhizoprionodon,rhizoprionodon longurio,pacific sharpnose shark,1882,d. s. jordan & c. h. gilbert
+291,carcharhiniformes,carcharhinidae,rhizoprionodon,rhizoprionodon oligolinx,grey sharpnose shark,v. g. springer,
+292,carcharhiniformes,carcharhinidae,rhizoprionodon,rhizoprionodon porosus,caribbean sharpnose shark,1861,poey
+293,carcharhiniformes,carcharhinidae,rhizoprionodon,rhizoprionodon taylori,australian sharpnose shark,1915,j. d. ogilby
+294,carcharhiniformes,carcharhinidae,rhizoprionodon,rhizoprionodon terraenovae,atlantic sharpnose shark,,
+295,carcharhiniformes,carcharhinidae,scoliodon,scoliodon laticaudus,spade-nose shark,1838,j. p. müller & henle
+296,carcharhiniformes,carcharhinidae,scoliodon,scoliodon macrorhynchos,pacific spade-nose shark,,
+297,carcharhiniformes,carcharhinidae,triaenodon,triaenodon obesus,white-tip reef shark,1837,rüppell
+298,carcharhiniformes,hemigaleidae,chaenogaleus,chaenogaleus macrostoma,hook-tooth shark,1852,bleeker
+299,carcharhiniformes,hemigaleidae,hemigaleus,hemigaleus australiensis,australian weasel shark,2005,"w. t. white, last & l. j. v. compagno"
+300,carcharhiniformes,hemigaleidae,hemigaleus,hemigaleus microstoma,sickle-fin weasel shark,1852,bleeker
+301,carcharhiniformes,hemigaleidae,hemipristis,hemipristis elongata,snaggle-tooth shark,,
+302,carcharhiniformes,hemigaleidae,paragaleus,paragaleus leucolomatus,white-tip weasel shark,l. j. v. compagno &,
+303,carcharhiniformes,hemigaleidae,paragaleus,paragaleus pectoralis,atlantic weasel shark,,
+304,carcharhiniformes,hemigaleidae,paragaleus,paragaleus randalli,slender weasel shark,,l. j. v. compagno
+305,carcharhiniformes,hemigaleidae,paragaleus,paragaleus tengi,straight-tooth weasel shark,,
+306,carcharhiniformes,leptochariidae,leptocharias,leptocharias smithii,barbeled houndshark,1839,j. p. müller & henle
+307,carcharhiniformes,proscylliidae,ctenacis,ctenacis fehlmanni,harlequin catshark,1968,s. springer
+308,carcharhiniformes,proscylliidae,eridacnis,eridacnis barbouri,cuban ribbontail catshark,1944,bigelow & schroeder
+309,carcharhiniformes,proscylliidae,eridacnis,erida,pygmy ribbontail catshark,1913,h. m. smith
+310,carcharhiniformes,proscylliidae,eridacnis,eridacnis sinuans,african ribbontail catshark,1957,j. l. b. smith
+311,carcharhiniformes,proscylliidae,eridacnis,eridacnis,philippines ribbontail catshark,not yet described,
+312,carcharhiniformes,proscylliidae,proscyllium,proscyllium habereri,graceful catshark,1904,hilgendorf
+313,carcharhiniformes,proscylliidae,proscyllium,proscyllium magnificum,magnificent catshark,last &,
+314,carcharhiniformes,pseudotriakidae,gollum,gollum attenuatus,slender smooth-hound,1954,garrick
+315,carcharhiniformes,pseudotriakidae,gollum,gollum suluensis,sulu gollumshark,last,
+316,carcharhiniformes,pseudotriakidae,gollum,gollum,white-marked gollumshark,not yet described,
+317,carcharhiniformes,pseudotriakidae,planonasus,planonasus parini,dwarf false catshark,2013,"weigmann, stehmann & thiel"
+318,carcharhiniformes,pseudotriakidae,pseudotriakis,pseudotriakis microdon,false catshark,1868,brito capello
+319,carcharhiniformes,scyliorhinidae,apristurus,apristurus albisoma,white-bodied catshark,1999,nakaya & séret
+320,carcharhiniformes,scyliorhinidae,apristurus,apristurus ampliceps,rough-skin catshark,sasahara,
+321,carcharhiniformes,scyliorhinidae,apristurus,apristurus aphyodes,white ghost catshark,nakaya &,
+322,carcharhiniformes,scyliorhinidae,apristurus,apristurus australis,pinocchio catshark,nakaya &,k. sato
+323,carcharhiniformes,scyliorhinidae,apristurus,apristurus breviventralis,short-belly catshark,kawauchi,
+324,carcharhiniformes,scyliorhinidae,apristurus,apristurus brunneus,brown catshark,1892,c. h. gilbert
+325,carcharhiniformes,scyliorhinidae,apristurus,apristurus bucephalus,big-head catshark,2008,"w. t. white, last & pogonoski"
+326,carcharhiniformes,scyliorhinidae,apristurus,apristurus canutus,hoary catshark,1979,s. springer & heemstra
+327,carcharhiniformes,scyliorhinidae,apristurus,apristurus exsanguis,flaccid catshark,1999,"k. sato, nakaya & a. l. stewart"
+328,carcharhiniformes,scyliorhinidae,apristurus,apristurus fedorovi,fedorov_s catshark,1985,dolganov
+329,carcharhiniformes,scyliorhinidae,apristurus,apristurus garricki,garrick_s catshark,2013,"k. sato, a. l. stewart & nakaya"
+330,carcharhiniformes,scyliorhinidae,apristurus,apristurus gibbosus,humpback catshark,q. w. meng,
+331,carcharhiniformes,scyliorhinidae,apristurus,apristurus herklotsi,long-fin catshark,1934,fowler
+332,carcharhiniformes,scyliorhinidae,apristurus,apristurus indicus,small-belly catshark,,
+333,carcharhiniformes,scyliorhinidae,apristurus,apristurus internatus,short-nose demon catshark,s. m. deng,
+334,carcharhiniformes,scyliorhinidae,apristurus,apristurus investigatoris,broad-nose catshark,,
+335,carcharhiniformes,scyliorhinidae,apristurus,apristurus japonicus,japanese catshark,1975,nakaya
+336,carcharhiniformes,scyliorhinidae,apristurus,apristurus kampae,long-nose catshark,l. r. taylor,
+337,carcharhiniformes,scyliorhinidae,apristurus,apristurus laurussonii,iceland catshark,,
+338,carcharhiniformes,scyliorhinidae,apristurus,apristurus longicephalus,long-head catshark,1975,nakaya
+339,carcharhiniformes,scyliorhinidae,apristurus,apristurus macrorhynchus,flat-head catshark,1909,s. tanaka (i)]
+340,carcharhiniformes,scyliorhinidae,apristurus,apristurus macrostomus,broad-mouth catshark,1985,"q. w. meng, y. t. chu & s. li"
+341,carcharhiniformes,scyliorhinidae,apristurus,apristurus manis,ghost catshark,1979,s. springer
+342,carcharhiniformes,scyliorhinidae,apristurus,apristurus melanoasper,black rough-scale catshark,iglésias,
+343,carcharhiniformes,scyliorhinidae,apristurus,apristurus microps,small-eye catshark,1922,gilchrist
+344,carcharhiniformes,scyliorhinidae,apristurus,apristurus micropterygeus,small-dorsal catshark,1986,"q. w. meng, y. t. chu & s. li"
+345,carcharhiniformes,scyliorhinidae,apristurus,apristurus nakayai,milk-eye catshark,2013,iglésias
+346,carcharhiniformes,scyliorhinidae,apristurus,apristurus nasutus,large-nose catshark,1959,f. de buen
+347,carcharhiniformes,scyliorhinidae,apristurus,apristurus parvipinnis,small-fin catshark,1979,s. springer & heemstra
+348,carcharhiniformes,scyliorhinidae,apristurus,apristurus pinguis,fat catshark,s. m. deng,
+349,carcharhiniformes,scyliorhinidae,apristurus,apristurus platyrhynchus,borneo catshark,1909,s. tanaka (i
+350,carcharhiniformes,scyliorhinidae,apristurus,apristurus profundorum,deep-water catshark,,
+351,carcharhiniformes,scyliorhinidae,apristurus,apristurus riveri,broad-gill catshark,1944,bigelow & schroeder
+352,carcharhiniformes,scyliorhinidae,apristurus,apristurus saldanha,saldanha catshark,,
+353,carcharhiniformes,scyliorhinidae,apristurus,apristurus sibogae,pale catshark,,
+354,carcharhiniformes,scyliorhinidae,apristurus,apristurus sinensis,south china catshark,y. t. chu,
+355,carcharhiniformes,scyliorhinidae,apristurus,apristurus spongiceps,sponge-head catshark,1905,c. h. gilbert
+356,carcharhiniformes,scyliorhinidae,apristurus,apristurus stenseni,panama ghost catshark,1979,s. springer
+357,carcharhiniformes,scyliorhinidae,apristurus,apristurus,galbraith_s catshark,not yet described,
+358,carcharhiniformes,scyliorhinidae,apristurus,apristurus,black wonder catshark,not yet described,
+359,carcharhiniformes,scyliorhinidae,asymbolus,asymbolus analis,australian spotted catshark,1885,j. d. ogilby
+360,carcharhiniformes,scyliorhinidae,asymbolus,asymbolus funebris,blotched catshark,1999,"l. j. v. compagno, j. d. stevens & last"
+361,carcharhiniformes,scyliorhinidae,asymbolus,asymbolus galacticus,starry catshark,2008,séret & last
+362,carcharhiniformes,scyliorhinidae,asymbolus,asymbolus occiduus,western spotted catshark,,last
+363,carcharhiniformes,scyliorhinidae,asymbolus,asymbolus pallidus,pale-spotted catshark,1999,"last, m. f. gomon & gledhill"
+364,carcharhiniformes,scyliorhinidae,asymbolus,asymbolus parvus,dwarf catshark,1999,"l. j. v. compagno, stevens & last"
+365,carcharhiniformes,scyliorhinidae,asymbolus,asymbolus rubiginosus,orange-spotted catshark,1999,"last, m. f. gomon & gledhill"
+366,carcharhiniformes,scyliorhinidae,asymbolus,asymbolus submaculatus,variegated catshark,1999,"l. j. v. compagno, j. d. stevens & last"
+367,carcharhiniformes,scyliorhinidae,asymbolus,asymbolus vincenti,gulf catshark,,
+368,carcharhiniformes,scyliorhinidae,atelomycterus,atelomycterus baliensis,bali catshark,last &,w. t. white
+369,carcharhiniformes,scyliorhinidae,atelomycterus,atelomycterus erdmanni,spotted-belly catshark,fahmi,
+370,carcharhiniformes,scyliorhinidae,atelomycterus,atelomycterus fasciatus,banded sand catshark,l. j. v. compagno,
+371,carcharhiniformes,scyliorhinidae,atelomycterus,atelomycterus macleayi,australian marbled catshark,1939,whitley
+372,carcharhiniformes,scyliorhinidae,atelomycterus,atelomycterus marmoratus,coral catshark,referred to,anonymous
+373,carcharhiniformes,scyliorhinidae,atelomycterus,atelomycterus marnkalha,eastern banded catshark,jacobsen,
+374,carcharhiniformes,scyliorhinidae,aulohalaelurus,aulohalaelurus kanakorum,kanakorum catshark,1990,séret
+375,carcharhiniformes,scyliorhinidae,aulohalaelurus,aulohalaelurus labiosus,australian black-spotted catshark,,
+376,carcharhiniformes,scyliorhinidae,bythaelurus,bythaelurus alcockii,arabian catshark,1913,garman
+377,carcharhiniformes,scyliorhinidae,bythaelurus,bythaelurus canescens,dusky catshark,1878,günther
+378,carcharhiniformes,scyliorhinidae,bythaelurus,bythaelurus clevai,broad-head catshark,1987,séret
+379,carcharhiniformes,scyliorhinidae,bythaelurus,bythaelurus dawsoni,new zealand catshark,1971,s. springer
+380,carcharhiniformes,scyliorhinidae,bythaelurus,bythaelurus giddingsi,jaguar catshark,j. e. mccosker,
+381,carcharhiniformes,scyliorhinidae,bythaelurus,bythaelurus hispidus,bristly catshark,,
+382,carcharhiniformes,scyliorhinidae,bythaelurus,bythaelurus immaculatus,spotless catshark,1982,y. t. chu & q. w. meng
+383,carcharhiniformes,scyliorhinidae,bythaelurus,bythaelurus incanus,sombre catshark,2008,last & j. d. stevens
+384,carcharhiniformes,scyliorhinidae,bythaelurus,bythaelurus lutarius,mud catshark,s. springer &,
+385,carcharhiniformes,scyliorhinidae,bythaelurus,bythaelurus naylori,dusky-snout catshark,ebert &,
+386,carcharhiniformes,scyliorhinidae,bythaelurus,bythaelurus tenuicephalus,narrow-head catshark,kaschner,
+387,carcharhiniformes,scyliorhinidae,cephaloscyllium,cephaloscyllium albipinnum,white-fin swellshark,2008,"last, motomura & w. t. white"
+388,carcharhiniformes,scyliorhinidae,cephaloscyllium,cephaloscyllium cooki,cook_s swellshark,2008,"last, séret & w. t. white"
+389,carcharhiniformes,scyliorhinidae,cephaloscyllium,cephaloscyllium fasciatum,reticulated swellshark,1966,w. l. y. chan
+390,carcharhiniformes,scyliorhinidae,cephaloscyllium,cephaloscyllium formosanum,formosa swellshark,teng,
+391,carcharhiniformes,scyliorhinidae,cephaloscyllium,cephaloscyllium hiscosellum,australian reticulated swellshark,2008,w. t. white & ebert
+392,carcharhiniformes,scyliorhinidae,cephaloscyllium,cephaloscyllium isabellum,draughtsboard shark,1788,bonnaterre
+393,carcharhiniformes,scyliorhinidae,cephaloscyllium,cephaloscyllium laticeps,australian swellshark,1853,a. h. a. duméril
+394,carcharhiniformes,scyliorhinidae,cephaloscyllium,cephaloscyllium pictum,painted swellshark,2008,"last, séret & w. t. white"
+395,carcharhiniformes,scyliorhinidae,cephaloscyllium,cephaloscyllium sarawakensis,sarawak pygmy swellshark,ka. yano,
+396,carcharhiniformes,scyliorhinidae,cephaloscyllium,cephaloscyllium signourum,flag-tail swellshark,2008,"last, séret & w. t. white"
+397,carcharhiniformes,scyliorhinidae,cephaloscyllium,cephaloscyllium silasi,indian swellshark,,
+398,carcharhiniformes,scyliorhinidae,cephaloscyllium,cephaloscyllium speccum,speckled swellshark,2008,"last, séret & w. t. white"
+399,carcharhiniformes,scyliorhinidae,cephaloscyllium,cephaloscyllium stevensi,steven_s swellshark,e. clark &,
+400,carcharhiniformes,scyliorhinidae,cephaloscyllium,cephaloscyllium sufflans,balloon shark,1921,regan]
+401,carcharhiniformes,scyliorhinidae,cephaloscyllium,cephaloscyllium umbratile,blotchy swellshark,1903,d. s. jordan & fowler
+402,carcharhiniformes,scyliorhinidae,cephaloscyllium,cephaloscyllium variegatum,saddled swellshark,2008,last & w. t. white
+403,carcharhiniformes,scyliorhinidae,cephaloscyllium,cephaloscyllium ventriosum,swellshark,1880,garman
+404,carcharhiniformes,scyliorhinidae,cephaloscyllium,cephaloscyllium zebrum,narrow-bar swellshark,2008,last & w. t. white
+405,carcharhiniformes,scyliorhinidae,cephaloscyllium,cephaloscyllium,philippines swellshark,not yet described,
+406,carcharhiniformes,scyliorhinidae,cephalurus,cephalurus cephalus,lollipop catshark,1892,c. h. gilbert
+407,carcharhiniformes,scyliorhinidae,cephalurus,cephalurus,southern lollipop catshark,not yet described,
+408,carcharhiniformes,scyliorhinidae,figaro,figaro boardmani,australian saw-tail catshark,1928,whitley
+409,carcharhiniformes,scyliorhinidae,figaro,figaro striatus,northern saw-tail catshark,2008,"gledhill, last & w. t. white"
+410,carcharhiniformes,scyliorhinidae,galeus,galeus antillensis,antilles catshark,1979,s. springer
+411,carcharhiniformes,scyliorhinidae,galeus,galeus arae,rough-tail catshark,,
+412,carcharhiniformes,scyliorhinidae,galeus,galeus atlanticus,atlantic saw-tail catshark,1888,vaillant
+413,carcharhiniformes,scyliorhinidae,galeus,galeus cadenati,long-fin saw-tail catshark,1966,s. springer
+414,carcharhiniformes,scyliorhinidae,galeus,galeus eastmani,gecko catshark,1904,d. s. jordan & snyder
+415,carcharhiniformes,scyliorhinidae,galeus,galeus gracilis,slender saw-tail catshark,1993,l. j. v. compagno & j. d. stevens
+416,carcharhiniformes,scyliorhinidae,galeus,galeus longirostris,long-nose saw-tail catshark,tachikawa,
+417,carcharhiniformes,scyliorhinidae,galeus,galeus melastomus,black-mouth catshark,1810,rafinesque
+418,carcharhiniformes,scyliorhinidae,galeus,galeus mincaronei,southern saw-tail catshark,soto,
+419,carcharhiniformes,scyliorhinidae,galeus,galeus murinus,mouse catshark,,
+420,carcharhiniformes,scyliorhinidae,galeus,galeus nipponensis,broad-fin saw-tail catshark,1975,nakaya
+421,carcharhiniformes,scyliorhinidae,galeus,galeus piperatus,peppered catshark,s. springer &,
+422,carcharhiniformes,scyliorhinidae,galeus,galeus polli,african saw-tail catshark,cadenat,
+423,carcharhiniformes,scyliorhinidae,galeus,galeus priapus,phallic catshark,2008,séret & last
+424,carcharhiniformes,scyliorhinidae,galeus,galeus sauteri,black-tip saw-tail catshark,d. s. jordan &,
+425,carcharhiniformes,scyliorhinidae,galeus,galeus schultzi,dwarf saw-tail catshark,1979,s. springer
+426,carcharhiniformes,scyliorhinidae,galeus,galeus springeri,springer_s saw-tail catshark,konstantinou,
+427,carcharhiniformes,scyliorhinidae,halaelurus,halaelurus boesemani,speckled catshark,1972,|s. springer & d_aubrey
+428,carcharhiniformes,scyliorhinidae,halaelurus,halaelurus buergeri,black-spotted catshark,1838,j. p. müller & henle
+429,carcharhiniformes,scyliorhinidae,halaelurus,halaelurus lineatus,lined catshark,bass,
+430,carcharhiniformes,scyliorhinidae,halaelurus,halaelurus maculosus,indonesian speckled catshark,2007,"w. t. white, last & j. d. stevens"
+431,carcharhiniformes,scyliorhinidae,halaelurus,halaelurus natalensis,tiger catshark,1904,regan
+432,carcharhiniformes,scyliorhinidae,halaelurus,halaelurus quagga,quagga catshark,,
+433,carcharhiniformes,scyliorhinidae,halaelurus,halaelurus sellus,rusty catshark,2007,"w. t. white, last & j. d. stevens"
+434,carcharhiniformes,scyliorhinidae,haploblepharus,haploblepharus edwardsii,puff adder shyshark,,
+435,carcharhiniformes,scyliorhinidae,haploblepharus,haploblepharus fuscus,brown shyshark,1950,j. l. b. smith
+436,carcharhiniformes,scyliorhinidae,haploblepharus,haploblepharus kistnasamyi,natal shyshark,2006,human &l. j. v. compagno
+437,carcharhiniformes,scyliorhinidae,haploblepharus,haploblepharus pictus,dark shyshark,1838,j. p. müller & henle
+438,carcharhiniformes,scyliorhinidae,holohalaelurus,holohalaelurus favus,honeycomb catshark,2006,human
+439,carcharhiniformes,scyliorhinidae,holohalaelurus,holohalaelurus grennian,grinning catshark,2006,human
+440,carcharhiniformes,scyliorhinidae,holohalaelurus,holohalaelurus melanostigma,crying catshark,,
+441,carcharhiniformes,scyliorhinidae,holohalaelurus,holohalaelurus punctatus,white-spotted catshark,1914,gilchrist
+442,carcharhiniformes,scyliorhinidae,holohalaelurus,holohalaelurus regani,izak catshark,1922,gilchrist
+443,carcharhiniformes,scyliorhinidae,parmaturus,parmaturus albimarginatus,white-tip catshark,2007,séret & last
+444,carcharhiniformes,scyliorhinidae,parmaturus,parmaturus albipenis,white-clasper catshark,2007,séret & last
+445,carcharhiniformes,scyliorhinidae,parmaturus,parmaturus bigus,beige catshark,2007,séret & last
+446,carcharhiniformes,scyliorhinidae,parmaturus,parmaturus campechiensis,campeche catshark,1979,s. springer
+447,carcharhiniformes,scyliorhinidae,parmaturus,parmaturus lanatus,velvet catshark,2007,séret & last
+448,carcharhiniformes,scyliorhinidae,parmaturus,parmaturus macmillani,mcmillan_s catshark,hardy,
+449,carcharhiniformes,scyliorhinidae,parmaturus,parmaturus melanobranchius,black-gill catshark,1966,w. l. y. chan
+450,carcharhiniformes,scyliorhinidae,parmaturus,parmaturus pilosus,salamander catshark,1906,garman
+451,carcharhiniformes,scyliorhinidae,parmaturus,parmaturus xaniurus,file-tail catshark,1892,c. h. gilbert
+452,carcharhiniformes,scyliorhinidae,parmaturus,parmaturus,rough-back catshark,not yet described,
+453,carcharhiniformes,scyliorhinidae,parmaturus,parmaturus,indonesian file-tail catshark,not yet described,
+454,carcharhiniformes,scyliorhinidae,parmaturus,parmaturus,gulf of mexico file-tail catshark,not yet described,
+455,carcharhiniformes,scyliorhinidae,pentanchus,pentanchus profundicolus,one-fin catshark,1912,h. m. smith & radcliffe
+456,carcharhiniformes,scyliorhinidae,poroderma,poroderma africanum,striped catshark,,
+457,carcharhiniformes,scyliorhinidae,poroderma,poroderma pantherinum,leopard catshark,1838,j. p. müller & henle
+458,carcharhiniformes,scyliorhinidae,schroederichthys,schroederichthys bivius,narrow-mouthed catshark,1838,j. p. müller & henle
+459,carcharhiniformes,scyliorhinidae,schroederichthys,schroederichthys chilensis,red-spotted catshark,,
+460,carcharhiniformes,scyliorhinidae,schroederichthys,schroederichthys maculatus,narrow-tail catshark,1966,s. springer
+461,carcharhiniformes,scyliorhinidae,schroederichthys,schroederichthys saurisqualus,lizard catshark,2001,soto
+462,carcharhiniformes,scyliorhinidae,schroederichthys,schroederichthys tenuis,slender catshark,1966,s. springer
+463,carcharhiniformes,scyliorhinidae,scyliorhinus,scyliorhinus boa,boa catshark,1896,goode & t. h. bean
+464,carcharhiniformes,scyliorhinidae,scyliorhinus,scyliorhinus cabofriensis,"k. d. a. soares, u. l. gomes & m. r. de carvalho, 2016",k. d. a. soares,
+465,carcharhiniformes,scyliorhinidae,scyliorhinus,scyliorhinus canicula,small-spotted catshark,1758,linnaeus
+466,carcharhiniformes,scyliorhinidae,scyliorhinus,scyliorhinus capensis,yellow-spotted catshark,1838,j. p. müller & henle
+467,carcharhiniformes,scyliorhinidae,scyliorhinus,scyliorhinus cervigoni,west african catshark,maurin,
+468,carcharhiniformes,scyliorhinidae,scyliorhinus,scyliorhinus comoroensis,comoro catshark,1988,l. j. v. compagno
+469,carcharhiniformes,scyliorhinidae,scyliorhinus,scyliorhinus garmani,brown-spotted catshark,1934,fowler
+470,carcharhiniformes,scyliorhinidae,scyliorhinus,scyliorhinus haeckelii,freckled catshark,,
+471,carcharhiniformes,scyliorhinidae,scyliorhinus,scyliorhinus hesperius,white-saddled catshark,1966,s. springer
+472,carcharhiniformes,scyliorhinidae,scyliorhinus,scyliorhinus meadi,blotched catshark,1966,s. springer
+473,carcharhiniformes,scyliorhinidae,scyliorhinus,scyliorhinus retifer,chain catshark,1881,garman
+474,carcharhiniformes,scyliorhinidae,scyliorhinus,scyliorhinus stellaris,nursehound,1758,linnaeus
+475,carcharhiniformes,scyliorhinidae,scyliorhinus,scyliorhinus tokubee,izu catshark,shirai,
+476,carcharhiniformes,scyliorhinidae,scyliorhinus,scyliorhinus torazame,cloudy catshark,1908,s. tanaka (i
+477,carcharhiniformes,scyliorhinidae,scyliorhinus,scyliorhinus torrei,dwarf catshark,howell-rivero,
+478,carcharhiniformes,scyliorhinidae,scyliorhinus,scyliorhinus ugoi,dark-freckled catshark,,k. d. a. soares
+479,carcharhiniformes,scyliorhinidae,scyliorhinus,scyliorhinus,oakley_s catshark,not yet described,
+480,carcharhiniformes,sphyrnidae,eusphyra,eusphyra blochii,wing-head shark,1816,g. cuvier
+481,carcharhiniformes,sphyrnidae,sphyrna,sphyrna corona,scalloped bonnethead,1940,s. springer
+482,carcharhiniformes,sphyrnidae,sphyrna,sphyrna gilberti,carolina hammerhead,quattro,
+483,carcharhiniformes,sphyrnidae,sphyrna,sphyrna lewini,scalloped hammerhead,,
+484,carcharhiniformes,sphyrnidae,sphyrna,sphyrna media,scoop-head hammerhead,1940,s. springer
+485,carcharhiniformes,sphyrnidae,sphyrna,sphyrna mokarran,great hammerhead,1837,rüppell]]
+486,carcharhiniformes,sphyrnidae,sphyrna,sphyrna tiburo,bonnethead shark,1758,linnaeus
+487,carcharhiniformes,sphyrnidae,sphyrna,sphyrna tudes,small-eye hammerhead,,
+488,carcharhiniformes,sphyrnidae,sphyrna,sphyrna zygaena,smooth hammerhead,1758,linnaeus
+489,carcharhiniformes,triakidae,furgaleus,furgaleus macki,whiskery shark,1943,whitley
+490,carcharhiniformes,triakidae,galeorhinus,galeorhinus galeus,tope shark,1758,linnaeus
+491,carcharhiniformes,triakidae,gogolia,gogolia filewoodi,sail-back houndshark,1973,l. j. v. compagno
+492,carcharhiniformes,triakidae,hemitriakis,hemitriakis abdita,deep-water sickle-fin houndshark,1993,l. j. v. compagno & j. d. stevens
+493,carcharhiniformes,triakidae,hemitriakis,hemitriakis complicofasciata,ocellated topeshark,t. takahashi,
+494,carcharhiniformes,triakidae,hemitriakis,hemitriakis falcata,sickle-fin houndshark,1993,l. j. v. compagno & j. d. stevens
+495,carcharhiniformes,triakidae,hemitriakis,hemitriakis indroyonoi,indonesian houndshark,2009,"w. t. white, l. j. v. compagno & dharmadi"
+496,carcharhiniformes,triakidae,hemitriakis,hemitriakis japanica,japanese topeshark,1839,j. p. müller & henle
+497,carcharhiniformes,triakidae,hemitriakis,hemitriakis leucoperiptera,white-fin topeshark,1923,herre
+498,carcharhiniformes,triakidae,hypogaleus,hypogaleus hyugaensis,black-tip tope,,
+499,carcharhiniformes,triakidae,iago,iago garricki,long-nose houndshark,1979,fourmanoir & rivaton
+500,carcharhiniformes,triakidae,iago,iago omanensis,big-eye houndshark,1939,norman
+501,carcharhiniformes,triakidae,mustelus,mustelus albipinnis,white-margin fin houndshark,castro-aguirre,
+502,carcharhiniformes,triakidae,mustelus,mustelus antarcticus,gummy shark,1870,günther
+503,carcharhiniformes,triakidae,mustelus,mustelus asterias,starry smooth-hound,cloquet,
+504,carcharhiniformes,triakidae,mustelus,mustelus californicus,grey smooth-hound,1864,t. n. gill
+505,carcharhiniformes,triakidae,mustelus,mustelus canis,,,
+506,carcharhiniformes,triakidae,mustelus,mustelus dorsalis,sharp-tooth smooth-hound,1864,t. n. gill
+507,carcharhiniformes,triakidae,mustelus,mustelus fasciatus,striped smooth-hound,,
+508,carcharhiniformes,triakidae,mustelus,mustelus griseus,spotless smooth-hound,1908,pietschmann
+509,carcharhiniformes,triakidae,mustelus,mustelus henlei,brown smooth-hound,1863,t. n. gill
+510,carcharhiniformes,triakidae,mustelus,mustelus higmani,small-eye smooth-hound,s. springer &,
+511,carcharhiniformes,triakidae,mustelus,mustelus lenticulatus,spotted estuary smooth-hound,1932,phillipps
+512,carcharhiniformes,triakidae,mustelus,mustelus lunulatus,sickle-fin smooth-hound,1882,d. s. jordan & c. h. gilbert
+513,carcharhiniformes,triakidae,mustelus,mustelus manazo,star-spotted smooth-hound,1854,bleeker
+514,carcharhiniformes,triakidae,mustelus,mustelus mangalorensis,mangalore houndshark,cubelio,
+515,carcharhiniformes,triakidae,mustelus,mustelus mento,speckled smooth-hound,cope,
+516,carcharhiniformes,triakidae,mustelus,mustelus minicanis,dwarf smooth-hound,heemstra,
+517,carcharhiniformes,triakidae,mustelus,mustelus mosis,arabian smooth-hound,hemprich,
+518,carcharhiniformes,triakidae,mustelus,mustelus mustelus,common smooth-hound,1758,linnaeus
+519,carcharhiniformes,triakidae,mustelus,mustelus norrisi,narrow-fin smooth-hound,1939,s. springer
+520,carcharhiniformes,triakidae,mustelus,mustelus palumbes,white-spotted smooth-hound,1957,j. l. b. smith
+521,carcharhiniformes,triakidae,mustelus,mustelus punctulatus,black-spotted smooth-hound,1827,a. risso
+522,carcharhiniformes,triakidae,mustelus,mustelus ravidus,australian grey smooth-hound,2006,w. t. white & last
+523,carcharhiniformes,triakidae,mustelus,mustelus schmitti,narrow-nose smooth-hound,1939,s. springer
+524,carcharhiniformes,triakidae,mustelus,mustelus sinusmexicanus,gulf smooth-hound,1997,heemstra
+525,carcharhiniformes,triakidae,mustelus,mustelus stevensi,western spotted gummy shark,2008,w. t. white & last
+526,carcharhiniformes,triakidae,mustelus,mustelus walkeri,eastern spotted gummy shark,2008,w. t. white & last
+527,carcharhiniformes,triakidae,mustelus,mustelus whitneyi,humpback smooth-hound,chirichigno f.,
+528,carcharhiniformes,triakidae,mustelus,mustelus widodoi,white-fin smooth-hound,2006,w. t. white & last
+529,carcharhiniformes,triakidae,mustelus,mustelus,sarawak smooth-hound,not yet described,
+530,carcharhiniformes,triakidae,mustelus,mustelus,kermadec smooth-hound,not yet described,
+531,carcharhiniformes,triakidae,scylliogaleus,scylliogaleus quecketti,flap-nose houndshark,1902,boulenger
+532,carcharhiniformes,triakidae,triakis,triakis acutipinna,sharp-fin houndshark,1968,kato
+533,carcharhiniformes,triakidae,triakis,triakis maculata,spotted houndshark,kner,
+534,carcharhiniformes,triakidae,triakis,triakis megalopterus,sharp-tooth houndshark,1839,a. smith
+535,carcharhiniformes,triakidae,triakis,triakis scyllium,banded houndshark,1839,j. p. müller & henle
+536,carcharhiniformes,triakidae,triakis,triakis semifasciata,leopard shark,1855,girard
+537,rajiformes,anacanthobatidae,anacanthobatis,anacanthobatis donghaiensis,East China legskate,1983,"Deng, Xiong & Zhan"
+538,rajiformes,anacanthobatidae,anacanthobatis,anacanthobatis marmorata,spotted legskate,1923,von Bonde & Swart
+539,rajiformes,anacanthobatidae,anacanthobatis,anacanthobatis marmoratus,spotted legskate,1923,von Bonde & Swart
+540,rajiformes,anacanthobatidae,anacanthobatis,anacanthobatis nanhaiensis,South China legskate,1981,Meng & Lee
+541,rajiformes,anacanthobatidae,anacanthobatis,anacanthobatis ori,black legskate,1967,Wallace
+542,rajiformes,anacanthobatidae,indobatis,indobatis ori,black legskate,1967,Wallace
+543,rajiformes,anacanthobatidae,schroederobatis,schroederobatis americana,American legskate,1962,Bigelow & Schroeder
+544,rajiformes,anacanthobatidae,sinobatis,sinobatis andamanensis,Andaman sea legskate,2016,Last & Bussarawit
+545,rajiformes,anacanthobatidae,sinobatis,sinobatis borneensis,Borneo legskate,1965,Chan
+546,rajiformes,anacanthobatidae,sinobatis,sinobatis brevicauda,short-tail legskate,2016,Weigmann & Stehmann
+547,rajiformes,anacanthobatidae,sinobatis,sinobatis bulbicauda,western Australian legskate,2008,Last & Seret
+548,rajiformes,anacanthobatidae,sinobatis,sinobatis caerulea,blue legskate,2008,Last & Seret
+549,rajiformes,anacanthobatidae,sinobatis,sinobatis filicauda,eastern Australian legskate,2008,Last & Seret
+550,rajiformes,anacanthobatidae,sinobatis,sinobatis kotlyari,Kotlyar's legskate,2016,Stehmann & Weigmann
+551,rajiformes,anacanthobatidae,sinobatis,sinobatis melanosoma,black-bodied legskate,1965,Chan
+552,rajiformes,anacanthobatidae,sinobatis,sinobatis stenosoma,narrow legskate,1982,Li & Hu
+553,rajiformes,anacanthobatidae,anacanthobatis,springeria folirostris,leaf-nose leg skate,1951,Bigelow & Schroeder
+554,rajiformes,arhynchobatidae,arhynchobatis,arhynchobatis asperrimus,longtail skate,1909,Waite
+555,rajiformes,arhynchobatidae,atlantoraja,atlantoraja castelnaui,spotback skate,1907,Miranda Ribeiro
+556,rajiformes,arhynchobatidae,atlantoraja,atlantoraja cyclophora,eyespot skate,1903,Regan
+557,rajiformes,arhynchobatidae,atlantoraja,atlantoraja platana,La Plata skate,1880,Günther
+558,rajiformes,arhynchobatidae,bathyraja,bathyraja abyssicola,deep sea skate,1896,Gilbert
+559,rajiformes,arhynchobatidae,bathyraja,bathyraja aguja,aguja skate,1912,Kendall & Radcliffe
+560,rajiformes,arhynchobatidae,bathyraja,bathyraja albomaculata,white-dotted skate,1937,Norman
+561,rajiformes,arhynchobatidae,bathyraja,bathyraja aleutica,Aleutian skate,1896,Gilbert
+562,rajiformes,arhynchobatidae,bathyraja,bathyraja andriashevi,little-eyed skate,1983,Dolganov
+563,rajiformes,arhynchobatidae,bathyraja,bathyraja arctowskii,Antarctic dark-mouth skate,1904,Dollo
+564,rajiformes,arhynchobatidae,bathyraja,bathyraja bergi,bottom skate,1983,Dolganov
+565,rajiformes,arhynchobatidae,bathyraja,bathyraja brachyurops,broadnose skate,1910,Fowler
+566,rajiformes,arhynchobatidae,bathyraja,bathyraja cousseauae,joined-fins skate,2004,Díaz de Astarloa & Mabragaña
+567,rajiformes,arhynchobatidae,bathyraja,bathyraja diplotaenia,dusky-pink skate,1952,Ishiyama
+568,rajiformes,arhynchobatidae,bathyraja,bathyraja eatonii,Eaton's skate,1876,Günther
+569,rajiformes,arhynchobatidae,bathyraja,bathyraja fedorovi,cinnamon skate,1983,Dolganov
+570,rajiformes,arhynchobatidae,bathyraja,bathyraja griseocauda,graytail skate,1937,Norman
+571,rajiformes,arhynchobatidae,bathyraja,bathyraja hesperafricana,West African skate,1995,Stehmann
+572,rajiformes,arhynchobatidae,bathyraja,bathyraja interrupta,sandpaper skate,1897,Gill & Townsend
+573,rajiformes,arhynchobatidae,bathyraja,bathyraja irrasa,Kerguelen sandpaper skate,1980,Hureau & Ozouf-Costaz
+574,rajiformes,arhynchobatidae,bathyraja,bathyraja ishiharai,abyssal skate,2005,Stehmann
+575,rajiformes,arhynchobatidae,bathyraja,bathyraja isotrachys,raspback skate,1877,Gunther
+576,rajiformes,arhynchobatidae,bathyraja,bathyraja leucomelanos,domino skate,2012,Iglesia & Levy-Hartmann
+577,rajiformes,arhynchobatidae,bathyraja,bathyraja lindbergi,commander skate,1977,Ishiyama & Ishihara
+578,rajiformes,arhynchobatidae,bathyraja,bathyraja longicauda,slimtail skate,1959,de Buen
+579,rajiformes,arhynchobatidae,bathyraja,bathyraja maccaini,McCain's skate,1971,Springer
+580,rajiformes,arhynchobatidae,bathyraja,bathyraja macloviana,Patagonian skate,1937,Norman
+581,rajiformes,arhynchobatidae,bathyraja,bathyraja maculata,white-blotched skate,1977,Ishiyama & Ishihara
+582,rajiformes,arhynchobatidae,bathyraja,bathyraja magellanica,Magellan skate,1902,Philippi
+583,rajiformes,arhynchobatidae,bathyraja,bathyraja mariposa,butterfly skate,2004,"Stevenson, Orr, Hoff & McEachran"
+584,rajiformes,arhynchobatidae,bathyraja,bathyraja matsubarai,dusky-purple skate,1952,Ishiyama
+585,rajiformes,arhynchobatidae,bathyraja,bathyraja meridionalis,dark-belly skate,1987,Stehmann
+586,rajiformes,arhynchobatidae,bathyraja,bathyraja minispinosa,smallthorn skate,1977,Ishiyama & Ishihara
+587,rajiformes,arhynchobatidae,bathyraja,bathyraja multispinis,multispine skate,1937,Norman
+588,rajiformes,arhynchobatidae,bathyraja,bathyraja murrayi,Murray's skate,1880,Günther
+589,rajiformes,arhynchobatidae,bathyraja,bathyraja notorensis,Notoro skate,1977,Ishiyama & Ishihara
+590,rajiformes,arhynchobatidae,bathyraja,bathyraja pacifica,,2016,"Last, Stewart & Seret"
+591,rajiformes,arhynchobatidae,bathyraja,bathyraja pallida,pale ray,1967,Forster
+592,rajiformes,arhynchobatidae,bathyraja,bathyraja panthera,leopard skate,2011,"Orr, Stevenson, Hoff, Spies & McEachran"
+593,rajiformes,arhynchobatidae,bathyraja,bathyraja papilionifera,butterfly skate,1985,Stehmann
+594,rajiformes,arhynchobatidae,bathyraja,bathyraja parmifera,Alaska skate,1881,Bean
+595,rajiformes,arhynchobatidae,bathyraja,bathyraja peruana,Peruvian skate,1984,McEachran & Miyake
+596,rajiformes,arhynchobatidae,bathyraja,bathyraja pseudoisotrachys,,1985,Ishiyama & Ishihara
+597,rajiformes,arhynchobatidae,bathyraja,bathyraja richardsoni,Richardson's skate,1961,Garrick
+598,rajiformes,arhynchobatidae,bathyraja,bathyraja scaphiops,cuphead skate,1937,Norman
+599,rajiformes,arhynchobatidae,bathyraja,bathyraja schroederi,whitemouth skate,1968,Krefft
+600,rajiformes,arhynchobatidae,bathyraja,bathyraja sexoculata,Simushir skate,2020,"Misawa, Orlov, Orlova, Gordeev & Ishihara"
+601,rajiformes,arhynchobatidae,bathyraja,bathyraja shuntovi,longnose deep-sea  skate,1985,Dolganov
+602,rajiformes,arhynchobatidae,bathyraja,bathyraja simoterus,Hokkaido skate,1967,Ishiyama
+603,rajiformes,arhynchobatidae,bathyraja,bathyraja smirnovi,golden skate,1915,Soldatov & Pavlenko
+604,rajiformes,arhynchobatidae,bathyraja,bathyraja smithii,African softnose skate,1841,Müller & Henle
+605,rajiformes,arhynchobatidae,bathyraja,bathyraja spinicauda,spinytail skate,1914,Jensen
+606,rajiformes,arhynchobatidae,bathyraja,bathyraja spinosissima,Pacific white skate,1941,Beebe & Tee-Van
+607,rajiformes,arhynchobatidae,bathyraja,bathyraja taranetzi,mud skate,1983,Dolganov
+608,rajiformes,arhynchobatidae,bathyraja,bathyraja trachouros,Eremo skate,1958,Ishiyama
+609,rajiformes,arhynchobatidae,bathyraja,bathyraja trachura,roughtail skate,1892,Gilbert
+610,rajiformes,arhynchobatidae,bathyraja,bathyraja tunae,Tuna's skate,2005,Stehmann
+611,rajiformes,arhynchobatidae,bathyraja,bathyraja tzinovskii,creamback skate,1983,Dolganov
+612,rajiformes,arhynchobatidae,bathyraja,bathyraja violacea,Okhotsk skate,1935,Suvorov
+613,rajiformes,arhynchobatidae,brochiraja,brochiraja aenigma,enigma skate,,
+614,rajiformes,arhynchobatidae,brochiraja,brochiraja albilabiata,,,
+615,rajiformes,arhynchobatidae,brochiraja,brochiraja asperula,smooth deep-sea skate,,
+616,rajiformes,arhynchobatidae,brochiraja,brochiraja heuresa,Eureka skate,,
+617,rajiformes,arhynchobatidae,brochiraja,brochiraja leviveneta,,,
+618,rajiformes,arhynchobatidae,brochiraja,brochiraja microspinifera,prickly deep-sea skate,,
+619,rajiformes,arhynchobatidae,brochiraja,brochiraja vittacauda,ribbontail skate,,
+620,rajiformes,arhynchobatidae,insentiraja,insentiraja laxipella,eastern looseskin skate,,
+621,rajiformes,arhynchobatidae,insentiraja,insentiraja subtilispinosa,western looseskin skate,,
+622,rajiformes,arhynchobatidae,irolita,irolita waitii,Southern round skate,,
+623,rajiformes,arhynchobatidae,irolita,irolita westraliensis,Western round skate,,
+624,rajiformes,arhynchobatidae,notoraja,notoraja alisae,Alis skate,,
+625,rajiformes,arhynchobatidae,notoraja,notoraja azurea,blue skate,,
+626,rajiformes,arhynchobatidae,notoraja,notoraja fijiensis,Fiji skate,,
+627,rajiformes,arhynchobatidae,notoraja,notoraja hirticauda,ghost skate,,
+628,rajiformes,arhynchobatidae,notoraja,notoraja inusitata,strange skate,,
+629,rajiformes,arhynchobatidae,notoraja,notoraja lira,broken ridge skate,,
+630,rajiformes,arhynchobatidae,notoraja,notoraja longiventralis,long ventral skate,,
+631,rajiformes,arhynchobatidae,notoraja,notoraja martinezi,barbedwire-tailed skate,,
+632,rajiformes,arhynchobatidae,notoraja,notoraja ochroderma,pale skate,,
+633,rajiformes,arhynchobatidae,notoraja,notoraja sapphira,sapphire skate,,
+634,rajiformes,arhynchobatidae,notoraja,notoraja sereti,Papuan velvet skate,,
+635,rajiformes,arhynchobatidae,notoraja,notoraja sticta,blotched skate,,
+636,rajiformes,arhynchobatidae,notoraja,notoraja tobitukai,lead-hued skate,,
+637,rajiformes,arhynchobatidae,pavoraja,pavoraja alleni,Allen's skate,,
+638,rajiformes,arhynchobatidae,pavoraja,pavoraja arenaria,sandy skate,,
+639,rajiformes,arhynchobatidae,pavoraja,pavoraja mosaica,mosaic skate,,
+640,rajiformes,arhynchobatidae,pavoraja,pavoraja nitida,peacock skate,,
+641,rajiformes,arhynchobatidae,pavoraja,pavoraja pseudonitida,false peacock skate,,
+642,rajiformes,arhynchobatidae,pavoraja,pavoraja umbrosa,dusky skate,,
+643,rajiformes,arhynchobatidae,psammobatis,psammobatis bergi,blotched sand skate,,
+644,rajiformes,arhynchobatidae,psammobatis,psammobatis extenta,zipper sand skate,,
+645,rajiformes,arhynchobatidae,psammobatis,psammobatis lentiginosa,freckled sand skate,,
+646,rajiformes,arhynchobatidae,psammobatis,psammobatis normanii,shortfin sand skate,,
+647,rajiformes,arhynchobatidae,psammobatis,psammobatis parvacauda,smalltail sand skate,,
+648,rajiformes,arhynchobatidae,psammobatis,psammobatis rudis,smallthorn sand skate,,
+649,rajiformes,arhynchobatidae,psammobatis,psammobatis rutrum,spade sand skate,,
+650,rajiformes,arhynchobatidae,psammobatis,psammobatis scobina,raspthorn sand skate,,
+651,rajiformes,arhynchobatidae,pseudoraja,pseudoraja fischeri,fanfin skate,,
+652,rajiformes,arhynchobatidae,rhinoraja,rhinoraja kujiensis,dapple-bellied softnose skate,,
+653,rajiformes,arhynchobatidae,rhinoraja,rhinoraja longicauda,white-bellied softnose skate,,
+654,rajiformes,arhynchobatidae,rhinoraja,rhinoraja odai,Oda's skate,,
+655,rajiformes,arhynchobatidae,rioraja,rioraja agassazii,rio skate,,
+656,rajiformes,arhynchobatidae,sympterygia,sympterygia acuta,bignose fanskate,,
+657,rajiformes,arhynchobatidae,sympterygia,sympterygia bonapartii,smallnose fanskate,,
+658,rajiformes,arhynchobatidae,sympterygia,sympterygia brevicaudata,shorttail fanskate,,
+659,rajiformes,arhynchobatidae,sympterygia,sympterygia lima,filetail fanskate,,
+660,rajiformes,gurgesiellidae,cruriraja,cruriraja andamanica,Andaman legskate,1909,Lloyd
+661,rajiformes,gurgesiellidae,cruriraja,cruriraja atlantis,Atlantic legskate,,
+662,rajiformes,gurgesiellidae,cruriraja,cruriraja cadenati,broadfoot legskate,,
+663,rajiformes,gurgesiellidae,cruriraja,cruriraja durbanensis,smoothnose legskate,,
+664,rajiformes,gurgesiellidae,cruriraja,cruriraja hulleyi,,,
+665,rajiformes,gurgesiellidae,cruriraja,cruriraja parcomaculata,roughnose legskate,,
+666,rajiformes,gurgesiellidae,cruriraja,cruriraja poeyi,Cuban legskate,,
+667,rajiformes,gurgesiellidae,cruriraja,cruriraja rugosa,rough legskate,,
+668,rajiformes,gurgesiellidae,fenestraja,fenestraja atripinna,blackfin pygmy skate,,
+669,rajiformes,gurgesiellidae,fenestraja,fenestraja cubensis,Cuban pygmy skate,,
+670,rajiformes,gurgesiellidae,fenestraja,fenestraja ishiyamai,plain pygmy skate,,
+671,rajiformes,gurgesiellidae,fenestraja,fenestraja maceachrani,Madagascar pygmy skate,,
+672,rajiformes,gurgesiellidae,fenestraja,fenestraja mamillidens,prickly skate,,
+673,rajiformes,gurgesiellidae,fenestraja,fenestraja plutonia,Pluto skate,,
+674,rajiformes,gurgesiellidae,fenestraja,fenestraja sibogae,Siboga skate,,
+675,rajiformes,gurgesiellidae,fenestraja,fenestraja sinusmexicanus,Gulf of Mexico pygmy skate,,
+676,rajiformes,gurgesiellidae,gurgesiella,gurgesiella atlantica,Atlantic pygmy skate,,
+677,rajiformes,gurgesiellidae,gurgesiella,gurgesiella dorsalifera,onefin skate,,
+678,rajiformes,gurgesiellidae,gurgesiella,gurgesiella furvescens,dusky finless skate,,
+679,rajiformes,rajidae,amblyraja,amblyraja badia,broad skate,,
+680,rajiformes,rajidae,amblyraja,amblyraja doellojuradoi,southern thorny skate,,
+681,rajiformes,rajidae,amblyraja,amblyraja frerichsi,thickbody skate,,
+682,rajiformes,rajidae,amblyraja,amblyraja georgiana,Antarctic starry skate,,
+683,rajiformes,rajidae,amblyraja,amblyraja hyperborea,Arctic skate,,
+684,rajiformes,rajidae,amblyraja,amblyraja jenseni,shortail skate,,
+685,rajiformes,rajidae,amblyraja,amblyraja radiata,thorny skate,,
+686,rajiformes,rajidae,amblyraja,amblyraja reversa,reversed skate,,
+687,rajiformes,rajidae,amblyraja,amblyraja robertsi,bigmouth skate,,
+688,rajiformes,rajidae,amblyraja,amblyraja taaf,whiteleg skate,,
+689,rajiformes,rajidae,beringraja,beringraja binoculata,big skate,,
+690,rajiformes,rajidae,beringraja,beringraja cortezensis,Cortez' ray,,
+691,rajiformes,rajidae,beringraja,beringraja inornata,California ray,,
+692,rajiformes,rajidae,beringraja,beringraja rhina,longnose skate,1880,Jordan & Gilbert
+693,rajiformes,rajidae,beringraja,beringraja pulchra,mottled skate,,
+694,rajiformes,rajidae,beringraja,beringraja stellulata,starry skate,,
+695,rajiformes,rajidae,breviraja,breviraja claramaculata,brightspot skate,,
+696,rajiformes,rajidae,breviraja,breviraja colesi,lightnose skate,,
+697,rajiformes,rajidae,breviraja,breviraja marklei,Novia Scotia skate,,
+698,rajiformes,rajidae,breviraja,breviraja mouldi,blacknose skate,,
+699,rajiformes,rajidae,breviraja,breviraja nigriventralis,blackbelly skate,,
+700,rajiformes,rajidae,breviraja,breviraja spinosa,spinose skate,,
+701,rajiformes,rajidae,dactylobatus,dactylobatus armatus,skillet skate,,
+702,rajiformes,rajidae,dactylobatus,dactylobatus clarkii,hook skate,,
+703,rajiformes,rajidae,dentiraja,dentiraja australis,Sydney skate,,
+704,rajiformes,rajidae,dentiraja,dentiraja cerva,white-spotted skate,,
+705,rajiformes,rajidae,dentiraja,dentiraja confusa,Australian longnose skate,,
+706,rajiformes,rajidae,dentiraja,dentiraja endeavouri,endeavour skate,,
+707,rajiformes,rajidae,dentiraja,dentiraja falloarga,false argus skate,,
+708,rajiformes,rajidae,dentiraja,dentiraja flindersi,pygmy thornback skate,,
+709,rajiformes,rajidae,dentiraja,dentiraja healdi,Heald's skate,,
+710,rajiformes,rajidae,dentiraja,dentiraja lemprieri,thornback skate,,
+711,rajiformes,rajidae,dentiraja,dentiraja polyommata,argus skate,,
+712,rajiformes,rajidae,dipturus,dipturus acrobelus,deepwater skate,2008,"White, Last & Pogonoski"
+713,rajiformes,rajidae,dipturus,dipturus amphispinus,ridgeback skate,2013,Last & Alava
+714,rajiformes,rajidae,dipturus,dipturus apricus,pale tropical skate,2008,"White, Last & Pogonoski"
+715,rajiformes,rajidae,dipturus,dipturus argentinensis,Argentine skate,2008,"Díaz de Astarloa, Mabragaña, Hanner & Figueroa"
+716,rajiformes,rajidae,dipturus,dipturus batis,common skate,1758,Linnaeus
+717,rajiformes,rajidae,dipturus,dipturus bullisi,Bullis skate,1962,Bigelow & Schroeder
+718,rajiformes,rajidae,dipturus,dipturus campbelli,blackspot skate,1967,Wallace
+719,rajiformes,rajidae,dipturus,dipturus canutus,grey skate,2008,Last
+720,rajiformes,rajidae,dipturus,dipterus chilensis,yellownose skate,1848,Guichenot
+721,rajiformes,rajidae,dipturus,dipturus chinensis,Chinese skate,1855,Basilewsky
+722,rajiformes,rajidae,dipturus,dipturus crosnieri,Madagascar skate,1989,Seret
+723,rajiformes,rajidae,dipturus,dipturus doutrei,violet skate,1960,Cadenat
+724,rajiformes,rajidae,dipturus,dipturus ecuadoriensis,Ecuador skate,1941,Beebe & Tee-Van
+725,rajiformes,rajidae,dipturus,dipturus flavirostris,,1892,Philippi
+726,rajiformes,rajidae,dipturus,dipturus garricki,San Blas skate,1958,Bigelow & Schroeder
+727,rajiformes,rajidae,dipturus,dipturus gigas,giant skate,1958,Ishiyama
+728,rajiformes,rajidae,dipturus,dipturus grahamorum,Graham's skate,2008,Last
+729,rajiformes,rajidae,dipturus,dipturus gudgeri,greenback skate,1940,Whitley
+730,rajiformes,rajidae,dipturus,dipturus innominatus,New Zealand smooth skate,1974,Garrick & Paul
+731,rajiformes,rajidae,dipturus,dipturus intermedius,flapper skate,1837,Parnell
+732,rajiformes,rajidae,dipturus,dipturus johannisdavisi,Travancore skate,1899,Alcock
+733,rajiformes,rajidae,dipturus,dipturus kwangtungensis,Kwangtung skate,1960,Chu
+734,rajiformes,rajidae,dipturus,dipturus laevis,barndoor skate,1818,Mitchill
+735,rajiformes,rajidae,dipturus,dipturus lamillai,,2019,"Concha, Caira, Ebert & Pompert"
+736,rajiformes,rajidae,dipturus,dipturus lanceorostratus,rattail skate,1967,Wallace
+737,rajiformes,rajidae,dipturus,dipturus leptocauda,thintail skate,1975,Krefft & Stehmann
+738,rajiformes,rajidae,dipturus,dipturus macrocauda,bigtail skate,1955,Ishiyama
+739,rajiformes,rajidae,dipturus,dipturus maugeanus,Maugean skate,2007,Last & Gledhill
+740,rajiformes,rajidae,dipturus,dipturus melanospilus,blacktip skate,2008,"Last, White & Pogonoski"
+741,rajiformes,rajidae,dipturus,dipturus mennii,South Brazilian skate,2001,Gomes & Parago
+742,rajiformes,rajidae,dipturus,dipturus nidarosiensis,Norwegian skate,1881,Storm
+743,rajiformes,rajidae,dipturus,dipturus olseni,spreadfin skate,1951,Bigelow & Schroeder
+744,rajiformes,rajidae,dipturus,dipturus oregoni,hooktail skate,1958,Bigelow & Schroeder
+745,rajiformes,rajidae,dipturus,dipturus oxyrinchus,long-nose skate,1758,Linnaeus
+746,rajiformes,rajidae,dipturus,dipturus pullopunctatus,slimeskate,1964,Smith
+747,rajiformes,rajidae,dipturus,dipturus queenslandicus,Queensland deepwater skate,2008,"Last, White & Pogonoski"
+748,rajiformes,rajidae,dipturus,dipturus springeri,roughbelly skate,1967,Wallace
+749,rajiformes,rajidae,dipturus,dipturus stenorhynchus,prownose skate,1967,Wallace
+750,rajiformes,rajidae,dipturus,dipturus teevani,prickly brown ray,1951,Bigelow & Schroeder
+751,rajiformes,rajidae,dipturus,dipturus tengu,acutenose skate,1903,Jordan & Fowler
+752,rajiformes,rajidae,dipturus,dipturus trachyderma,roughskin skate,1975,Krefft & Stehmann
+753,rajiformes,rajidae,dipturus,dipturus wengi,Weng's skate,2008,Seret & Last
+754,rajiformes,rajidae,dipturus,dipturus wuhanlingi,Wu's skate,2008,Jeong & Nakabo
+755,rajiformes,rajidae,hongeo,hongeo koreanus,Korean skate,1997,Jeong & Nakabo
+756,rajiformes,rajidae,leucoraja,leucoraja caribbaea,Maya skate,1977,McEachran
+757,rajiformes,rajidae,leucoraja,leucoraja circularis,sandy skate,1838,Couch
+758,rajiformes,rajidae,leucoraja,leucoraja compagnoi,tigertail skate,1995,Stehmann
+759,rajiformes,rajidae,leucoraja,leucoraja elaineae,Elaine's skate,2019,Ebert & Leslie
+760,rajiformes,rajidae,leucoraja,leucoraja erinacea,little skate,1825,Mitchill
+761,rajiformes,rajidae,leucoraja,leucoraja erinaceus,little skate,1825,Mitchill
+762,rajiformes,rajidae,leucoraja,leucoraja fullonica,shagreen skate,1758,Linnaeus
+763,rajiformes,rajidae,leucoraja,leucoraja garmani,rosette skate,1939,Whitley
+764,rajiformes,rajidae,leucoraja,leucoraja lentiginosa,speckled skate,1951,Bigelow & Schroeder
+765,rajiformes,rajidae,leucoraja,leucoraja leucosticta,white dappled skate,1971,Stehmann
+766,rajiformes,rajidae,leucoraja,leucoraja melitensis,Maltese skate,1926,Clark
+767,rajiformes,rajidae,leucoraja,leucoraja naevus,cuckoo skate,1841,Müller & Henle
+768,rajiformes,rajidae,leucoraja,leucoraja ocellata,winter skate,1815,Mitchill
+769,rajiformes,rajidae,leucoraja,leucoraja pristispina,sawback skate,2008,"Last, Stehmann & Seret"
+770,rajiformes,rajidae,leucoraja,leucoraja virginica,Virginia skate,1977,McEachran
+771,rajiformes,rajidae,leucoraja,leucoraja wallacei,yellow-spotted skate,1970,Hulley
+772,rajiformes,rajidae,leucoraja,leucoraja yucatanensis,Yucatan skate,1950,Bigelow & Schroeder
+773,rajiformes,rajidae,malacoraja,malacoraja kreffti,Krefft's skate,1978,Stehmann
+774,rajiformes,rajidae,malacoraja,malacoraja obscura,Brazilian soft skate,2005,"Carvalho, Gomes & Gadig"
+775,rajiformes,rajidae,malacoraja,malacoraja senta,smooth skate,1885,Garman
+776,rajiformes,rajidae,malacoraja,malacoraja spinacidermis,soft skate,1923,Barnard
+777,rajiformes,rajidae,neoraja,neoraja africana,West African pygmy skate,1983,Stehmann & Seret
+778,rajiformes,rajidae,neoraja,neoraja caerulea,Blue ray,1976,Stehmann
+779,rajiformes,rajidae,neoraja,neoraja carolinensis,Carolina pygmy skate,1984,McEachran & Stehmann
+780,rajiformes,rajidae,neoraja,neoraja iberica,Iberian pygmy skate,2008,"Stehmann, Seret, Costa & Baro"
+781,rajiformes,rajidae,neoraja,neoraja stehmanni,African pygmy skate,1972,Hulley
+782,rajiformes,rajidae,okamejei,okamejei acutispina,sharpspine skate,1958,Ishiyama
+783,rajiformes,rajidae,okamejei,okamejei arafurensis,arafura skate,2008,Last & Gledhill
+784,rajiformes,rajidae,okamejei,okamejei bosemani,Boseman's skate,1987,Ishihara
+785,rajiformes,rajidae,okamejei,okamejei cairae,Borneo sand skate,2010,"Last, Fahmi & Ishihara"
+786,rajiformes,rajidae,okamejei,okamejei heemstrai,East African skate,1982,McEachran & Fechhelm
+787,rajiformes,rajidae,okamejei,okamejei hollandi,yellow-spotted skate,1909,Jordan & Richardson
+788,rajiformes,rajidae,okamejei,okamejei kenojei,ocellate spot skate,1841,Bürger in Müller & Henle
+789,rajiformes,rajidae,okamejei,okamejei leptoura,thin-tail skate,2008,Last & Gledhill
+790,rajiformes,rajidae,okamejei,okamejei meerdervoortii,bigeye skate,1860,Bleeker
+791,rajiformes,rajidae,okamejei,okamejei mengae,,2007,"Jeong, Nakabo & Wu"
+792,rajiformes,rajidae,okamejei,okamejei ornata,ornate skate,2015,"Weigmann, Stehmann & Thiel"
+793,rajiformes,rajidae,okamejei,okamejei philipi,,1906,Lloyd
+794,rajiformes,rajidae,okamejei,okamejei schmidti,browneye skate,1958,Ishiyama
+795,rajiformes,rajidae,obiraja,obiraja jensenae,Sulu Sea skate,2010,Last & Lim
+796,rajiformes,rajidae,obiraja,obiraja powelli,Indian ringed skate,1898,Alcock
+797,rajiformes,rajidae,raja,raja asterias,Mediterranean starry ray,1809,Delaroche
+798,rajiformes,rajidae,raja,raja brachyura,blonde ray,1873,Lafont
+799,rajiformes,rajidae,raja,raja clavata,thornback ray,1758,Linnaeus
+800,rajiformes,rajidae,raja,raja eglanteria,clearnose skate,1800,Bosc
+801,rajiformes,rajidae,raja,raja herwigi,Cape Verde skate,1965,G. Krefft
+802,rajiformes,rajidae,raja,raja maderensis,Madeiran ray,1838,R.T. Lowe
+803,rajiformes,rajidae,raja,raja mauritaniensis,African ray,2021,White & Fricke
+804,rajiformes,rajidae,raja,raja microocellata,small-eyed ray,1818,Montagu
+805,rajiformes,rajidae,raja,raja miraletus,brown ray,1758,Linnaeus
+806,rajiformes,rajidae,raja,raja montaguii,spotted ray,1910,Fowler
+807,rajiformes,rajidae,raja,raja ocellifera,blue eye skate,1906,Regan
+808,rajiformes,rajidae,raja,raja parva,African brown skate,2016,Last & Seret
+809,rajiformes,rajidae,raja,raja pita,pita ray,1995,Fricke & Al-Hassan
+810,rajiformes,rajidae,raja,raja polystigma,speckled ray,1923,Regan
+811,rajiformes,rajidae,raja,raja radula,rough ray,1809,Delroche
+812,rajiformes,rajidae,raja,raja straeleni,spotted skate,1951,Poll
+813,rajiformes,rajidae,raja,raja undulata,undulate ray,1802,Lacepede
+814,rajiformes,rajidae,raja,raja annandalei,Annandale's skate,1913,Weber
+815,rajiformes,rajidae,rajella,rajella barnardi,bigthorn skate,1935,Norman
+816,rajiformes,rajidae,rajella,rajella bathyphila,deepwater ray,1908,Holt & Byrne
+817,rajiformes,rajidae,rajella,rajella bigelowi,Bigelow's ray,1978,Stehmann
+818,rajiformes,rajidae,rajella,rajella caudaspinosa,munchkin skate,1923,von Bonde & Swart
+819,rajiformes,rajidae,rajella,rajella challengeri,challenger skate,2008,Last & Stehmann
+820,rajiformes,rajidae,rajella,rajella dissimilis,ghost skate,1970,Hulley
+821,rajiformes,rajidae,rajella,rajella eisenhardti,Galapagos grey skate,1999,Long & McCosker
+822,rajiformes,rajidae,rajella,rajella fuliginea,sooty skate,1954,Bigelow & Schroeder
+823,rajiformes,rajidae,rajella,rajella fyllae,round ray,1887,Lutken
+824,rajiformes,rajidae,rajella,rajella kukujevi,mid-Atlantic skate,1985,Dolganov
+825,rajiformes,rajidae,rajella,rajella leoparda,leopard skate,1923,von Bonde & Swart
+826,rajiformes,rajidae,rajella,rajella lintea,sailray,1838,Fries
+827,rajiformes,rajidae,rajella,rajella nigerrima,blackish skate,1960,de Buen
+828,rajiformes,rajidae,rajella,rajella paucispinosa,sparsely-thorned skate,2014,"Weigmann, Stehmann & Thiel"
+829,rajiformes,rajidae,rajella,rajella pupuriventralis,purplebelly skate,1962,Bigelow & Schroeder
+830,rajiformes,rajidae,rajella,rajella ravidula,smoothback skate,1970,Hulley
+831,rajiformes,rajidae,rajella,rajella sadowskii,Brazilian skate,1974,Krefft & Stehmann
+832,rajiformes,rajidae,rostroraja,rostroraja ackleyi,ocellate skate,1881,Garman
+833,rajiformes,rajidae,rostroraja,rostroraja alba,bottlenose skate,1803,Lacepede
+834,rajiformes,rajidae,rostroraja,rostroraja bahamensis,Bahama skate,1965,Bigelow & Schroeder
+835,rajiformes,rajidae,rostroraja,rostroraja cervigoni,finspot ray,1964,Bigelow & Schroeder
+836,rajiformes,rajidae,rostroraja,rostroraja eglanteria,clearnose skate,1800,Bosc
+837,rajiformes,rajidae,rostroraja,rostroraja equatorialis,equatorial ray,1890,D.S. Jordan & Bollman
+838,rajiformes,rajidae,rostroraja,rostroraja texana,Roundel skate,1921,Chandler
+839,rajiformes,rajidae,rostroraja,rostroraja velezi,Velez ray,1973,Chirichigno F.
+840,rajiformes,rajidae,spiniraja,spiniraja whitleyi,Melbourne skate,1938,Iredale
+841,rajiformes,rajidae,zearaja,zearaja argentinensis,Argentine skate,2008,"Diaz de Astarloa, Mabragaña, Hanner & Figueroa"
+842,rajiformes,rajidae,zearaja,zearaja maugeana,Maugean skate,2007,Last & Gledhill
+843,rajiformes,rajidae,zearaja,zearaja nasuta,New Zealand rough skate,1841,Müller & Henle
+844,rhinopristiformes,glaucostegidae,glaucostegus,glaucostegus cemiculus,blackchin guitarfish,1817,Saint-Hilaire
+845,rhinopristiformes,glaucostegidae,glaucostegus,glaucostegus granulatus,sharpnose guitarfish,1829,Cuvier
+846,rhinopristiformes,glaucostegidae,glaucostegus,glaucostegus halavi,halavi guitarfish,1775,Forsskål
+847,rhinopristiformes,glaucostegidae,glaucostegus,glaucostegus microphthalmus,smalleyed guitarfish,1959,Teng
+848,rhinopristiformes,glaucostegidae,glaucostegus,glaucostegus obtusus,widenose guitarfish,1841,Müller & Henle
+849,rhinopristiformes,glaucostegidae,glaucostegus,glaucostegus petiti,Madagascar guitarfish,1929,Chabanaud
+850,rhinopristiformes,glaucostegidae,glaucostegus,glaucostegus spinosus,spiny guitarfish,1870,Günther
+851,rhinopristiformes,glaucostegidae,glaucostegus,glaucostegus thouin,clubnose guitarfish,1798,anonymous
+852,rhinopristiformes,glaucostegidae,glaucostegus,glaucostegus typus,common shovelnose ray,1830,anonymous
+853,rhinopristiformes,glaucostegidae,glaucostegus,glaucostegus younholeei,Bangladeshi guitarfish,2001,Habib & Islam
+854,rhinopristiformes,pristidae,anoxypristis,anoxypristis cuspidata,knifetooth sawfish,1794,Latham
+855,rhinopristiformes,pristidae,pristis,pristis clavata,dwarf sawfish,1906,Garman
+856,rhinopristiformes,pristidae,pristis,pristis microdon,freshwater sawfish,1794,Latham
+857,rhinopristiformes,pristidae,pristis,pristis pectinata,smalltooth sawfish,1794,Latham
+858,rhinopristiformes,pristidae,pristis,pristis perotteti,large-tooth sawfish,1841,Müller & Henle
+859,rhinopristiformes,pristidae,pristis,pristis pristis,largetooth sawfish,1758,Linnaeus
+860,rhinopristiformes,pristidae,pristis,pristis zijsron,green sawfish,1851,Bleeker
+861,rhinopristiformes,rhinobatidae,rhina,rhina ancyclostomus,bowmouth guitarfish,1801,Bloch & Schneider
+862,rhinopristiformes,rhinobatidae,zapteryx,zapteryx brevirostris,shortnose guitarfish,1841,Müller & Henle
+863,rhinopristiformes,rhinobatidae,zapteryx,zapteryx exasperata,banded guitarfish,1880,Jordan & Gilbert
+864,rhinopristiformes,rhinobatidae,zapteryx,zapteryx zyster,southern banded guitarfish,1896,Jordan & Evermann
+865,squatiniformes,squatinidae,squatina,squatina varii,Brazilian angelshark,2018,Vaz & Carvalho
+866,torpediniformes,hypnidae,hypnos,hypnos monopterygius,coffin ray,1852,Duméril
+867,torpediniformes,narcinidae,benthobatis,benthobatis kreffti,Brazilian blind electric ray,2001,"Rincon, Stehmann & Vooren"
+868,torpediniformes,narcinidae,benthobatis,benthobatis marcida,Blind torpedo,1909,Bean & Weed
+869,torpediniformes,narcinidae,benthobatis,benthobatis moresbyi,Dark blind ray,1898,Alcock
+870,torpediniformes,narcinidae,benthobatis,benthobatis yangi,Taiwanese blind electric ray,2003,"Carvalho, Compagno & Ebert"
+871,torpediniformes,narcinidae,diplobatis,diplobatis colombiensis,Colombian electric ray,1984,Fechhelm & McEachran
+872,torpediniformes,narcinidae,diplobatis,diplobatis guamachensis,Brownband numbfish,1957,Martin Salazar
+873,torpediniformes,narcinidae,diplobatis,diplobatis ommata,Occellated electric ray,1890,Jordan & Gilbert
+874,torpediniformes,narcinidae,diplobatis,diplobatis picta,Painted electric ray,1950,Palmer
+875,torpediniformes,narcinidae,discopyge,discopyge castelloi,Castello's apron numbfish,2008,"Menni, Rincon & Garcia"
+876,torpediniformes,narcinidae,discopyge,discopyge tschudii,Apron ray,1846,Heckel
+877,torpediniformes,narcinidae,narcine,narcine atzi,Atz's numbfish,2003,Carvalho & Randall
+878,torpediniformes,narcinidae,narcine,narcine baliensis,Indonesian numbfish,2016,Carvalho & White
+879,torpediniformes,narcinidae,narcine,narcine bancroftii,Lesser electric ray,1834,Griffith & Smith
+880,torpediniformes,narcinidae,narcine,narcine brasiliensis,Brazilian electric ray,1831,Olfers
+881,torpediniformes,narcinidae,narcine,narcine breviliabiata,Short-lip electric ray,1966,Bessednov
+882,torpediniformes,narcinidae,narcine,narcine brunnea Annandale,Brown numbfish,1909,Annandale
+883,torpediniformes,narcinidae,narcine,narcine entemedor,Giant electric ray,1895,Jordan & Starks
+884,torpediniformes,narcinidae,narcine,narcine insolita,Madagascar numbfish,2002,"M.R. de Carvalho, Séret, & Compagno"
+885,torpediniformes,narcinidae,narcinops,narcinops lasti,Western numbfish,2001,M.R. de Carvalho
+886,torpediniformes,narcinidae,narcine,narcine leoparda,Leopard numbfish,2001,M.R. de Carvalho
+887,torpediniformes,narcinidae,narcine,narcine lingula,Chinese numbfish,1846,Richardson
+888,torpediniformes,narcinidae,narcine,narcine maculata,Dark-finned numbfish,1804,Shaw
+889,torpediniformes,narcinidae,narcinops,narcinops nelsoni,Eastern numbfish,2008,M.R. de Carvalho
+890,torpediniformes,narcinidae,narcine,narcine oculifera,Big-eye electric ray,2002,"M.R. de Carvalho, Compagno & Mee"
+891,torpediniformes,narcinidae,narcinops,narcinops ornatus,Ornate numbfish,2008,M.R. de Carvalho
+892,torpediniformes,narcinidae,narcine,narcine prodorsarlis,Tonkin numbfish,1966,Bessednov
+893,torpediniformes,narcinidae,narcine,narcine rierai,Slender electric ray,1991,Lloris & Rucabado
+894,torpediniformes,narcinidae,narcinops,narcinops tasmaniensis,Tasmanian numbfish,1841,Richardson
+895,torpediniformes,narcinidae,narcine,narcine timlei,Spotted numbfish,1801,Bloch & Schneider
+896,torpediniformes,narcinidae,narcine,narcine vermiculata,Vermiculate electric ray,1928,Breder
+897,torpediniformes,narcinidae,narcinops,narcine westraliensis,Banded numbfish,1966,McKay
+898,torpediniformes,narkidae,crassinarke,crassinarke dormitor,sleeper torpedo,1951,Takagi
+899,torpediniformes,narkidae,electrolux,electrolux addisoni,ornate sleeper ray,2007,Compagno & Heemstra
+900,torpediniformes,narkidae,heteronarce,heteronarce betuviai,Elat electric ray,1989,Baranes & Randall
+901,torpediniformes,narkidae,heteronarce,heteronarce garmanii,Natal electric ray,1921,Regan
+902,torpediniformes,narkidae,heteronarce,heteronarce mollis,soft electric ray,1907,Lloyd
+903,torpediniformes,narkidae,heteronarce,heteronarce prabhui,Quilon electric ray,1981,Talwar
+904,torpediniformes,narkidae,narke,narke capensis,onefin electric ray,1789,Gmelin
+905,torpediniformes,narkidae,narke,narke dypterigia,numbray,1801,Bloch & Schneider
+906,torpediniformes,narkidae,narke,narke japonica,Japanese sleeper ray,1831,Gray
+907,torpediniformes,narkidae,temera,temera hardwickii,Finless sleeper ray,1831,Gray
+908,torpediniformes,narkidae,typhlonarke,typhlonarke aysoni,blind electric ray,1902,Hamilton
+909,torpediniformes,narkidae,typhlonarke,typhlonarke tarakea,oval electric ray,1929,Phillips
+910,torpediniformes,platyrhinidae,platyrhina,platyrhina hyugaensis,Hyuga fanray,2011,"Iwatsuki, Miyamoto & Nakaya"
+911,torpediniformes,platyrhinidae,platyrhina,platyrhina psomadakisi,Indian fanray,2016,White & Last
+912,torpediniformes,platyrhinidae,platyrhina,platyrhina sinensis,fanray,1801,Bloch & Schneider
+913,torpediniformes,platyrhinidae,platyrhina,platyrhina tangi,yellow-spotted fanray,2011,"Iwatsuki, Zhang & Nakaya"
+914,torpediniformes,platyrhinidae,platyrhinoidis,platyrhinoidis triseriata,thornback guitarfish,1880,Jordan & Gilbert
+915,torpediniformes,zanobatidae,zanobatus,zanobatus maculatus,panray,2016,Seret
+916,torpediniformes,zanobatidae,zanobatus,zanobatus schoenleinii,striped panray,1841,Müller & Henle
+917,myliobatiformes,hexatrygonidae,hexatrygon,hexatrygon bickelli,sixgill stingray,1980,Heemstra & Smith
+918,myliobatiformes,plesiobatidae,plesiobatis,plesiobatis daviesi,deepwater stingray,1967,Wallace
+919,myliobatiformes,urotrygonidae,urobatis,urobatis concentricus,bullseye round stingray,1916,Osburn & Nichols
+920,myliobatiformes,urotrygonidae,urobatis,urobatis halleri,round stingray,1863,Cooper
+921,myliobatiformes,urotrygonidae,urobatis,urobatis jamaicensis,yellow stingray,1816,Cuvier
+922,myliobatiformes,urotrygonidae,urobatis,urobatis maculatus,spotted round ray,1913,Garman
+923,myliobatiformes,urotrygonidae,urobatis,urobatis marmoratus,Chilean round stingray,1892,Philippi
+924,myliobatiformes,urotrygonidae,urobatis,urobatis pardalis,leopard round stingray,2015,"Del Moral-Flores, Angula, Lopez & Bussing"
+925,myliobatiformes,urotrygonidae,urobatis,urobatis sloani,,,
+926,myliobatiformes,urotrygonidae,urobatis,urobatis tumbesensis,Tumbes round stingray,1979,Chirichigno F. & McEachran
+927,myliobatiformes,dasyatidae,pastinachus,pastinachus ater,broad cowtail stingray,1883,Macleay
+928,myliobatiformes,dasyatidae,pastinachus,pastinachus gracilicaudus,narrow cowtail stingray,2010,Last & Manjaji-Matsumoto
+929,myliobatiformes,dasyatidae,pastinachus,pastinachus sephen,cowtail stingray,1775,Forsskål
+930,myliobatiformes,dasyatidae,pastinachus,pastinachus solocirostris,roughnose cowtail stingray,2005,"Last, Manjaji & Yearsley"
+931,myliobatiformes,dasyatidae,pastinachus,pastinachus stellurostris,starrynose cowtail stingray,2010,"Last, Fahmi & Naylor"
+932,myliobatiformes,dasyatidae,fontitrygon,fontitrygon colarensis,Colares stingray,2004,"Santos, Gomes & Charvet-Almeida"
+933,myliobatiformes,dasyatidae,fontitrygon,fontitrygon garouaensis,Niger stingray,1962,Stauch & Blanc
+934,myliobatiformes,dasyatidae,fontitrygon,fontitrygon geijskesi,sharpsnout stingray,1948,Boeseman
+935,myliobatiformes,dasyatidae,fontitrygon,fontitrygon margarita,daisy stingray,1870,Günther
+936,myliobatiformes,dasyatidae,fontitrygon,fontitrygon margaritella,pearl stingray,1984,Compagno & Roberts
+937,myliobatiformes,dasyatidae,fontitrygon,fontitrygon ukpam,pincushion stingray,1863,Smith
+938,myliobatiformes,dasyatidae,urogymnus,urogymnus acanthobothrium,mumburarr whipray,2016,"Last, White & Kyne"
+939,myliobatiformes,dasyatidae,urogymnus,urogymnus asperrimus,porcupine ray,1801,Bloch & Schneider
+940,myliobatiformes,dasyatidae,urogymnus,urogymnus dalyensis,freshwater whipray,2008,Last & Manjaji-Matsumoto
+941,myliobatiformes,dasyatidae,urogymnus,urogymnus granulatus,mangrove whipray,1883,Macleay
+942,myliobatiformes,dasyatidae,urogymnus,urogymnus lobistoma,tubemouth whipray,2006,Manjaji-Matsumoto & Last
+943,myliobatiformes,dasyatidae,urogymnus,urogymnus polylepis,giant freshwater stingray,1852,Bleeker
+944,myliobatiformes,dasyatidae,fontitrygon,fontitrygon ukpam,thorny freshwater stingray,1863,Smith
+945,myliobatiformes,dasyatidae,brevitrygon,brevitrygon heterura,,1852,Bleeker
+946,myliobatiformes,dasyatidae,brevitrygon,brevitrygon imbricata,scaly whipray,1801,Bloch & Schneider
+947,myliobatiformes,dasyatidae,brevitrygon,brevitrygon javaensis,Javan whipray,2013,Last & White
+948,myliobatiformes,dasyatidae,brevitrygon,brevitrygon walga,dwarf whipray,1841,Müller & Henle
+949,myliobatiformes,dasyatidae,fluvitrygon,fluvitrygon kittipongi,roughback whipray,2005,Vidthayanon & Roberts
+950,myliobatiformes,dasyatidae,fluvitrygon,fluvitrygon oxyrhyncha,marbled whipray,1878,Sauvage
+951,myliobatiformes,dasyatidae,fluvitrygon,fluvitrygon signifer,white-edged freshwater whipray,1982,Compagno & Roberts
+952,myliobatiformes,dasyatidae,pateobatis,pateobatis bleekeri,Bleeker's whipray,1860,Blyth
+953,myliobatiformes,dasyatidae,pateobatis,pateobatis fai,pink whipray,1906,Jordan & Seale
+954,myliobatiformes,dasyatidae,pateobatis,pateobatis hortlei,Hortles' whipray,2006,"Last, Manjaji-Matsumoto & Kailola"
+955,myliobatiformes,dasyatidae,pateobatis,pateobatis jenkinsii,Jenkins' whipray,1909,Annandale
+956,myliobatiformes,dasyatidae,pateobatis,pateobatis uarnacoides,whitenose whipray,1852,Bleeker
+957,myliobatiformes,dasyatidae,maculabatis,maculabatis ambigua,Baraka's whipray,2016,"Last, Bogorodsky & Alpermann"
+958,myliobatiformes,dasyatidae,maculabatis,maculabatis arabica,Pakistan whipray,2016,Manjaji-Matsumoto & Last
+959,myliobatiformes,dasyatidae,maculabatis,maculabatis astra,black-spotted whipray,2008,"Last, Manjaji-Matsumoto & Pogonoski"
+960,myliobatiformes,dasyatidae,maculabatis,maculabatis bineeshi,short-tail whipray,2016,Manjaji-Matsumoto & Last
+961,myliobatiformes,dasyatidae,maculabatis,maculabatis gerrardi,whitespotted whipray,1851,Gray
+962,myliobatiformes,dasyatidae,maculabatis,maculabatis macrura,,1852,Bleeker
+963,myliobatiformes,dasyatidae,maculabatis,maculabatis pastinacoides,round whipray,1852,Bleeker
+964,myliobatiformes,dasyatidae,maculabatis,maculabatis randalli,Arabian banded whipray,2012,"Last, Manjaji-Matsumoto & Moore"
+965,myliobatiformes,dasyatidae,maculabatis,maculabatis toshi,brown whipray,1939,Whitley
+966,myliobatiformes,dasyatidae,himantura,himantura australis,Australian whipray,2016,"Last, White & Naylor"
+967,myliobatiformes,dasyatidae,himantura,himantura leoparda,leopard whipray,2008,Manjaji-Matsumoto & Last
+968,myliobatiformes,dasyatidae,himantura,himantura marginata,blackedge whipray,1860,Blyth
+969,myliobatiformes,dasyatidae,himantura,himantura microphthalma,smalleye whipray,1948,Chen
+970,myliobatiformes,dasyatidae,himantura,himantura pareh,,1852,Bleeker
+971,myliobatiformes,dasyatidae,himantura,himantura tutul,fine-spotted leopard whipray,2013,"Borsa, Durand, Shen, Alyza, Solihin & Berrebi"
+972,myliobatiformes,dasyatidae,himantura,himantura uarnak,reticulate whipray,1789,Gmelin
+973,myliobatiformes,dasyatidae,himantura,himantura undulata,honeycomb whipray,1852,Bleeker
+974,myliobatiformes,dasyatidae,neotrygon,neotrygon annotata,plain maskray,1987,Last
+975,myliobatiformes,dasyatidae,neotrygon,neotrygon australiae,Australian bluespotted maskray,2016,"Last, White & Seret"
+976,myliobatiformes,dasyatidae,neotrygon,neotrygon bobwardi,Bob Ward's bluespotted maskray,2017,"Borsa, Arlyza, Hoareau & Shen"
+977,myliobatiformes,dasyatidae,neotrygon,neotrygon caeruleopunctata,bluespotted maskray,2016,"Last, White & Seret"
+978,myliobatiformes,dasyatidae,neotrygon,neotrygon indica,Indian Ocean maskray,2018,"Pavan-Kumar, Kumar, Pitale, Shen & Borsa"
+979,myliobatiformes,dasyatidae,neotrygon,neotrygon kuhlii,Kuhl's stingray,1841,Müller & Henle
+980,myliobatiformes,dasyatidae,neotrygon,neotrygon leylandi,painted maskray,1987,Last
+981,myliobatiformes,dasyatidae,neotrygon,neotrygon mallaccensis,Malacca Strait bluespotted maskray,2017,"Borsa, Arlyza, Hoareau & Shen"
+982,myliobatiformes,dasyatidae,neotrygon,neotrygon moluccensis,Moluccan bluespotted maskray,2017,"Borsa, Arlyza, Hoareau & Shen"
+983,myliobatiformes,dasyatidae,neotrygon,neotrygon ningalooensis,Ningaloo maskray,2010,"Last, White & Puckridge"
+984,myliobatiformes,dasyatidae,neotrygon,neotrygon orientalis,Oriental bluespotted maskray,2016,"Last, White & Seret"
+985,myliobatiformes,dasyatidae,neotrygon,neotrygon picta,speckled maskray,2008,Last & White
+986,myliobatiformes,dasyatidae,neotrygon,neotrygon trigonoides,New Caldeonian maskray,1873,Castelnau
+987,myliobatiformes,dasyatidae,neotrygon,neotrygon vali,Guadalcanal maskray,2017,Borsa
+988,myliobatiformes,dasyatidae,neotrygon,neotrygon varidens,mahogany maskray,1885,Garman
+989,myliobatiformes,dasyatidae,neotrygon,neotrygon westpapuensis,West Papuan bluspotted maskray,2017,"Borsa, Arlyza, Hoareau & Shen"
+990,myliobatiformes,dasyatidae,taeniura,taeniura grabata,round fantail stingray,1817,Saint-Hilaire
+991,myliobatiformes,dasyatidae,taeniura,taeniura lessoni,Oceania fantail ,2016,"Last, White & Naylor"
+992,myliobatiformes,dasyatidae,taeniura,taeniura lymma,bluespotted ribbontail ray,1775,Forsskål
+993,myliobatiformes,dasyatidae,taeniura,taeniurops meyeni,round ribbontail ray,1841,Müller & Henle
+994,myliobatiformes,dasyatidae,hypanus,hypanus americanus,southern stingray,1928,Hildebrand & Schroeder
+995,myliobatiformes,dasyatidae,hypanus,hypanus berthalutzae,Lutz's stingray,2020,"Petean, Naylor & Lima"
+996,myliobatiformes,dasyatidae,hypanus,hypanus dipterurus,diamond stingray,1880,Jordan & Gilbert
+997,myliobatiformes,dasyatidae,hypanus,hypanus guttatus,longnose stingray,1801,Bloch & Schneider
+998,myliobatiformes,dasyatidae,hypanus,hypanus longus,longtail stingray,1880,Garman
+999,myliobatiformes,dasyatidae,hypanus,hypanus marianae,Brazilian large-eyed stingray,2000,"Gomes, Rosa & Gadig"
+1000,myliobatiformes,dasyatidae,hypanus,hypanus rudis,smalltooth stingray,1870,Günther
+1001,myliobatiformes,dasyatidae,hypanus,hypanus sabinus,Atlantic stingray,1824,Lesueur
+1002,myliobatiformes,dasyatidae,hypanus,hypanus say,bluntnose stingray,1817,Lesueur
+1003,myliobatiformes,dasyatidae,dasyatis,dasyatis chrysonota,blue stingray,1828,Smith
+1004,myliobatiformes,dasyatidae,dasyatis,dasyatis hypostigma,groovebelly stingray,2004,H. R. S. Santos & M. R. de Carvalho
+1005,myliobatiformes,dasyatidae,dasyatis,dasyatis marmorata,marbled stingray,1892,Steindachner
+1006,myliobatiformes,dasyatidae,dasyatis,dasyatis pastinaca,common stingray,1758,Linnaeus
+1007,myliobatiformes,dasyatidae,dasyatis,dasyatis tortonesei,Tortoneses's stingray,1975,Capapé
+1008,myliobatiformes,dasyatidae,bathytoshia,bathytoshia brevicaudata,short-tail stingray,1875,Hutton
+1009,myliobatiformes,dasyatidae,bathytoshia,bathytoshia centroura,roughtail stingray,1815,Mitchill
+1010,myliobatiformes,dasyatidae,bathytoshia,bathytoshia lata,brown stingray,1880,Garman
+1011,myliobatiformes,dasyatidae,pteroplatytrygon,pteroplatytrygon violacea,pelagic stingray,1832,Bonaparte
+1012,myliobatiformes,dasyatidae,hemitrygon,hemitrygon akajei,red stingray,1841,Müller & Henle
+1013,myliobatiformes,dasyatidae,hemitrygon,hemitrygon bennetti,Bennett's stingray,1841,Müller & Henle
+1014,myliobatiformes,dasyatidae,hemitrygon,hemitrygon fluviorum,estuary stingray,1908,Ogilby
+1015,myliobatiformes,dasyatidae,hemitrygon,hemitrygon izuensis,Izu stingray,1988,Nishida & Nakaya
+1016,myliobatiformes,dasyatidae,hemitrygon,hemitrygon laevigata,Yantai stingray,1960,Chu
+1017,myliobatiformes,dasyatidae,hemitrygon,hemitrygon laosensis,Mekong freshwater stingray,1987,Roberts & Karnasuta
+1018,myliobatiformes,dasyatidae,hemitrygon,hemitrygon longicauda,Merauke stingray,2013,Last & White
+1019,myliobatiformes,dasyatidae,hemitrygon,hemitrygon navarrae,blackish stingray,1892,Steindachner
+1020,myliobatiformes,dasyatidae,hemitrygon,hemitrygon parvonigra,Dwarf black stingray,2008,Last & White
+1021,myliobatiformes,dasyatidae,hemitrygon,hemitrygon sinensis,Chinese stingray,1892,Steindachner
+1022,myliobatiformes,dasyatidae,hemitrygon,hemitrygon yemenensis,,2020,"Moore, Last & Naylor"
+1023,myliobatiformes,dasyatidae,telatrygon,telatrygon acutirostra,sharpnose stingray,1988,Nishida & Nakaya
+1024,myliobatiformes,dasyatidae,telatrygon,telatrygon biasa,Indonesian sharpnose ray,2016,White & Naylor
+1025,myliobatiformes,dasyatidae,telatrygon,telatrygon crozieri,,1860,Blyth
+1026,myliobatiformes,dasyatidae,telatrygon,telatrygon zugei,pale-edged stingray,1841,Müller & Henle
+1027,myliobatiformes,potamotrygonidae,styracura,styracura pacifica,pacific chupare,1941,Beebe & Tee-Van
+1028,myliobatiformes,potamotrygonidae,styracura,styracura schmardae,chupare stingray,1904,Werner
+1029,myliobatiformes,potamotrygonidae,heliotrygon,heliotrygon gomesi,Gomes's round ray,2011,M. R. de Carvalho &  Lovejoy
+1030,myliobatiformes,potamotrygonidae,heliotrygon,heliotrygon rosai,Rosa's round ray,2011,M.R. de Carvalho &  Lovejoy
+1031,myliobatiformes,potamotrygonidae,paratrygon,paratrygon aiereba,discus ray,1841,Müller & Henle
+1032,myliobatiformes,potamotrygonidae,plesiotrygon,plesiotrygon iwamae,longtailed river stingray,1987,"Rosa, Castello & Thorson"
+1033,myliobatiformes,potamotrygonidae,plesiotrygon,plesiotrygon nana,black-tailed antenna ray,2011,M.R. de Carvalho & Ragno
+1034,myliobatiformes,potamotrygonidae,potamotrygon,potamotrygon adamastor,,2017,Fontanelle & M. R. de Carvalho
+1035,myliobatiformes,potamotrygonidae,potamotrygon,potamotrygon albimaculata,Itaituba river stingray,2016,M.R. de Carvalho
+1036,myliobatiformes,potamotrygonidae,potamotrygon,potamotrygon amandae,,2013,Loboda & Carvalho
+1037,myliobatiformes,potamotrygonidae,potamotrygon,potamotrygon amazona,,2017,J.P. Fontanelle & M. R. de Carvalho
+1038,myliobatiformes,potamotrygonidae,potamotrygon,potamotrygon boesemani,boeseman's river stingray,2008,"Rosa, Carvalho & Almeida Wanderley"
+1039,myliobatiformes,potamotrygonidae,potamotrygon,potamotrygon brachyura,short-tailed river stingray,1880,Günther
+1040,myliobatiformes,potamotrygonidae,potamotrygon,potamotrygon constellata,thorny river stingray,1880,Vaillant
+1041,myliobatiformes,potamotrygonidae,potamotrygon,potamotrygon falkneri,largespot river stingray,1963,Castex & Maciel
+1042,myliobatiformes,potamotrygonidae,potamotrygon,potamotrygon garmani,,2017,J.P. Fontanelle & M. R. de Carvalho
+1043,myliobatiformes,potamotrygonidae,potamotrygon,potamotrygon henlei,bigtooth river stingray,1855,Castelnau
+1044,myliobatiformes,potamotrygonidae,potamotrygon,potamotrygon humerosa,smooth back river stingray,1913,Garman
+1045,myliobatiformes,potamotrygonidae,potamotrygon,potamotrygon hystrix,porcupine river stingray,1834,Müller & Henle
+1046,myliobatiformes,potamotrygonidae,potamotrygon,potamotrygon jabuti,pearl river stingray,2016,Carvalho
+1047,myliobatiformes,potamotrygonidae,potamotrygon,potamotrygon leopoldi,white-blotched river stingray,1970,Castex & Castello
+1048,myliobatiformes,potamotrygonidae,potamotrygon,potamotrygon limai,lima's river stingray,2014,"Fontaelle, Da Silva & Carvalho"
+1049,myliobatiformes,potamotrygonidae,potamotrygon,potamotrygon magdalenae,magdalena river stingray,1865,Duméril
+1050,myliobatiformes,potamotrygonidae,potamotrygon,potamotrygon marinae,marina's river stingray,2006,Deynat
+1051,myliobatiformes,potamotrygonidae,potamotrygon,potamotrygon marquesi,,2019,Silva & Loboda
+1052,myliobatiformes,potamotrygonidae,potamotrygon,potamotrygon motoro,ocellate river stingray,1841,Müller & Henle
+1053,myliobatiformes,potamotrygonidae,potamotrygon,potamotrygon ocellata,red-blotched river stingray,1912,Engelhardt
+1054,myliobatiformes,potamotrygonidae,potamotrygon,potamotrygon orbignyi,smoothback river stingray,1855,Castelnau
+1055,myliobatiformes,potamotrygonidae,potamotrygon,potamotrygon pantanensis,,2013,Loboda & Carvalho
+1056,myliobatiformes,potamotrygonidae,potamotrygon,potamotrygon rex,great river stingray,2016,Carvalho
+1057,myliobatiformes,potamotrygonidae,potamotrygon,potamotrygon schroederi,rosette river stingray,1958,Fernández-Yépez
+1058,myliobatiformes,potamotrygonidae,potamotrygon,potamotrygon schuhmacheri,parana river stingray,1964,Castex
+1059,myliobatiformes,potamotrygonidae,potamotrygon,potamotrygon scobina,raspy river stingray,1913,Garman
+1060,myliobatiformes,potamotrygonidae,potamotrygon,potamotrygon signata,parnaiba river stingray,1913,Garman
+1061,myliobatiformes,potamotrygonidae,potamotrygon,potamotrygon tatianae,tatiana's river stingray,2011,Silva & Carvalho
+1062,myliobatiformes,potamotrygonidae,potamotrygon,potamotrygon tigrina,tiger ray,2011,"M.R. De Carvalho, Sabaj Pérez & Lovejoy"
+1063,myliobatiformes,potamotrygonidae,potamotrygon,potamotrygon wallacei,cururu ray,2016,"M.R. De Carvalho, Rosa & Araújo"
+1064,myliobatiformes,potamotrygonidae,potamotrygon,potamotrygon yepezi,maracaibo river stingray,1970,Castex & Castello
+1065,myliobatiformes,gymnuridae,gymnura,gymnura altavela,spiny butterfly ray,1758,Linnaeus
+1066,myliobatiformes,gymnuridae,gymnura,gymnura australis,australian butterfly ray,1896,Ramsay & Ogilby
+1067,myliobatiformes,gymnuridae,gymnura,gymnura crebripunctata,longsnout butterfly ray,1869,Peters
+1068,myliobatiformes,gymnuridae,gymnura,gymnura japonica,japanese butterfly ray,1801,Bloch & Schneider
+1069,myliobatiformes,gymnuridae,gymnura,gymnura lessae,atlantic butterfly ray,2017,Yokota & Carvalho
+1070,myliobatiformes,gymnuridae,gymnura,gymnura marmorata,california butterfly ray,1864,J.G. Cooper
+1071,myliobatiformes,gymnuridae,gymnura,gymnura micrura,smooth butterfly ray,1801,Bloch & Schneider
+1072,myliobatiformes,gymnuridae,gymnura,gymnura natalensis,backwater butterfly ray,1911,Gilchrist & Thompson
+1073,myliobatiformes,gymnuridae,gymnura,gymnura poecilura,longtail butterfly ray,1804,Shaw
+1074,myliobatiformes,gymnuridae,gymnura,gymnura sereti,seret's butterfly ray,2017,Yokota & Carvalho
+1075,myliobatiformes,gymnuridae,gymnura,gymnura tentaculata,tentacled butterfly ray,1841,Müller & Henle
+1076,myliobatiformes,gymnuridae,gymnura,gymnura zonura,zonetail butterfly ray,1852,Bleeker
+1077,myliobatiformes,mylobatidae,aetomylaeus,aetobatus flaggelum,longheaded eagle ray,1801,Bloch & Schneider
+1078,myliobatiformes,mylobatidae,aetobatus,aetobatus laticepts,pacific white-spotted eagle ray,1865,Gill
+1079,myliobatiformes,,aetobatus,aetobatus narinari,spotted eagle ray,1790,Euphrasen
+1080,myliobatiformes,mylobatidae,aetobatus,aetobatus narutobiei,naru eagle ray,2013,"White, Yamaguchi & Furumitsu"
+1081,myliobatiformes,mylobatidae,aetobatus,aetobatus ocellatus,white-spotted eagle ray,1823,Kuhl
+1082,myliobatiformes,mylobatidae,aetomylaeus,aetomylaeus asperrimus,rough eagle ray,1898,Gilbert
+1083,myliobatiformes,mylobatidae,aetomylaeus,aetomylaeus bovinus,bull ray,1817,Saint-Hilaire
+1084,myliobatiformes,mylobatidae,aetomylaeus,aetomylaeus caeruleofasciatus,blue-banded eagle ray,2015,"White, Last & Baje"
+1085,myliobatiformes,mylobatidae,aetomylaeus,aetomylaeus maculatus,mottled eagle ray,1832,J.E. Gray
+1086,myliobatiformes,mylobatidae,aetomylaeus,aetomylaeus milvus,smooth eagle ray,1841,Müller & Henle
+1087,myliobatiformes,mylobatidae,aetomylaeus,aetomylaeus nichofii,banded eagle ray,1801,Bloch & Schneider
+1088,myliobatiformes,mylobatidae,aetomylaeus,aetomylaeus vespertilio,ornate eagle ray,1852,Bleeker
+1089,myliobatiformes,mylobatidae,aetomylaeus,aetomylaeus wafickii,wafc's eagle ray,2022,"Jabado, Ebert & Al Dhaheri"
+1090,myliobatiformes,mylobatidae,myliobatis,myliobatis aquila,common eagle ray,1758,Linnaeus
+1091,myliobatiformes,mylobatidae,myliobatis,myliobatis australis,australian bull ray,1881,MacLeay
+1092,myliobatiformes,mylobatidae,myliobatis,myliobatis californica,bat ray,1865,Gill
+1093,myliobatiformes,mylobatidae,myliobatis,myliobatis chilensis,chilean eagle ray,1892,Philippi
+1094,myliobatiformes,mylobatidae,myliobatis,myliobatis freminvillei,bullnose ray,1824,Lesueur
+1095,myliobatiformes,mylobatidae,myliobatis,myliobatis goodei,southern eagle ray,1885,Garman
+1096,myliobatiformes,mylobatidae,myliobatis,myliobatis hamlyni,purple eagle ray,1911,Ogilby
+1097,myliobatiformes,mylobatidae,myliobatis,myliobatis longirostris,longnose eagle ray,1964,Applegate & Fitch
+1098,myliobatiformes,mylobatidae,myliobatis,myliobatis peruvianus,peruvian eagle ray,1913,Garman
+1099,myliobatiformes,mylobatidae,myliobatis,myliobatis ridens,shornose eagle ray,2012,"Ruocco, Lucifora, Diaz de Astarloa, Mabragaña & Delpiani"
+1100,myliobatiformes,mylobatidae,myliobatis,myliobatis tenuicaudatus,new zealand eagle ray,1877,Hector
+1101,myliobatiformes,mylobatidae,myliobatis,myliobatis tobijei,japanese eagle ray,1854,Bleeker
+1102,myliobatiformes,mobulidae,mobula,mobula alfredi,reef manta ray,1868,Krefft
+1103,myliobatiformes,mobulidae,mobula,mobula birostris,giant oceanic manta ray,1792,Walbaum
+1104,myliobatiformes,mobulidae,mobula,mobula eregoodootenkee,pygmy devil ray,1859,Bleeker
+1105,myliobatiformes,mobulidae,mobula,mobula hypostoma,lesser devil ray,1831,Bancroft
+1106,myliobatiformes,mobulidae,mobula,mobula japanica,spinetail mobula,1841,Müller & Henle
+1107,myliobatiformes,mobulidae,mobula,mobula kuhlii,shortfin devil ray,1841,Müller & Henle
+1108,myliobatiformes,mobulidae,mobula,mobula mobular,devil fish,1788,Bonnaterre
+1109,myliobatiformes,mobulidae,mobula,mobula munkiana,munk's devil ray,1987,Notarbartolo-di-Sciara
+1110,myliobatiformes,mobulidae,mobula,mobula rochebrunei,lesser Guinean devil ray,1879,Vaillant
+1111,myliobatiformes,mobulidae,mobula,mobula tarapacana,Chilean devil ray,1892,Philippi
+1112,myliobatiformes,mobulidae,mobula,mobula thurstoni,bentfin devil ray,1908,Lloyd
+1113,myliobatiformes,rhinopteridae,rhinoptera,rhinoptera adspersa,rough cownose ray,1841,Müller & Henle
+1114,myliobatiformes,rhinopteridae,rhinoptera,rhinoptera bonasus,cownose ray,1815,Mitchill
+1115,myliobatiformes,rhinopteridae,rhinoptera,rhinoptera brasiliensis,brazilian cownose ray,1836,Müller
+1116,myliobatiformes,rhinopteridae,rhinoptera,rhinoptera javanica,flapnose ray,1841,Müller & Henle
+1117,myliobatiformes,rhinopteridae,rhinoptera,rhinoptera jayakari,oman cownose ray,1895,Boulenger
+1118,myliobatiformes,rhinopteridae,rhinoptera,rhinoptera marginata,lusitanian cownose ray,1817,Saint-Hilaire
+1119,myliobatiformes,rhinopteridae,rhinoptera,rhinoptera neglecta,Australian cownose ray,1912,Ogilby
+1120,myliobatiformes,rhinopteridae,rhinoptera,rhinoptera steindachneri,pacific cownose ray,1891,Evermann & Jenkins

@@ -10,7 +10,7 @@
           prepend-icon="mdi-fish"
           :label="$t('labels.speciesEntry.species')"
           item-text="text"
-          item-value="value"
+          item-value="id"
         >
           <template v-slot:selection="data">
             <v-list-item-content
