@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import HelloI18n from '../components/HelloI18n.vue'
+// TODO: Figure out what I was doing with @/components vs @/views for signin and signup
 import UserSignInEmail from '@/views/UserSignInEmail.vue'
 import UserSignUpEmailVue from '@/components/UserSignUpEmail.vue'
 import SharkSampleEditorVue from '@/components/SharkSampleEditor.vue'
