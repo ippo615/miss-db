@@ -4,7 +4,7 @@
   },
   "branding": {
     "about": {
-      "title": "MISS Sample Database", 
+      "title": "MISS Sample Database",
       "subtitle": "About Us",
       "description": "Blah blah blah blah"
     }
@@ -17,14 +17,14 @@
   "errors": {
     "failedToGetLocation": "Location provider did not return good location."
   },
-  "validation":{
+  "validation": {
     "fieldRequired": "This field is required",
     "passwordMinLength8": "Password must be at least 8 characters",
     "email": {
       "invalidAddress": "Email address is invalid"
     }
   },
-  "feedback":{
+  "feedback": {
     "resetEmailSent": "Reset email sent."
   },
   "pageTitle": {
@@ -33,7 +33,7 @@
     "register": "MISS DB Register"
   },
   "labels": {
-    "filterSummary":{
+    "filterSummary": {
       "showingAll": "Showing All",
       "hidingAll": "Hiding All (Please enable something to see results)",
       "showingOnly": "Showing Only",
@@ -47,6 +47,7 @@
     "sharkDataHeaders": {
       "IMPORTANT_NOTE": "THIS IS TEMPORARY? FOR QUICK TABLE SETUP",
       "extendedInfo": "Extended Info",
+      "action": "Action",
       "preCaudalLength": "Pre-caudal Length",
       "finLength": "Fin Length",
       "tailLength": "Tail Length",
@@ -72,17 +73,18 @@
       "cancel": "Cancel",
       "search": "Search"
     },
-    "signup":{
+    "signup": {
       "email": "Email Address",
       "password": "New Password"
     },
-    "signIn":{
+    "signIn": {
       "email": "Email Address",
       "password": "Current Password"
     },
     "action": {
       "useCurrentLocation": "Use Current Location",
       "saveSample": "Save Sample",
+      "editSample": "Edit Sample",
       "signup": "Create Account",
       "signIn": "Login",
       "passwordReset": "Forgot Password? Reset it.",
@@ -145,7 +147,7 @@
       "salinity": "Salinity",
       "temperature": "Temperature"
     },
-    "tide":{
+    "tide": {
       "tide": "Tide",
       "rising": "Rising",
       "falling": "Falling",

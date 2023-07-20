@@ -1,61 +1,64 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
+import Vue from "vue";
+import Vuex from "vuex";
 // import axios from 'axios'
-import Papa from 'papaparse'
-import {auth} from '@/firebaseApp'
+import Papa from "papaparse";
+import { auth } from "@/firebaseApp";
 import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
-  sendPasswordResetEmail
-} from 'firebase/auth'
+  sendPasswordResetEmail,
+} from "firebase/auth";
+import specimen from "./modules/specimen";
 
 Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
     user: null,
-    currentLocale: 'en',
-    sharks: []
+    currentLocale: "en",
+    sharks: [],
   },
   getters: {
-    getUser: state => state.user,
+    getUser: (state) => state.user,
     speciesById: (state) => (id) => {
       return state.sharks[parseInt(id)];
-    }
+    },
   },
   // store.commit(mutation)
   mutations: {
-    SET_USER: state => {
+    SET_USER: (state) => {
       state.user = auth.user;
     },
-    SET_LOCALE(state, localeCode){
-      console.info(`Changeing locale from ${state.currentLocale} to ${localeCode}`);
+    SET_LOCALE(state, localeCode) {
+      console.info(
+        `Changeing locale from ${state.currentLocale} to ${localeCode}`
+      );
       state.currentLocale = localeCode;
     },
-    SET_SHARKS(state, sharks){
+    SET_SHARKS(state, sharks) {
       console.info(state);
       state.sharks = sharks;
-    }
+    },
   },
   // store.dispatch(action)
   actions: {
-    async parseCsv(context, url, options){
-      return new Promise(function(resolve, reject){
+    async parseCsv(context, url, options) {
+      return new Promise(function (resolve, reject) {
         Papa.parse(url, {
           header: true,
           download: true,
-          complete: function(results) {
+          complete: function (results) {
             console.log(results);
             resolve(results);
           },
-          error: function(error){
+          error: function (error) {
             reject(error);
           },
-          ...options
+          ...options,
         });
       });
     },
-    setLocale: async function(context, localeCode){
+    setLocale: async function (context, localeCode) {
       try {
         // const shark_text = await axios.get(`/shark_species_data/${localeCode}.json`);
         // const sharks = JSON.parse(shark_text).sharks;
@@ -64,18 +67,22 @@ export default new Vuex.Store({
         // context.commit("SET_SHARKS", response.data.sharks);
         // Papa.parse sync
         // const results = Papa.parse("CSV_STRING", {header: true});
-        const results = await context.dispatch('parseCsv', `/shark_species_data/${localeCode}.csv`, {});
+        const results = await context.dispatch(
+          "parseCsv",
+          `/shark_species_data/${localeCode}.csv`,
+          {}
+        );
         context.commit("SET_SHARKS", results.data);
         context.commit("SET_LOCALE", localeCode);
-      } catch (e){
+      } catch (e) {
         console.info(e);
-        console.info(`Failed to load shark data for locale ${localeCode}.`)
+        console.info(`Failed to load shark data for locale ${localeCode}.`);
       }
     },
-    setUser: context => {
+    setUser: (context) => {
       context.commit("SET_USER");
     },
-    createUserEmailPassword: function(context, {email, password}){
+    createUserEmailPassword: function (context, { email, password }) {
       console.info("Creating user");
       console.info(email);
       console.info(password);
@@ -90,16 +97,16 @@ export default new Vuex.Store({
         .catch((error) => {
           const errorCode = error.code;
           const errorMessage = error.message;
-          console.info('ERROR');
+          console.info("ERROR");
           console.info(errorCode);
           console.info(errorMessage);
         });
     },
-    signInEmailPassword: async function(context, {email, password}){
+    signInEmailPassword: async function (context, { email, password }) {
       await signInWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
           // const user = userCredential.user;
-          console.info('User Credentials:')
+          console.info("User Credentials:");
           console.info(userCredential);
           context.commit("SET_USER");
         })
@@ -114,18 +121,21 @@ export default new Vuex.Store({
           // ..
         });
     },
-    sendResetPasswordEmail: async function(context, {email}){
+    sendResetPasswordEmail: async function (context, { email }) {
       console.info(context);
-      await sendPasswordResetEmail(auth, email).then(()=>{
-        alert("Reset Password Email Sent");
-      }).catch((error) => {
-        console.info(error);
-        // const errorCode = error.code;
-        // const errorMessage = error.message;
-        // ..
-      });
-    }
+      await sendPasswordResetEmail(auth, email)
+        .then(() => {
+          alert("Reset Password Email Sent");
+        })
+        .catch((error) => {
+          console.info(error);
+          // const errorCode = error.code;
+          // const errorMessage = error.message;
+          // ..
+        });
+    },
   },
   modules: {
-  }
-})
+    specimen,
+  },
+});
